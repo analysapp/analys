@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link' // ✅ Importa o Link do Next.js
 
 export default function Home() {
   return (
@@ -13,11 +14,11 @@ export default function Home() {
 
       {/* Menu Superior */}
       <nav className="flex justify-end p-6 gap-10 text-black text-sm font-light">
-        <a href="#">home</a>
-        <a href="#">sobre</a>
-        <a href="#">serviços</a>
-        <a href="#">contato</a>
-        <a href="#">login</a>
+        <Link href="/">home</Link>
+        <Link href="/sobre">sobre</Link>
+        <Link href="/servicos">serviços</Link>
+        <Link href="/contato">contato</Link>
+        <Link href="/login">login</Link>
       </nav>
 
       {/* Conteúdo Central */}
@@ -27,10 +28,10 @@ export default function Home() {
         <div className="flex items-center gap-4 mb-10">
           {/* Ícone */}
           <Image
-            src="/icone.png"  // nome do seu arquivo na pasta public
+            src="/icone.png"  
             alt="Logo Analys"
-            width={96}         // ⬅️ Agora com 96px (+20% em relação ao anterior)
-            height={96}        // ⬅️ Agora com 96px (+20%)
+            width={96}        
+            height={96}        
             className="translate-y-1"
           />
 

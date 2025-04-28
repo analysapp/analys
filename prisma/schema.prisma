@@ -1,0 +1,66 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// MODEL DE USUÁRIO
+model User {
+  id        Int      @id @default(autoincrement())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  projects  Project[]
+}
+
+// MODEL DE PROJETO
+model Project {
+  id          Int      @id @default(autoincrement())
+  title       String
+  description String
+  pdfUrl      String
+  cidade      String   // <-- adiciona aqui!
+  tipoProjeto String   // <-- adiciona aqui!
+  userId      Int
+  user        User     @relation(fields: [userId], references: [id])
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+
+
+// MODEL DE LEGISLAÇÃO
+model Legislation {
+  id                        Int          @id @default(autoincrement())
+  cidade                    String
+  tipoProjeto               String
+  taxaOcupacao              Float
+  coeficienteAproveitamento Float
+  recuoFrontalMinimo        Float
+  recuoLateralMinimo        Float
+  recuoFundoMinimo          Float
+  alturaMaxima              Float
+  numeroPavimentosMaximo    Int
+
+  parameters Parameter[]    @relation("LegislationParameters") // <-- ligação
+}
+
+
+
+
+
+// MODEL DE PARÂMETRO
+model Parameter {
+  id             Int         @id @default(autoincrement())
+  name           String
+  value          String
+  legislationId  Int
+  legislation    Legislation @relation("LegislationParameters", fields: [legislationId], references: [id]) // <-- ajuste aqui
+}
