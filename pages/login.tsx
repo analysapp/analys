@@ -1,103 +1,81 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
-import { signIn } from 'next-auth/react'
-import { useState } from 'react'
-import { useRouter } from 'next/router'
+import { signInWithPopup } from 'firebase/auth'
+import { auth, provider } from '../lib/firebaseConfig'
 
 export default function Login() {
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
-  const [error, setError] = useState('')
-  const router = useRouter()
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-
-    const result = await signIn('credentials', {
-      email,
-      password,
-      redirect: false,
-      callbackUrl: (router.query.callbackUrl as string) || '/conta', // 🔥 Aqui ajustamos para ir para /conta
-    })
-
-    if (result?.error) {
-      setError('Email ou senha incorretos!')
-    } else {
-      window.location.href = result?.url || '/conta'
+  const handleGoogleLogin = async () => {
+    try {
+      const result = await signInWithPopup(auth, provider)
+      console.log("Usuário logado:", result.user)
+      alert(`Bem-vindo, ${result.user.displayName}`)
+    } catch (error) {
+      console.error("Erro ao logar com o Google:", error)
+      alert("Erro ao logar com o Google")
     }
   }
 
   return (
     <div className="min-h-screen bg-[#f7f7f5] flex flex-col font-dm">
       <Head>
-        <title>Login | Analys</title>
+        <title>Login - Analys</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
       </Head>
 
-      {/* Cabeçalho */}
-      <nav className="flex items-center justify-between p-6">
-        {/* Logo */}
-        <div className="flex items-center gap-2">
-          <Image
-            src="/icone.png"
-            alt="Logo Analys"
-            width={48}
-            height={48}
-            className="translate-y-1"
-          />
-          <span className="text-4xl font-semibold text-black translate-y-1">
-            analys
-          </span>
-        </div>
-
-        {/* Menu */}
-        <div className="flex gap-10 text-black text-sm font-light">
-          <Link href="/">home</Link>
-          <Link href="/sobre">sobre</Link>
-          <Link href="/servicos">serviços</Link>
-          <Link href="/contato">contato</Link>
-          <Link href="/login">login</Link>
-        </div>
+      {/* Menu Superior */}
+      <nav className="flex justify-end p-6 gap-10 text-black text-sm font-light items-center">
+        <Link href="/">home</Link>
+        <Link href="/sobre">sobre</Link>
+        <Link href="/servicos">serviços</Link>
+        <Link href="/contato">contato</Link>
       </nav>
 
-      {/* Conteúdo */}
-      <div className="flex flex-col items-center justify-center flex-grow">
+      {/* Conteúdo Central */}
+      <div className="flex flex-col items-center justify-center flex-grow px-4">
 
-        {/* Mensagem de Erro */}
-        {error && (
-          <div className="mb-6 text-red-500 text-sm">
-            {error}
-          </div>
-        )}
+        {/* Botão de login com Google */}
+        <button
+          onClick={handleGoogleLogin}
+          className="flex items-center gap-4 px-6 py-3 bg-white border border-gray-300 rounded-full shadow hover:shadow-md transition mb-6"
+        >
+          <img src="/google-icon.svg" alt="Google" className="w-5 h-5" />
+          <span className="text-sm text-gray-700 font-medium">Entrar com o Google</span>
+        </button>
 
-        {/* Formulário */}
-        <form onSubmit={handleSubmit} className="flex flex-col gap-6 w-80">
-          {/* Campo Email */}
+        {/* Separador */}
+        <div className="flex items-center w-full max-w-xs mb-6">
+          <div className="flex-grow h-px bg-gray-300"></div>
+          <span className="px-3 text-gray-500 text-sm">ou</span>
+          <div className="flex-grow h-px bg-gray-300"></div>
+        </div>
+
+        {/* Formulário de login */}
+        <form className="flex flex-col w-full max-w-xs gap-4">
           <input
             type="email"
             placeholder="Email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
+            className="px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
-
-          {/* Campo Senha */}
           <input
             type="password"
             placeholder="Senha"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className="px-4 py-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
+            className="px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
-
-          {/* Botão Entrar */}
-          <button
-            type="submit"
-            className="px-6 py-3 bg-black text-white text-base rounded-full hover:bg-gray-800 transition"
-          >
+          <button type="submit" className="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
             Entrar
           </button>
         </form>
+
+        {/* Links adicionais */}
+        <div className="flex flex-col items-center gap-2 mt-6 text-sm text-gray-600">
+          <Link href="/recuperar-senha" className="hover:underline">Recuperar senha</Link>
+          <span>ou</span>
+          <Link href="/registro">
+            <span className="text-black font-medium hover:underline">Criar conta</span>
+          </Link>
+        </div>
       </div>
     </div>
   )

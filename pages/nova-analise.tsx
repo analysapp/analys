@@ -8,49 +8,50 @@ import { useRouter } from 'next/router';
 export default function NovaAnalise() {
   const { data: session } = useSession();
   const router = useRouter();
-
   const [pdfFile, setPdfFile] = useState<File | null>(null);
-  const [title, setTitle] = useState('');
-  const [description, setDescription] = useState('');
-  const [cidade, setCidade] = useState('');            // 👈 NOVO campo
-  const [tipoProjeto, setTipoProjeto] = useState('');   // 👈 NOVO campo
+  const [cidade, setCidade] = useState('itauna');
+  const [tipoProjeto, setTipoProjeto] = useState('simplificado');
+  const [loading, setLoading] = useState(false);
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files.length > 0) {
+      setPdfFile(e.target.files[0]);
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (!pdfFile) {
-      alert('Selecione um arquivo PDF!');
+      alert('Selecione um arquivo PDF ou imagem!');
       return;
     }
 
-    if (!session) {
-      alert('Você precisa estar logado!');
-      return;
-    }
-
+    setLoading(true);
     const formData = new FormData();
     formData.append('file', pdfFile);
-    formData.append('title', title);
-    formData.append('description', description);
-    formData.append('userId', String(session.user?.id || 1));
-    formData.append('cidade', cidade);          // 👈 envia cidade
-    formData.append('tipoProjeto', tipoProjeto); // 👈 envia tipo de projeto
+    formData.append('cidade', cidade);
+    formData.append('tipoProjeto', tipoProjeto);
 
     try {
-      const response = await fetch('/api/upload', {
+      const response = await fetch('/api/analisar', {
         method: 'POST',
         body: formData,
       });
 
       if (response.ok) {
-        alert('Projeto enviado com sucesso!');
-        router.push('/conta'); // redirecionar para a conta depois de enviar
+        const resultado = await response.json();
+        const resultadoEncoded = encodeURIComponent(JSON.stringify(resultado));
+        router.push(`/resultado?resultado=${resultadoEncoded}`);
       } else {
-        alert('Erro ao enviar projeto!');
+        console.error('Erro ao processar análise.');
+        alert('Erro ao processar análise!');
       }
     } catch (error) {
-      console.error('Erro:', error);
+      console.error('Erro no envio:', error);
       alert('Erro inesperado!');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -63,63 +64,48 @@ export default function NovaAnalise() {
       <h1 className="text-3xl font-bold mb-6">Nova Análise</h1>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-md">
-        
-        {/* Campo Cidade */}
+        {/* Selecionar Cidade */}
         <select
           value={cidade}
           onChange={(e) => setCidade(e.target.value)}
           className="border p-2 rounded"
-          required
         >
-          <option value="">Selecione a Cidade</option>
           <option value="itauna">Itaúna - MG</option>
-          <option value="divinopolis">Divinópolis - MG</option>
         </select>
 
-        {/* Campo Tipo de Projeto */}
+        {/* Selecionar Tipo de Projeto */}
         <select
           value={tipoProjeto}
           onChange={(e) => setTipoProjeto(e.target.value)}
           className="border p-2 rounded"
-          required
         >
-          <option value="">Selecione o Tipo de Projeto</option>
-          <option value="projeto-arquitetonico">Projeto Arquitetônico</option>
-          <option value="acessibilidade">Acessibilidade</option>
-          <option value="ampliacao">Ampliação</option>
+          <option value="simplificado">Projeto Simplificado - PMI</option>
         </select>
 
-        {/* Campo Título */}
-        <input
-          type="text"
-          placeholder="Título do Projeto"
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-          className="border p-2 rounded"
-          required
-        />
-
-        {/* Campo Descrição */}
-        <textarea
-          placeholder="Descrição (opcional)"
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-          className="border p-2 rounded h-24"
-        />
-
-        {/* Upload PDF */}
+        {/* Upload Arquivo */}
         <input
           type="file"
-          accept="application/pdf"
-          onChange={(e) => setPdfFile(e.target.files ? e.target.files[0] : null)}
+          accept="application/pdf, image/jpeg, image/png"
+          onChange={handleFileChange}
           className="border p-2 rounded"
           required
         />
 
-        <button type="submit" className="bg-black text-white py-2 rounded hover:bg-gray-800">
-          Enviar Projeto
+        {/* Botão */}
+        <button type="submit" className="bg-black text-white py-2 rounded hover:bg-gray-800" disabled={loading}>
+          {loading ? (
+            <span className="animate-ping-slow text-3xl">.</span>
+          ) : (
+            'Enviar para Análise'
+          )}
         </button>
       </form>
+
+      {loading && (
+        <div className="flex justify-center items-center min-h-[100px] mt-6">
+          <div className="w-8 h-8 bg-black rounded-full animate-ping-slow"></div>
+        </div>
+      )}
     </div>
   );
 }
