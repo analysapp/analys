@@ -1,0 +1,90 @@
+{
+  "ambientes_obrigatorios": {
+    "centro_cirurgico": [
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Sala cirúrgica",
+        "aplicacao": "Deve possuir área mínima de 36 m² para cirurgias gerais, com dimensões mínimas de 6,0 m x 6,0 m. Para cirurgias de pequeno porte, a área pode ser reduzida para 25 m².",
+        "area_minima_m2": 36.0,
+        "largura_minima_m": 6.0,
+        "comentario": "Obrigatória para qualquer centro cirúrgico. A área pode variar conforme complexidade do procedimento.",
+        "keywords": ["sala cirúrgica", "bloco cirúrgico", "procedimento", "área estéril"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Sala de lavagem e preparo de materiais",
+        "aplicacao": "Espaço específico para lavagem inicial de instrumentais cirúrgicos, com área mínima de 4,0 m² e tanque profundo.",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Obrigatório para separação da etapa inicial de descontaminação de materiais.",
+        "keywords": ["lavagem", "instrumental", "preparo", "materiais", "descontaminação"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Sala de paramentação",
+        "aplicacao": "Sala destinada à paramentação de equipe cirúrgica, com lavatórios, armários e área mínima de 6,0 m².",
+        "area_minima_m2": 6.0,
+        "largura_minima_m": 2.4,
+        "comentario": "Obrigatória para todos os blocos cirúrgicos, garantindo controle de infecção.",
+        "keywords": ["paramentação", "equipe cirúrgica", "lavatório", "vestimenta"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Sala de recuperação pós-anestésica (RPA)",
+        "aplicacao": "Espaço com área mínima de 7,5 m² por leito, para monitoramento de pacientes até alta da anestesia.",
+        "area_minima_m2": 7.5,
+        "largura_minima_m": 2.5,
+        "comentario": "Obrigatória quando o centro cirúrgico realiza procedimentos com anestesia.",
+        "keywords": ["recuperação", "anestesia", "RPA", "pós-operatório"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Área de escovação cirúrgica",
+        "aplicacao": "Área com lavatórios cirúrgicos, abastecimento de água potável, acionamento não manual e dispensadores de antisséptico.",
+        "area_minima_m2": 2.5,
+        "largura_minima_m": 1.2,
+        "comentario": "Obrigatória e posicionada próxima à entrada da sala cirúrgica.",
+        "keywords": ["escovação", "antisséptico", "lavagem das mãos", "cirurgia"]
+      }
+    ]
+  },
+  "opcionais_para_procedimentos": {
+    "apoio_ao_centro_cirurgico": [
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Item 8.3.2",
+        "exigencia": "Vestiários masculino e feminino",
+        "aplicacao": "Ambientes com armários, bancos e sanitários para troca de roupa dos profissionais. Área recomendada de 4,0 m² por unidade.",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 1.8,
+        "comentario": "Obrigatórios em hospitais ou centros com grande rotatividade de equipe.",
+        "keywords": ["vestiário", "equipe", "troca de roupa", "sanitário"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Área de apoio para anestesia",
+        "aplicacao": "Ambiente para preparo de medicações e equipamentos de anestesia, com bancada, armário e pia. Área mínima de 4,0 m².",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Obrigatória se forem realizados procedimentos anestésicos.",
+        "keywords": ["anestesia", "apoio", "medicação", "preparo", "equipamentos"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 6 – Centro Cirúrgico",
+        "exigencia": "Depósito de material de limpeza (DML)",
+        "aplicacao": "Espaço com tanque, prateleiras e ventilação para armazenar e preparar produtos de limpeza utilizados no centro cirúrgico.",
+        "area_minima_m2": 2.0,
+        "largura_minima_m": 1.2,
+        "comentario": "Obrigatório para organização e controle de higienização das áreas críticas.",
+        "keywords": ["DML", "limpeza", "tanque", "produtos", "higienização"]
+      }
+    ]
+  }
+}

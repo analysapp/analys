@@ -1,0 +1,167 @@
+{
+  "ambientes_obrigatorios": {
+    "laboratorio_patologia_clinica": [
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.1",
+        "exigencia": "Sala de espera",
+        "aplicacao": "Espaço destinado à espera dos pacientes, devendo ser separado da recepção por balcão.",
+        "comentario": "Obrigatória para todos os laboratórios com atendimento ao público.",
+        "keywords": ["espera", "paciente", "entrada"]
+      },
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.3",
+        "exigencia": "Sanitário para pacientes (1 acessível)",
+        "aplicacao": "Deve haver pelo menos um sanitário para pacientes, adaptado conforme a NBR 9050.",
+        "area_minima_m2": 3.5,
+        "largura_minima_m": 1.5,
+        "comentario": "Necessário para atendimento inclusivo e acessível.",
+        "keywords": ["sanitário", "paciente", "acessível", "NBR 9050"]
+      },
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.4",
+        "exigencia": "Boxes para coleta de sangue",
+        "aplicacao": "Um box para cada 15 coletas/hora. Área mínima por box: 1,5 m², com ao menos um compatível com maca.",
+        "area_minima_m2": 1.5,
+        "comentario": "Os boxes devem ter ventilação, iluminação e espaço para cadeira, bancada e lavatório próximo.",
+        "keywords": ["box", "coleta", "sangue", "paciente", "maca"]
+      },
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.7",
+        "exigencia": "Sala de análises clínicas",
+        "aplicacao": "Ambiente com área mínima de 14,0 m² para execução dos exames laboratoriais.",
+        "area_minima_m2": 14.0,
+        "comentario": "Deve conter recepção de amostras, setorização, pias e acesso independente.",
+        "keywords": ["análise", "laboratório", "amostra", "exame"]
+      },
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.9",
+        "exigencia": "Central de Material Esterilizado simplificada (CME)",
+        "aplicacao": "Instalada anexa ou contígua à sala de análises, conforme o Anexo 01.",
+        "comentario": "Necessária para manter o fluxo limpo e sujo dos materiais laboratoriais.",
+        "keywords": ["CME", "esterilização", "análise", "fluxo"]
+      },
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.10",
+        "exigencia": "Depósito de Material de Limpeza (DML)",
+        "aplicacao": "Ambiente com tanque, prateleiras e ventilação para limpeza geral.",
+        "area_minima_m2": 2.0,
+        "largura_minima_m": 1.2,
+        "comentario": "Obrigatório para armazenamento de utensílios de limpeza.",
+        "keywords": ["limpeza", "depósito", "DML"]
+      },
+      {
+        "norma": "Anexo 02 – Patologia Clínica",
+        "referencia": "Item 2.12",
+        "exigencia": "Vestiário para funcionários com sanitário anexo",
+        "aplicacao": "Área para troca de roupa e higiene dos profissionais.",
+        "area_minima_m2": 4.0,
+        "comentario": "Recomendado que haja diferenciação por sexo em unidades maiores.",
+        "keywords": ["vestiário", "funcionário", "higiene"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Anexo I – item 4.17",
+        "exigencia": "Lavatório com acionamento não manual em áreas de coleta",
+        "aplicacao": "Deve existir lavatório em todos os ambientes onde ocorre coleta ou manipulação de amostras biológicas.",
+        "comentario": "Previne contaminação cruzada e é essencial para biossegurança.",
+        "keywords": ["lavatório", "coleta", "higiene", "biossegurança"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – item 11",
+        "exigencia": "Central de Material Esterilizado (CME)",
+        "aplicacao": "Obrigatória em laboratórios que realizam lavagem e reprocessamento de materiais. Deve seguir fluxo unidirecional.",
+        "area_minima_m2": 6.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Complementa a exigência do Anexo 02 com as condições de projeto da RDC 50.",
+        "keywords": ["CME", "esterilização", "fluxo", "laboratório"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Item 4.12",
+        "exigencia": "Sanitário acessível conforme NBR 9050",
+        "aplicacao": "Todos os sanitários para pacientes devem seguir as especificações da NBR 9050, incluindo barras de apoio e dimensões mínimas.",
+        "area_minima_m2": 3.5,
+        "comentario": "Garante acessibilidade universal conforme norma técnica brasileira.",
+        "keywords": ["sanitário", "acessível", "PCD", "norma", "NBR 9050"]
+      }
+    ]
+  },
+  "opcionais_para_procedimentos": [
+    {
+      "norma": "Anexo 02 – Patologia Clínica",
+      "referencia": "Item 2.5",
+      "exigencia": "Sala de repouso",
+      "aplicacao": "Ambiente recomendado para pacientes após coleta (ex: curva glicêmica ou exames especiais). Deve ter maca, poltrona, lavatório e campainha.",
+      "area_minima_m2": 4.0,
+      "comentario": "Essencial para conforto e observação de pacientes que realizaram exames com riscos ou efeitos adversos.",
+      "keywords": ["repouso", "curva glicêmica", "pós-coleta", "maca"]
+    },
+    {
+      "norma": "Anexo 02 – Patologia Clínica",
+      "referencia": "Item 2.6",
+      "exigencia": "Sala de coleta pediátrica",
+      "aplicacao": "Espaço adaptado para coleta infantil, com cadeira própria e lavatório próximo. Obrigatório em laboratórios que atendem pediatria.",
+      "area_minima_m2": 4.0,
+      "comentario": "Obrigatória se o laboratório realiza atendimento infantil. Deve ser acolhedora e segura.",
+      "keywords": ["coleta infantil", "pediatria", "sala pediátrica"]
+    },
+    {
+      "norma": "Anexo 02 – Patologia Clínica",
+      "referencia": "Item 2.8",
+      "exigencia": "Sala de curva glicêmica",
+      "aplicacao": "Espaço exclusivo para exames que demandam permanência prolongada, com acesso ao sanitário e controle de tempo.",
+      "area_minima_m2": 6.0,
+      "comentario": "Obrigatória quando o exame de curva glicêmica for ofertado pelo laboratório.",
+      "keywords": ["curva glicêmica", "exame prolongado", "espera técnica"]
+    }
+  ],
+  "requisitos_tecnicos": [
+    {
+      "norma": "Anexo 02 – Patologia Clínica",
+      "referencia": "Item 3.1",
+      "exigencia": "Setorização da sala de análises clínicas",
+      "aplicacao": "Deve haver separação física ou funcional das áreas de manipulação de amostras, soros, fezes, urina e hematologia.",
+      "comentario": "Evita contaminações cruzadas e facilita a higienização dos espaços.",
+      "keywords": ["setorização", "análises clínicas", "separação"]
+    },
+    {
+      "norma": "Anexo 02 – Patologia Clínica",
+      "referencia": "Item 3.2",
+      "exigencia": "Capela de exaustão para manipulação de materiais tóxicos",
+      "aplicacao": "Obrigatória em salas de análises que realizam manipulação de substâncias voláteis ou tóxicas.",
+      "comentario": "Garante segurança ocupacional e controle ambiental.",
+      "keywords": ["capela", "exaustão", "segurança", "toxicidade"]
+    },
+    {
+      "norma": "Anexo 02 – Patologia Clínica",
+      "referencia": "Item 3.3",
+      "exigencia": "Pias com acionamento não manual",
+      "aplicacao": "Todas as salas de coleta e análise devem ter pias com acionamento por alavanca, joelho, pé ou sensor.",
+      "comentario": "Previne contaminação cruzada. Reforça medidas de biossegurança.",
+      "keywords": ["pia", "acionamento não manual", "higiene", "lavagem de mãos"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Item geral",
+      "exigencia": "Ventilação e iluminação natural ou mecânica",
+      "aplicacao": "Todos os ambientes devem possuir ventilação adequada e iluminação suficiente, natural ou artificial, conforme suas funções.",
+      "comentario": "Essencial para segurança, conforto térmico e prevenção de contaminações.",
+      "keywords": ["ventilação", "iluminação", "natural", "mecânica"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Anexo I – Item 5.16",
+      "exigencia": "Depósito de material de limpeza com tanque",
+      "aplicacao": "Ambiente para armazenamento de utensílios e preparação de soluções de limpeza. Deve conter tanque com ponto de água.",
+      "comentario": "Ambiente obrigatório em qualquer edificação de saúde que realiza limpeza interna.",
+      "keywords": ["DML", "limpeza", "tanque", "sanitário"]
+    }
+  ]
+}

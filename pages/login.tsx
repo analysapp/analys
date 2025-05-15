@@ -1,17 +1,37 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { signInWithPopup } from 'firebase/auth'
+import { useState } from 'react'
+import { useRouter } from 'next/router'
+import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth'
 import { auth, provider } from '../lib/firebaseConfig'
 
 export default function Login() {
+  const router = useRouter()
+
+  const [email, setEmail] = useState('')
+  const [senha, setSenha] = useState('')
+  const [mensagem, setMensagem] = useState<string | null>(null)
+
   const handleGoogleLogin = async () => {
     try {
       const result = await signInWithPopup(auth, provider)
-      console.log("Usuário logado:", result.user)
-      alert(`Bem-vindo, ${result.user.displayName}`)
+      console.log("Usuário logado com Google:", result.user)
+      router.push('/conta')
+
     } catch (error) {
-      console.error("Erro ao logar com o Google:", error)
-      alert("Erro ao logar com o Google")
+      console.error("Erro no login com Google:", error)
+      setMensagem('Erro ao logar com o Google.')
+    }
+  }
+
+  const handleEmailLogin = async (e: React.FormEvent) => {
+    e.preventDefault()
+    try {
+      await signInWithEmailAndPassword(auth, email, senha)
+      window.location.href = '/conta'
+    } catch (error) {
+      console.error("Erro no login com e-mail:", error)
+      setMensagem('E-mail ou senha inválidos.')
     }
   }
 
@@ -34,6 +54,9 @@ export default function Login() {
 
       {/* Conteúdo Central */}
       <div className="flex flex-col items-center justify-center flex-grow px-4">
+        {mensagem && (
+          <p className="text-sm text-red-500 mb-4">{mensagem}</p>
+        )}
 
         {/* Botão de login com Google */}
         <button
@@ -51,16 +74,20 @@ export default function Login() {
           <div className="flex-grow h-px bg-gray-300"></div>
         </div>
 
-        {/* Formulário de login */}
-        <form className="flex flex-col w-full max-w-xs gap-4">
+        {/* Formulário de login com e-mail */}
+        <form onSubmit={handleEmailLogin} className="flex flex-col w-full max-w-xs gap-4">
           <input
             type="email"
             placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
             className="px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
           <input
             type="password"
             placeholder="Senha"
+            value={senha}
+            onChange={(e) => setSenha(e.target.value)}
             className="px-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-300"
           />
           <button type="submit" className="px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 transition">

@@ -1,0 +1,100 @@
+{
+  "ambientes_obrigatorios": {
+    "farmacia_drogaria": [
+      {
+        "norma": "RDC 44/2009 + Anexo 16",
+        "referencia": "RDC 44/2009 – Art. 6º, §1º + Anexo 16",
+        "exigencia": "Área de dispensação de medicamentos",
+        "aplicacao": "Espaço para atendimento ao público com bancada de dispensação, climatização e privacidade. Deve respeitar o mínimo de 12 m² e integrar o total de 36 m² exigido pelo Anexo 16.",
+        "area_minima_m2": 12.0,
+        "largura_minima_m": 3.0,
+        "comentario": "Obrigatório em qualquer farmácia ou drogaria. Deve garantir boas práticas e sigilo no atendimento.",
+        "keywords": ["dispensação", "atendimento", "medicamento", "farmácia"]
+      },
+      {
+        "norma": "Anexo 16 – Drogaria",
+        "referencia": "Anexo 16 – Quadro mínimo de ambientes",
+        "exigencia": "Sala ou área administrativa",
+        "aplicacao": "Espaço reservado para organização de documentos, arquivos, gestão de estoque e controle interno.",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Obrigatória segundo o Anexo 16. Pode ser integrada com outra área, desde que funcione adequadamente.",
+        "keywords": ["administração", "documentos", "controle", "estoque"]
+      },
+      {
+        "norma": "RDC 44/2009",
+        "referencia": "Art. 6º, §2º",
+        "exigencia": "Área de armazenamento",
+        "aplicacao": "Local separado para guarda de medicamentos, com controle de temperatura e produtos vencidos segregados.",
+        "area_minima_m2": 6.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Obrigatória para armazenamento seguro, conforme RDC e Anexo 16.",
+        "keywords": ["estoque", "almoxarifado", "controle", "medicamento"]
+      },
+      {
+        "norma": "Anexo 16 – Drogaria",
+        "referencia": "Anexo 16 – Quadro mínimo de ambientes",
+        "exigencia": "Copa",
+        "aplicacao": "Espaço com pia, bancada e armário destinado ao uso de funcionários.",
+        "area_minima_m2": 3.0,
+        "largura_minima_m": 1.5,
+        "comentario": "Obrigatória em drogarias segundo Anexo 16, pode ser integrada ao vestiário.",
+        "keywords": ["copa", "funcionário", "apoio", "refeição"]
+      },
+      {
+        "norma": "Anexo 16 – Drogaria",
+        "referencia": "Anexo 16 – Quadro mínimo de ambientes",
+        "exigencia": "Vestiário com sanitário anexo",
+        "aplicacao": "Espaço com assento sanitário, lavatório e área para troca de roupa dos funcionários.",
+        "area_minima_m2": 3.0,
+        "largura_minima_m": 1.5,
+        "comentario": "Obrigatório segundo o Anexo 16 para todos os estabelecimentos.",
+        "keywords": ["sanitário", "vestiário", "funcionário", "higiene"]
+      },
+      {
+        "norma": "RDC 44/2009 + Anexo 16",
+        "referencia": "Art. 6º, §3º + Anexo 16",
+        "exigencia": "Depósito de material de limpeza (DML)",
+        "aplicacao": "Espaço com tanque e ventilação para armazenar materiais de limpeza. Pode ser substituído por armário com ponto de água, se tecnicamente justificado.",
+        "area_minima_m2": 2.0,
+        "largura_minima_m": 1.2,
+        "comentario": "Obrigatório em toda drogaria. Em casos especiais pode ser adaptado.",
+        "keywords": ["DML", "limpeza", "higienização", "tanque"]
+      }
+    ]
+  },
+  "opcionais_para_procedimentos": {
+    "apoio_e_servicos_adicionais": [
+      {
+        "norma": "RDC 44/2009 + Anexo 16",
+        "referencia": "Art. 6º, §5º + Anexo 16",
+        "exigencia": "Sala de serviços farmacêuticos / aplicação de injetáveis",
+        "aplicacao": "Espaço com no mínimo 3,0 m², com lavatório, privacidade e materiais para atendimento clínico ou aplicação de medicamentos.",
+        "area_minima_m2": 3.0,
+        "largura_minima_m": 1.8,
+        "comentario": "Obrigatória se a farmácia oferece serviços clínicos como aplicação de injetáveis ou aferições.",
+        "keywords": ["injeção", "serviço farmacêutico", "sala clínica"]
+      },
+      {
+        "norma": "RDC 50/2002 + normas estaduais",
+        "referencia": "Quadro 5 – Item 5.11",
+        "exigencia": "Central de material esterilizado (CME)",
+        "aplicacao": "Necessária quando houver reutilização e necessidade de esterilização interna de instrumentos.",
+        "area_minima_m2": 6.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Aplicável principalmente em farmácias com manipulação ou serviços técnicos.",
+        "keywords": ["CME", "esterilização", "reutilizável", "controle"]
+      },
+      {
+        "norma": "RDC 44/2009",
+        "referencia": "Art. 7º",
+        "exigencia": "Sala administrativa adicional",
+        "aplicacao": "Ambiente de gestão, pode ser separado ou compartilhado com outras funções administrativas.",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Recomendado para farmácias com estrutura de gestão ou filiais.",
+        "keywords": ["administração", "documentação", "receitas", "gestão"]
+      }
+    ]
+  }
+}

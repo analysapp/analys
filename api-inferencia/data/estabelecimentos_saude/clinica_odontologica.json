@@ -1,0 +1,210 @@
+{
+  "ambientes_obrigatorios": {
+    "consultorio_odontologico": [
+      {
+        "norma": "Resolução SES 1559/2008",
+        "referencia": "Tabela I – Tipo I",
+        "exigencia": "Sala de espera",
+        "aplicacao": "Ambiente destinado à acomodação de pacientes e acompanhantes. Mínimo de 1,2 m² por pessoa.",
+        "comentario": "Obrigatório para todos os tipos, conforme quadro geral.",
+        "keywords": ["espera", "sala", "recepção", "acomodação"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.1.1",
+        "exigencia": "Sala clínica com lavatório",
+        "aplicacao": "Sala de atendimento com lavatório exclusivo. Mínimo de 9 m² e 2,2 m de largura.",
+        "area_minima_m2": 9.0,
+        "largura_minima_m": 2.2,
+        "comentario": "Obrigatória em todos os estabelecimentos odontológicos.",
+        "keywords": ["consultório", "sala clínica", "cadeira odontológica", "atendimento"]
+      },
+      {
+        "norma": "Resolução SES 1559/2008",
+        "referencia": "Tabela I – Tipo I",
+        "exigencia": "Área administrativa",
+        "aplicacao": "Pode ser integrada à sala clínica, mas deve ser setorada. Área mínima de 5,5 m².",
+        "comentario": "Para controle e coordenação da unidade, mesmo nos tipos simples.",
+        "keywords": ["administração", "secretaria", "gestão"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Anexo I – item 3.3.2",
+        "exigencia": "Sanitário acessível",
+        "aplicacao": "Deve estar disponível ao menos um sanitário por pavimento, acessível conforme NBR 9050.",
+        "area_minima_m2": 3.5,
+        "largura_minima_m": 1.5,
+        "comentario": "Obrigatório em qualquer unidade de saúde que atenda pacientes externos.",
+        "keywords": ["sanitário", "acessível", "NBR 9050", "PCD", "cadeirante", "banheiro"]
+      }
+    ]
+  },
+  "opcionais_para_procedimentos": [
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Quadro 5 – Tópico 5.10",
+      "exigencia": "Sala de expurgo",
+      "aplicacao": "Ambiente para lavagem e desinfecção de materiais contaminados. Deve ter tanque profundo, bancada e lavadora ultrassônica.",
+      "area_minima_m2": 4.0,
+      "largura_minima_m": 1.8,
+      "comentario": "Necessária apenas se a clínica realiza lavagem de instrumentos localmente.",
+      "keywords": ["expurgo", "contaminação", "limpeza", "desinfecção", "lavagem"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Quadro 5 – Tópico 5.11",
+      "exigencia": "Central de Material Esterilizado (CME)",
+      "aplicacao": "Área com zonas separadas (suja, limpa e esterilizada) para esterilização de instrumentos reutilizáveis.",
+      "area_minima_m2": 6.0,
+      "largura_minima_m": 2.0,
+      "comentario": "Obrigatória apenas se a clínica não terceiriza o serviço de esterilização.",
+      "keywords": ["CME", "esterilização", "controle", "fluxo", "instrumentos"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Item 5.7",
+      "exigencia": "Vestiário para funcionários",
+      "aplicacao": "Espaço destinado à troca de roupa, com armários individuais e sanitário anexo.",
+      "area_minima_m2": 4.0,
+      "largura_minima_m": 1.8,
+      "comentario": "Recomendado quando há equipe fixa ou manipulação de fluidos corporais.",
+      "keywords": ["vestiário", "funcionário", "troca de roupa", "armário", "sanitário"]
+    }
+  ],
+  "clinica_odontologica_por_tipo": {
+    "tipo_I": {
+      "descricao": "Até 2 cadeiras odontológicas. Sem raio-X.",
+      "exigencias": [
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo I",
+          "exigencia": "Sala de espera",
+          "aplicacao": "Ambiente destinado à acomodação de pacientes e acompanhantes. Mínimo de 1,2 m² por pessoa.",
+          "comentario": "Obrigatório para todos os tipos, conforme quadro geral.",
+          "keywords": ["espera", "sala", "recepção", "acomodação"]
+        },
+        {
+          "norma": "RDC 50/2002",
+          "referencia": "Quadro 5 – Tópico 5.1.1",
+          "exigencia": "Sala clínica com lavatório",
+          "aplicacao": "Sala de atendimento com lavatório exclusivo. Mínimo de 9 m² e 2,2 m de largura.",
+          "area_minima_m2": 9.0,
+          "largura_minima_m": 2.2,
+          "comentario": "Obrigatória em todos os estabelecimentos odontológicos.",
+          "keywords": ["consultório", "sala clínica", "cadeira odontológica", "atendimento"]
+        },
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo I",
+          "exigencia": "Área administrativa",
+          "aplicacao": "Pode ser integrada à sala clínica, mas deve ser setorada. Área mínima de 5,5 m².",
+          "comentario": "Para controle e coordenação da unidade, mesmo nos tipos simples.",
+          "keywords": ["administração", "secretaria", "gestão"]
+        },
+        {
+          "norma": "RDC 50/2002",
+          "referencia": "Anexo I – item 3.3.2",
+          "exigencia": "Sanitário acessível",
+          "aplicacao": "Deve estar disponível ao menos um sanitário por pavimento, acessível conforme NBR 9050.",
+          "area_minima_m2": 3.5,
+          "largura_minima_m": 1.5,
+          "comentario": "Obrigatório em qualquer unidade de saúde que atenda pacientes externos.",
+          "keywords": ["sanitário", "acessível", "NBR 9050", "PCD", "cadeirante", "banheiro"]
+        },
+        {
+          "norma": "RDC 50/2002",
+          "referencia": "Quadro 5 – Tópico 5.9",
+          "exigencia": "Depósito de material de limpeza (DML)",
+          "aplicacao": "Espaço com tanque, prateleiras e ventilação adequada para armazenamento de materiais de limpeza.",
+          "area_minima_m2": 2.0,
+          "largura_minima_m": 1.0,
+          "comentario": "Obrigatório em todos os tipos. Pode ser simplificado nos tipos I e II com ponto de água e armário.",
+          "keywords": ["DML", "limpeza", "depósito", "tanque", "higienização"]
+        }
+      ]
+    },
+    "tipo_II": {
+      "descricao": "Até 2 cadeiras odontológicas. Com raio-X.",
+      "exigencias": [
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo II",
+          "exigencia": "Sala de raio-X",
+          "aplicacao": "Ambiente com barreira física e proteção radiológica conforme Portaria 453/98.",
+          "comentario": "Obrigatória para tipos com emissão de radiação.",
+          "keywords": ["raio-x", "radiologia", "proteção", "barreira"]
+        },
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo II",
+          "exigencia": "Área de revelação",
+          "aplicacao": "Pode ser bancada na própria sala clínica ou sala independente.",
+          "comentario": "Obrigatória quando há uso de filme radiográfico.",
+          "keywords": ["revelação", "filme", "radiologia"]
+        }
+      ]
+    },
+    "tipo_III": {
+      "descricao": "De 3 a 4 cadeiras. Sem raio-X.",
+      "exigencias": [
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo III",
+          "exigencia": "Sanitário para funcionários",
+          "aplicacao": "Separado do sanitário dos pacientes. Deve conter lavatório e escaninhos.",
+          "area_minima_m2": 4.0,
+          "comentario": "Obrigatório a partir do tipo III.",
+          "keywords": ["sanitário", "vestiário", "funcionários"]
+        }
+      ]
+    },
+    "tipo_IV": {
+      "descricao": "De 3 a 4 cadeiras. Com raio-X.",
+      "exigencias": [
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo IV",
+          "exigencia": "Sala de raio-X",
+          "aplicacao": "Ambiente com barreira física, visor plumbífero e conformidade com Portaria 453/98.",
+          "comentario": "Obrigatória sempre que houver instalação de raio-X.",
+          "keywords": ["raio-x", "blindagem", "radiologia"]
+        },
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo IV",
+          "exigencia": "Área de revelação",
+          "aplicacao": "Ambiente com bancada e sistema de exaustão. Pode ser na sala clínica.",
+          "comentario": "Obrigatória se utilizada tecnologia com filme.",
+          "keywords": ["revelação", "radiologia", "filme"]
+        }
+      ]
+    },
+    "tipo_V": {
+      "descricao": "Mais de 4 cadeiras. Sem raio-X.",
+      "exigencias": [
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo V",
+          "exigencia": "CME – Central de Material Esterilizado",
+          "aplicacao": "Ambiente com sala de limpeza, esterilização, armazenamento e barreira técnica. Deve haver fluxo unidirecional.",
+          "area_minima_m2": 6.0,
+          "comentario": "Obrigatória em serviços com grande volume de atendimento.",
+          "keywords": ["CME", "esterilização", "material", "fluxo"]
+        }
+      ]
+    },
+    "tipo_VI": {
+      "descricao": "Mais de 4 cadeiras com laboratório de prótese, radiologia ou documentação",
+      "exigencias": [
+        {
+          "norma": "Resolução SES 1559/2008",
+          "referencia": "Tabela I – Tipo VI",
+          "exigencia": "Ambiente para moldagem ou laboratório de prótese",
+          "aplicacao": "Ambiente separado dos consultórios, com bancada, pia e sistema de exaustão.",
+          "comentario": "Obrigatório para estabelecimentos com atividades laboratoriais ou moldagem.",
+          "keywords": ["prótese", "moldagem", "laboratório", "bancada", "exaustão"]
+        }
+      ]
+    }
+  }
+}

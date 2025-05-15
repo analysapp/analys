@@ -1,0 +1,88 @@
+{
+  "ambientes_obrigatorios": {
+    "consultorio_medico": [
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.1.1",
+        "exigencia": "Consultório médico com lavatório",
+        "aplicacao": "Cada consultório deve possuir área mínima de 9,0 m², com largura mínima de 2,4 m, contendo lavatório com acionamento não manual e água potável.",
+        "area_minima_m2": 9.0,
+        "largura_minima_m": 2.4,
+        "comentario": "Obrigatório para qualquer consultório independente da especialidade.",
+        "keywords": ["consultório", "médico", "lavabo", "lavatório", "higiene"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Anexo I – item 3.3.2",
+        "exigencia": "Sanitário acessível para pacientes",
+        "aplicacao": "Deve haver ao menos um sanitário por pavimento, acessível conforme NBR 9050. Área mínima de 3,5 m² com espaço para manobra de cadeira de rodas.",
+        "area_minima_m2": 3.5,
+        "largura_minima_m": 1.5,
+        "comentario": "Obrigatório sempre que houver atendimento ao público.",
+        "keywords": ["sanitário", "PCD", "acessível", "cadeirante"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.3",
+        "exigencia": "Sala de espera",
+        "aplicacao": "A sala de espera deve ter área proporcional à quantidade de consultórios. Para até 2 consultórios, mínimo de 6 m².",
+        "area_minima_m2": 6.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Obrigatório quando há recepção e atendimento simultâneo.",
+        "keywords": ["sala de espera", "recepção", "atendimento"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.9",
+        "exigencia": "Depósito de material de limpeza (DML)",
+        "aplicacao": "Deve possuir tanque, prateleiras e espaço para armazenamento de utensílios de limpeza. Área mínima recomendada: 2 m².",
+        "area_minima_m2": 2.0,
+        "largura_minima_m": 1.2,
+        "comentario": "Obrigatório para qualquer unidade com sanitários ou lavatórios.",
+        "keywords": ["DML", "limpeza", "depósito", "tanque"]
+      }
+    ],
+    "opcionais_para_procedimentos": [
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.6",
+        "exigencia": "Sala de procedimentos",
+        "aplicacao": "Para realização de procedimentos ambulatoriais (suturas, biópsias, infiltrações), deve ter área mínima de 9 m² com bancada, lavatório e espaço para maca.",
+        "area_minima_m2": 9.0,
+        "largura_minima_m": 2.4,
+        "comentario": "Necessário apenas se forem realizados procedimentos invasivos no local.",
+        "keywords": ["procedimento", "sutura", "biópsia", "sala", "intervenção"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.10",
+        "exigencia": "Sala de expurgo",
+        "aplicacao": "Ambiente para lavagem de materiais contaminados, com tanque, bancada e pia. Usada em unidades que esterilizam ou reutilizam materiais no local.",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 1.8,
+        "comentario": "Recomendado apenas se a clínica faz a limpeza local de instrumentos reutilizáveis.",
+        "keywords": ["expurgo", "lavagem", "contaminação", "limpeza"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Quadro 5 – Tópico 5.11",
+        "exigencia": "CME – Central de Material Esterilizado",
+        "aplicacao": "Para clínicas que realizam esterilização interna de materiais, deve haver separação física entre áreas sujas, limpas e esterilizadas.",
+        "area_minima_m2": 6.0,
+        "largura_minima_m": 2.0,
+        "comentario": "Obrigatória apenas se a clínica não terceiriza a esterilização.",
+        "keywords": ["CME", "esterilização", "limpeza", "controle", "material"]
+      },
+      {
+        "norma": "RDC 50/2002",
+        "referencia": "Item 5.7",
+        "exigencia": "Vestiário para funcionários",
+        "aplicacao": "Ambiente reservado para troca de roupas, com armários e sanitário anexo. Usado em serviços com maior porte ou que manipulam fluidos biológicos.",
+        "area_minima_m2": 4.0,
+        "largura_minima_m": 1.8,
+        "comentario": "Recomendado para unidades com mais de 5 profissionais ou procedimentos complexos.",
+        "keywords": ["vestiário", "funcionário", "troca de roupa", "equipe"]
+      }
+    ]
+  }
+}

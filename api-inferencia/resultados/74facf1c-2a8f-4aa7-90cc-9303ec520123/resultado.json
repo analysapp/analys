@@ -1,0 +1,130 @@
+{
+  "caixas_detectadas": [
+    {
+      "classe": "quadro_areas_pavimento",
+      "confianca": 0.9373368620872498,
+      "bbox": [
+        7288,
+        530,
+        9837,
+        1374
+      ]
+    },
+    {
+      "classe": "planta_baixa",
+      "confianca": 0.8815977573394775,
+      "bbox": [
+        5598,
+        473,
+        7247,
+        4178
+      ]
+    },
+    {
+      "classe": "planta_primeiro_pavimento",
+      "confianca": 0.8767523765563965,
+      "bbox": [
+        3388,
+        216,
+        5417,
+        4028
+      ]
+    },
+    {
+      "classe": "implantacao",
+      "confianca": 0.873785674571991,
+      "bbox": [
+        356,
+        143,
+        3395,
+        4247
+      ]
+    },
+    {
+      "classe": "corte_esquemtico",
+      "confianca": 0.8480605483055115,
+      "bbox": [
+        4025,
+        4186,
+        7695,
+        5356
+      ]
+    },
+    {
+      "classe": "planta_situacao",
+      "confianca": 0.8284747004508972,
+      "bbox": [
+        7764,
+        4804,
+        9790,
+        6171
+      ]
+    },
+    {
+      "classe": "quadro_permeabilidade",
+      "confianca": 0.8258950710296631,
+      "bbox": [
+        8584,
+        2766,
+        9693,
+        3503
+      ]
+    },
+    {
+      "classe": "carimbo",
+      "confianca": 0.818571150302887,
+      "bbox": [
+        7740,
+        3530,
+        9824,
+        6890
+      ]
+    },
+    {
+      "classe": "memoria_calculo_permeabilidade",
+      "confianca": 0.780863344669342,
+      "bbox": [
+        728,
+        4161,
+        2952,
+        6525
+      ]
+    },
+    {
+      "classe": "legenda",
+      "confianca": 0.7765271663665771,
+      "bbox": [
+        6889,
+        6281,
+        7719,
+        6827
+      ]
+    },
+    {
+      "classe": "quadro_areas_unidade",
+      "confianca": 0.7427860498428345,
+      "bbox": [
+        3133,
+        5862,
+        6500,
+        6558
+      ]
+    }
+  ],
+  "textos_estruturados": "ÁREA PERMEÁVEL\nÁREA TOTAL\nÁrea permeável 01 3,00 m?\n- grama\nÁrea permeável 02 bloquete 32,30 m?\n-\nÁrea permeável 03 26,40 m?\n- grama\nÁREA TOTAL 61,70 m?\nÁrea do terreno 300,00 m?\nTaxa de permeabilidade mínima 20,00%\nTaxa de permeabilidade em aprovação 20,41%",
+  "estruturado_llama": {
+    "area_terreno": "300,00 m²",
+    "area_permeavel_total": "61,70 m²",
+    "percentual_total": "20,41%",
+    "percentual_grama": "? %",
+    "conforme": true
+  },
+  "analise": {
+    "area_terreno": "300.00 m²",
+    "area_permeavel_total": "0.00 m²",
+    "percentual_total": "20.41%",
+    "percentual_grama": "0.00%",
+    "conforme": true,
+    "areas_encontradas": []
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "ambientes_obrigatorios": {
+    "unidade_atendimento_imediato": [
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.1",
+        "exigencia": "Área externa coberta para ambulância",
+        "aplicacao": "Deve possuir cobertura com 21,0 m² para embarque/desembarque de ambulância.",
+        "area_minima_m2": 21.0,
+        "comentario": "Facilita acesso rápido e seguro de pacientes transportados por ambulância.",
+        "keywords": ["ambulância", "cobertura", "embarque", "desembarque"]
+      },
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.3 + RDC 50/2002",
+        "exigencia": "Sanitários para pacientes e público",
+        "aplicacao": "Devem ser diferenciados por sexo e conter ao menos um sanitário acessível conforme NBR 9050.",
+        "area_minima_m2": 3.5,
+        "largura_minima_m": 1.5,
+        "comentario": "Garantia de acessibilidade e segregação mínima conforme legislação.",
+        "keywords": ["sanitário", "paciente", "acessível", "NBR 9050", "banheiro"]
+      },
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.10",
+        "exigencia": "Consultórios médicos ou salas de exame",
+        "aplicacao": "Devem possuir área mínima de 7,5 m² e largura mínima de 2,2 m.",
+        "area_minima_m2": 7.5,
+        "largura_minima_m": 2.2,
+        "comentario": "Essencial para consultas clínicas com espaço mínimo regulamentar.",
+        "keywords": ["consultório", "sala de exame", "atendimento"]
+      },
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.12",
+        "exigencia": "Sala de suturas e curativos",
+        "aplicacao": "Ambiente com área mínima de 9,0 m² para pequenos procedimentos.",
+        "area_minima_m2": 9.0,
+        "comentario": "Permite a realização de atendimentos técnicos imediatos.",
+        "keywords": ["curativo", "suturas", "pequenos procedimentos"]
+      },
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.15",
+        "exigencia": "Sala de inalação",
+        "aplicacao": "Deve possuir área mínima de 1,6 m² por paciente, com ventilação adequada.",
+        "area_minima_m2": 1.6,
+        "comentario": "Exigência para controle de aerossóis e infecções.",
+        "keywords": ["inalação", "aerosol", "ventilação", "paciente"]
+      },
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.16",
+        "exigencia": "Salas de observação",
+        "aplicacao": "Área mínima de 8,5 m² por leito. Deve haver banheiro próximo ou anexo.",
+        "area_minima_m2": 8.5,
+        "comentario": "Recomendada separação por sexo ou uso de divisórias entre os leitos.",
+        "keywords": ["observação", "leito", "urgência"]
+      },
+      {
+        "norma": "Anexo 03 – UAI",
+        "referencia": "Item 2.19",
+        "exigencia": "Sala de gesso e fraturas",
+        "aplicacao": "Área mínima de 10 m² por sala ou 4 m² por boxe para imobilização ortopédica.",
+        "area_minima_m2": 10.0,
+        "comentario": "Fundamental para atendimento ortopédico inicial.",
+        "keywords": ["gesso", "fratura", "ortopedia"]
+      }
+    ]
+  },
+  "opcionais_para_procedimentos": [
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 2.5",
+      "exigencia": "Sala de reuniões e ensino",
+      "aplicacao": "Espaço para capacitação interna, reuniões de equipe e atividades administrativas ou acadêmicas.",
+      "area_minima_m2": 12.0,
+      "comentario": "Recomendado em UAIs de médio a grande porte com corpo técnico fixo.",
+      "keywords": ["reunião", "ensino", "capacitação", "gestão"]
+    },
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 2.13",
+      "exigencia": "Posto de enfermagem",
+      "aplicacao": "Área para organização da equipe de enfermagem, com visão direta para salas de observação e medicação.",
+      "area_minima_m2": 6.0,
+      "comentario": "Facilita monitoramento de pacientes em observação.",
+      "keywords": ["enfermagem", "posto", "monitoramento"]
+    },
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 2.20",
+      "exigencia": "Sala de medicação",
+      "aplicacao": "Sala exclusiva para preparo e administração de medicamentos, com bancada e pia.",
+      "area_minima_m2": 6.0,
+      "comentario": "Reforça segurança medicamentosa e controle de insumos.",
+      "keywords": ["medicação", "administração", "preparo"]
+    },
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 2.21",
+      "exigencia": "Sala de acolhimento e classificação de risco",
+      "aplicacao": "Espaço para triagem inicial com entrevista e classificação do paciente segundo protocolos de urgência.",
+      "area_minima_m2": 6.0,
+      "comentario": "Importante para organizar o fluxo de atendimento por gravidade.",
+      "keywords": ["acolhimento", "triagem", "classificação de risco"]
+    },
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 2.24",
+      "exigencia": "Sala de raio-X ou diagnóstico por imagem",
+      "aplicacao": "Obrigatória se a unidade prestar serviços de imagem. Deve atender normas de proteção radiológica.",
+      "area_minima_m2": 12.0,
+      "comentario": "Fundamental para diagnóstico em pronto-atendimento.",
+      "keywords": ["imagem", "radiologia", "raio-x", "diagnóstico"]
+    }
+  ],
+  "requisitos_tecnicos": [
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 3.1",
+      "exigencia": "Ventilação e exaustão adequadas",
+      "aplicacao": "Ambientes com manipulação de medicamentos ou produção de aerossóis devem possuir ventilação natural ou exaustão forçada.",
+      "comentario": "Evita acúmulo de partículas e gases. Aplicável a salas de medicação, inalação, CME e expurgo.",
+      "keywords": ["ventilação", "exaustão", "ar", "controle de infecção"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Item 4.17",
+      "exigencia": "Lavatórios com acionamento não manual",
+      "aplicacao": "Todos os lavatórios devem ser acionados por alavanca, pé, joelho ou sensor.",
+      "comentario": "Previne contaminação cruzada nas áreas de assistência direta.",
+      "keywords": ["lavatório", "higiene", "sem contato", "biossegurança"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Quadro 5 – item 10",
+      "exigencia": "Sala de escovação pré-procedimento",
+      "aplicacao": "Unidade com procedimentos invasivos deve ter sala de escovação com pia e dispensador de antisséptico.",
+      "area_minima_m2": 4.0,
+      "comentario": "Importante para preparo de profissionais em salas de procedimento ou sutura.",
+      "keywords": ["escovação", "antissepsia", "procedimento", "profissional"]
+    },
+    {
+      "norma": "Anexo 03 – UAI",
+      "referencia": "Item 2.22",
+      "exigencia": "Central de material esterilizado (CME) ou expurgo",
+      "aplicacao": "Obrigatória se houver esterilização interna. Deve respeitar fluxo unidirecional (sujo → limpo → esterilizado).",
+      "area_minima_m2": 6.0,
+      "comentario": "Pode ser substituído por serviço terceirizado se houver comprovação técnica.",
+      "keywords": ["CME", "expurgo", "esterilização", "fluxo"]
+    },
+    {
+      "norma": "RDC 50/2002",
+      "referencia": "Anexo I – item 5.16",
+      "exigencia": "Depósito de material de limpeza com tanque",
+      "aplicacao": "DML deve ter tanque exclusivo, ponto de água, prateleiras e ventilação adequada.",
+      "comentario": "Indispensável para controle de resíduos e limpeza interna da unidade.",
+      "keywords": ["DML", "limpeza", "tanque", "sanitário"]
+    }
+  ]
+}

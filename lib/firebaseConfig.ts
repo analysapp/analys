@@ -1,6 +1,6 @@
 // lib/firebaseConfig.ts
-import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { initializeApp, getApps, getApp } from "firebase/app"
+import { getAuth, GoogleAuthProvider } from "firebase/auth"
 
 const firebaseConfig = {
     apiKey: "AIzaSyBcWsaGIUGaNyZT8C6D3snIgf1KXgk5noA",
@@ -12,8 +12,9 @@ const firebaseConfig = {
     measurementId: "G-3P9P3KEXTR"
   };
 
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
+// ✅ evita erro de inicialização duplicada
+const app = !getApps().length ? initializeApp(firebaseConfig) : getApp()
+const auth = getAuth(app)
+const provider = new GoogleAuthProvider()
 
-export { auth, provider };
+export { auth, provider }

@@ -1,0 +1,91 @@
+{
+  "requisitos_gerais_universais": [
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 1.1 a 1.7",
+      "exigencia": "Documentos necessários para aprovação do projeto",
+      "aplicacao": "Inclui RAPA, relatório técnico, ART, memória de cálculo, DAE da taxa de saúde, e comprovações de filantropia ou microempresa.",
+      "comentario": "Esses documentos são exigidos para submissão formal do projeto à GIEF.",
+      "categoria": "documentacao",
+      "keywords": ["aprovação", "documentação", "RAPA", "ART", "memória de cálculo"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 2.0 a 2.10.6",
+      "exigencia": "Conteúdo obrigatório do relatório técnico",
+      "aplicacao": "Deve conter dados cadastrais, memorial de projeto, serviços terceirizados, instalações e características técnicas, ventilação, resíduos, equipamentos e quadro funcional.",
+      "comentario": "O relatório técnico deve estar completo e assinado por responsável técnico.",
+      "categoria": "documentacao",
+      "keywords": ["relatório técnico", "acessos", "fluxo", "ventilação", "resíduos", "equipamentos"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 3.0 a 3.28",
+      "exigencia": "Representação gráfica obrigatória",
+      "aplicacao": "Inclui plantas com escalas e cortes, cotas, localização, ventilação, marquises, sanitários, rampas, acessibilidade, equipamentos e normas técnicas.",
+      "comentario": "A representação gráfica deve seguir normas da ABNT e legislação de acessibilidade.",
+      "categoria": "documentacao",
+      "keywords": ["planta baixa", "representação gráfica", "escada", "fachada", "rampa", "acessibilidade"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 4.0 a 4.24",
+      "exigencia": "Requisitos gerais para estabelecimentos assistenciais de saúde",
+      "aplicacao": "Define critérios como setorização, acesso coberto, ventilação, lavatórios, acessibilidade e comunicação entre áreas.",
+      "comentario": "Aplicável a unidades com atendimento direto ao paciente, como consultórios, clínicas e hospitais.",
+      "categoria": "dimensionamento",
+      "keywords": ["setorização", "lavatório", "acesso", "ventilação", "circulação"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.0 a 5.17",
+      "exigencia": "Dimensionamento de ambientes comuns",
+      "aplicacao": "Inclui áreas mínimas e instalações exigidas para salas de espera, sanitários, consultórios, expurgo, CME, copa, DML, entre outros.",
+      "comentario": "Esses parâmetros devem ser seguidos mesmo para unidades de pequeno porte.",
+      "categoria": "dimensionamento",
+      "keywords": ["área mínima", "ambiente comum", "sanitário", "consultório", "espera"]
+    },
+    {
+      "norma": "Anexo 18 – Memória de Cálculo",
+      "referencia": "Item 1.1 a 1.9",
+      "exigencia": "Apresentação da memória de cálculo da área",
+      "aplicacao": "Obrigatória quando houver mais de uma operação aritmética para calcular áreas de construção, reforma ou ampliação.",
+      "comentario": "Deve incluir perímetro por pavimento, subdividido em polígonos regulares cotados, com operações, ângulos, raios e quadro de áreas totalizadas.",
+      "categoria": "documentacao",
+      "keywords": ["memória de cálculo", "área", "projeto", "perímetro", "cálculo"]
+    },
+    {
+      "norma": "Anexo 18 – Memória de Cálculo",
+      "referencia": "Item 2.1 a 2.2",
+      "exigencia": "Inclusão proporcional de áreas compartilhadas",
+      "aplicacao": "No caso de ambientes de apoio comuns entre serviços, as áreas devem ser rateadas proporcionalmente no cálculo total.",
+      "comentario": "A taxa de saúde incidirá sobre o somatório da área ampliada com a área correspondente aos ambientes de apoio compartilhados.",
+      "categoria": "documentacao",
+      "keywords": ["rateio", "área comum", "cálculo", "apoio"]
+    },
+    {
+      "norma": "Anexo 23 – Materiais e Acabamentos",
+      "referencia": "Item 3.0 a 7.0",
+      "exigencia": "Materiais adequados por tipo de área (crítica, semicrítica, não crítica)",
+      "aplicacao": "Áreas críticas devem ter materiais laváveis, resistentes a desinfetantes e impacto, como cerâmica com rejunte epóxi ou PVC de alta resistência.",
+      "comentario": "A especificação de pisos, paredes, tetos, luminárias, portas e ralos deve seguir diretrizes de durabilidade, limpeza e controle de infecção.",
+      "keywords": ["materiais", "acabamento", "área crítica", "revestimento", "anvisa"]
+    },
+    {
+      "norma": "Anexo 23 – Materiais e Acabamentos",
+      "referencia": "Item 7.15",
+      "exigencia": "Torneiras e lavatórios com acionamento não manual",
+      "aplicacao": "Lavatórios de áreas críticas e lavabos cirúrgicos devem ser acionados por pé, sensor ou alavanca. Torneiras de pressão são proibidas.",
+      "comentario": "Necessário para evitar contaminação cruzada em ambientes assistenciais.",
+      "keywords": ["torneira", "acionamento", "lavatório", "lavabo cirúrgico"]
+    },
+    {
+      "norma": "Anexo 23 – Materiais e Acabamentos",
+      "referencia": "Item 7.16",
+      "exigencia": "Ralos sifonados com tampa escamoteável",
+      "aplicacao": "Devem ser instalados em todas as áreas molhadas, com vedação hídrica e proteção contra refluxo e odores.",
+      "comentario": "É proibida a instalação de ralos em ambientes onde pacientes são examinados ou tratados.",
+      "keywords": ["ralo", "sifonado", "higiene", "área molhada"]
+    }
+  ]
+}

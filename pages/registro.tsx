@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { auth } from '../lib/firebaseConfig'
 import { createUserWithEmailAndPassword } from 'firebase/auth'
 
+
 export default function Registro() {
   const [formData, setFormData] = useState({
     nome: '',

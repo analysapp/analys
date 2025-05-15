@@ -12,9 +12,11 @@
   "dependencies": {
     "@prisma/client": "^6.6.0",
     "firebase": "^11.6.1",
+    "form-data": "^4.0.2",
     "formidable": "^3.5.4",
     "next": "15.3.1",
     "next-auth": "^4.24.11",
+    "node-fetch": "^3.3.2",
     "pdf-poppler": "^0.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

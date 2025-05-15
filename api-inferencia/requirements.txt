@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pillow
+numpy
+easyocr
+ultralytics
+pdf2image

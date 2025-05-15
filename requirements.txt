@@ -1,0 +1,20 @@
+# FastAPI e execução
+fastapi
+uvicorn[standard]
+python-multipart
+
+# YOLOv8 (via Ultralytics)
+ultralytics>=8.0.0
+torch>=1.12.0
+opencv-python
+
+# OCR e imagem
+pillow
+pdf2image
+easyocr
+
+# Para trabalhar com PDF (Poppler é necessário no sistema)
+# Nota: o Poppler não é Python, é um executável que você já tem instalado
+
+# Upload e requisições
+requests

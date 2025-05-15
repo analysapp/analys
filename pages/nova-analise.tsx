@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Head from 'next/head';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
+import Topo from '@/components/Topo';
 
 export default function NovaAnalise() {
   const { data: session } = useSession();
@@ -34,15 +35,14 @@ export default function NovaAnalise() {
     formData.append('tipoProjeto', tipoProjeto);
 
     try {
-      const response = await fetch('/api/analisar', {
+      const response = await fetch('http://localhost:8000/inferir', {
         method: 'POST',
         body: formData,
       });
 
       if (response.ok) {
         const resultado = await response.json();
-        const resultadoEncoded = encodeURIComponent(JSON.stringify(resultado));
-        router.push(`/resultado?resultado=${resultadoEncoded}`);
+        router.push(`/resultado?id=${resultado.id}`);
       } else {
         console.error('Erro ao processar análise.');
         alert('Erro ao processar análise!');
@@ -56,56 +56,58 @@ export default function NovaAnalise() {
   };
 
   return (
-    <div className="min-h-screen bg-[#f7f7f5] flex flex-col font-dm items-center justify-center p-4">
+    <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] flex flex-col font-dm p-4">
       <Head>
         <title>Nova Análise | Analys</title>
       </Head>
 
-      <h1 className="text-3xl font-bold mb-6">Nova Análise</h1>
+      <Topo />
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-md">
-        {/* Selecionar Cidade */}
-        <select
-          value={cidade}
-          onChange={(e) => setCidade(e.target.value)}
-          className="border p-2 rounded"
-        >
-          <option value="itauna">Itaúna - MG</option>
-        </select>
+      <div className="flex flex-col items-center justify-center flex-grow">
+        <h1 className="text-3xl font-bold mb-6">Nova Análise</h1>
 
-        {/* Selecionar Tipo de Projeto */}
-        <select
-          value={tipoProjeto}
-          onChange={(e) => setTipoProjeto(e.target.value)}
-          className="border p-2 rounded"
-        >
-          <option value="simplificado">Projeto Simplificado - PMI</option>
-        </select>
+        <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-md">
+          <select
+            value={cidade}
+            onChange={(e) => setCidade(e.target.value)}
+            className="border p-2 rounded"
+          >
+            <option value="itauna">Itaúna - MG</option>
+          </select>
 
-        {/* Upload Arquivo */}
-        <input
-          type="file"
-          accept="application/pdf, image/jpeg, image/png"
-          onChange={handleFileChange}
-          className="border p-2 rounded"
-          required
-        />
+          <select
+            value={tipoProjeto}
+            onChange={(e) => setTipoProjeto(e.target.value)}
+            className="border p-2 rounded"
+          >
+            <option value="simplificado">Projeto Simplificado - PMI</option>
+          </select>
 
-        {/* Botão */}
-        <button type="submit" className="bg-black text-white py-2 rounded hover:bg-gray-800" disabled={loading}>
-          {loading ? (
-            <span className="animate-ping-slow text-3xl">.</span>
-          ) : (
-            'Enviar para Análise'
-          )}
-        </button>
-      </form>
+          <input
+            type="file"
+            accept="application/pdf, image/jpeg, image/png"
+            onChange={handleFileChange}
+            className="border p-2 rounded"
+            required
+          />
 
-      {loading && (
-        <div className="flex justify-center items-center min-h-[100px] mt-6">
-          <div className="w-8 h-8 bg-black rounded-full animate-ping-slow"></div>
-        </div>
-      )}
+          <button type="submit" className="bg-[var(--foreground)] text-[var(--background)] py-2 rounded hover:opacity-80" disabled={loading}>
+            {loading ? (
+              <span className="text-sm font-medium"> Analisando, por favor aguarde...</span>
+            ) : (
+              'Enviar para Análise'
+            )}
+          </button>
+        </form>
+
+        {loading && (
+          <div className="w-full max-w-md mt-6">
+            <div className="h-2 w-full bg-gray-300 rounded">
+              <div className="h-2 bg-[var(--foreground)] rounded animate-pulse" style={{ width: '100%' }}></div>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
