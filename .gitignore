@@ -39,3 +39,16 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+venv/
+api-inferencia/venv/
+__pycache__/
+*.pyc
+*.pyd
+*.dll
+*.so
+*.lib
+*.exe
+*.zip
+*.egg-info/
+.DS_Store
