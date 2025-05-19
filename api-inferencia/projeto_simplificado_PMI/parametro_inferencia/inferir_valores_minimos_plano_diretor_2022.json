@@ -1,0 +1,125 @@
+{
+  "titulo": "Resumo de Diretrizes – Anexo X",
+  "descricao": "Tabela de parâmetros urbanísticos aplicáveis às zonas da Macrozona Urbana e de Expansão Urbana, conforme categoria de zoneamento e uso do solo. Define índices como CA, TO, gabarito, permeabilidade, testada mínima, entre outros.",
+  "tabela": [
+    {
+      "zona": "Zona Central Adensada (ZCA)",
+      "coeficiente_aproveitamento_maximo": 4.0,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "12 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "12 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona Central Secundária (ZCS)",
+      "coeficiente_aproveitamento_maximo": 3.0,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "10 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "10 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona Mista (ZM)",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "8 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "10 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona Mista Adensável (ZMA)",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "6 pavimentos",
+      "taxa_permeabilidade_minima": "25%",
+      "testada_minima": "10 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona de Interesse Social (ZIS)",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "4 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "8 m",
+      "fracao_ideal_minima": "45 m²"
+    },
+    {
+      "zona": "Zona de Expansão Urbana (ZEU)",
+      "coeficiente_aproveitamento_maximo": 2.0,
+      "taxa_ocupacao_maxima": "60%",
+      "gabarito_maximo": "4 pavimentos",
+      "taxa_permeabilidade_minima": "30%",
+      "testada_minima": "12 m",
+      "fracao_ideal_minima": "125 m²"
+    },
+    {
+      "zona": "Zona de Expansão de Interesse Social (ZEIS)",
+      "coeficiente_aproveitamento_maximo": 2.0,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "4 pavimentos",
+      "taxa_permeabilidade_minima": "25%",
+      "testada_minima": "8 m",
+      "fracao_ideal_minima": "45 m²"
+    },
+    {
+      "zona": "Zona de Proteção Ambiental 1 (ZPA-1)",
+      "coeficiente_aproveitamento_maximo": 0.8,
+      "taxa_ocupacao_maxima": "30%",
+      "gabarito_maximo": "2 pavimentos",
+      "taxa_permeabilidade_minima": "70%",
+      "testada_minima": "20 m",
+      "fracao_ideal_minima": "1000 m²"
+    },
+    {
+      "zona": "Zona de Proteção Ambiental 2 (ZPA-2)",
+      "coeficiente_aproveitamento_maximo": 1.0,
+      "taxa_ocupacao_maxima": "40%",
+      "gabarito_maximo": "2 pavimentos",
+      "taxa_permeabilidade_minima": "60%",
+      "testada_minima": "15 m",
+      "fracao_ideal_minima": "800 m²"
+    }
+  ],
+  "palavras_chave": [
+    "coeficiente de aproveitamento",
+    "taxa de ocupação",
+    "gabarito",
+    "taxa de permeabilidade",
+    "testada mínima",
+    "fração ideal mínima",
+    "zoneamento urbano",
+    "parâmetros construtivos",
+    "uso e ocupação do solo"
+  ],
+  "fonte": "Anexo X – Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

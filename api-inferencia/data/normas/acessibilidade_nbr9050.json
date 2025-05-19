@@ -1,0 +1,1774 @@
+[
+{
+  "item": "4.1",
+  "titulo": "Parâmetros antropométricos para pessoa em pé",
+  "exigencia": "Deslocamento de pessoas com mobilidade reduzida utilizando dispositivos como bengalas, andadores e muletas.",
+  "comentario": "Serve de base para definição da largura mínima de circulação conforme o tipo de apoio.",
+  "dimensoes": {
+    "andador_com_rodas": "largura até 0,90 m",
+    "muleta": "largura até 0,90 m",
+    "apoio_com_tripé": "largura até 0,60 m",
+    "bengala_longa": {
+      "largura": "até 0,60 m",
+      "comprimento": "até 2,10 m"
+    },
+    "cao_guia": "largura até 0,80 m"
+  },
+  "pagina": 7,
+  "figura": "Figura 1",
+  "categorias": ["parâmetros antropométricos", "pessoa em pé", "dispositivos de apoio"]
+},
+{
+  "item": "4.2.1",
+  "titulo": "Dimensões referenciais para cadeira de rodas",
+  "exigencia": "Parâmetros dimensionais de referência para cadeiras de rodas manuais, motorizadas e esportivas.",
+  "comentario": "Esses valores são base para o dimensionamento de corredores e áreas de manobra.",
+  "dimensoes": {
+    "largura_total": "0,70 m a 0,75 m",
+    "profundidade_total": "0,95 m a 1,15 m",
+    "altura_apoio_braço": "0,25 m",
+    "largura_cadeira_esportiva": "mínimo 1,00 m"
+  },
+  "pagina": 8,
+  "figura": "Figura 2",
+  "categorias": ["cadeira de rodas", "parâmetros antropométricos", "PCR"]
+},
+{
+  "item": "4.2.2",
+  "titulo": "Módulo de Referência (M.R.) para cadeira de rodas",
+  "exigencia": "Define o espaço mínimo que uma cadeira de rodas ocupa no piso para cálculo de áreas acessíveis.",
+  "comentario": "Utilizado em todos os ambientes acessíveis como base de circulação e manobra.",
+  "dimensoes": {
+    "largura": "0,80 m",
+    "comprimento": "1,20 m"
+  },
+  "pagina": 8,
+  "figura": "Figura 3",
+  "categorias": ["PCR", "módulo de referência", "circulação mínima"]
+},
+{
+  "item": "4.3.1",
+  "titulo": "Largura para deslocamento em linha reta",
+  "exigencia": "Define as larguras mínimas para diferentes configurações de deslocamento com cadeira de rodas.",
+  "comentario": "Essas medidas garantem a acessibilidade contínua em rotas de circulação.",
+  "dimensoes": {
+    "cadeira_rodas_unica": "mínimo 0,90 m",
+    "cadeira_rodas_e_pedestre": "1,20 m a 1,50 m",
+    "duas_cadeiras_rodas": "1,50 m a 1,80 m"
+  },
+  "pagina": 9,
+  "figura": "Figura 4",
+  "categorias": ["circulação", "largura mínima", "cadeira de rodas"]
+},
+{
+  "item": "4.3.2",
+  "titulo": "Transposição de obstáculos isolados",
+  "exigencia": "Estabelece as larguras mínimas para passagem segura diante de obstáculos.",
+  "comentario": "Garante contorno seguro de obstáculos no trajeto.",
+  "dimensoes": {
+    "obstaculo_ate_0_40m": "mínimo 0,80 m",
+    "obstaculo_maior_0_40m": "mínimo 0,90 m"
+  },
+  "pagina": 9,
+  "figura": "Figura 5",
+  "categorias": ["obstáculo", "largura de passagem", "cadeira de rodas"]
+},
+{
+  "item": "4.3.3",
+  "titulo": "Mobiliários na rota acessível",
+  "exigencia": "Elementos salientes entre 0,60 m e 2,10 m devem ser detectáveis ou sinalizados com contraste visual mínimo de 30 pontos LRV.",
+  "comentario": "Evita colisões por pessoas com deficiência visual em áreas de circulação.",
+  "dimensoes": {
+    "altura_saliencia": "0,60 m a 2,10 m",
+    "contraste_visual": "mínimo 30 LRV"
+  },
+  "pagina": 9,
+  "figura": "Figura 6",
+  "categorias": ["mobiliário", "deficiência visual", "rota acessível"]
+},
+{
+  "item": "4.3.4",
+  "titulo": "Área para manobra sem deslocamento",
+  "exigencia": "Estabelece dimensões para rotações de 90°, 180° e 360° em espaços confinados.",
+  "comentario": "Essas áreas garantem mudanças de direção sem necessidade de avanço.",
+  "dimensoes": {
+    "rotacao_90_graus": "1,20 m x 1,20 m",
+    "rotacao_180_graus": "1,50 m x 1,20 m",
+    "rotacao_360_graus": "diâmetro de 1,50 m"
+  },
+  "pagina": 10,
+  "figura": "Figura 7",
+  "categorias": ["manobra", "giro", "cadeira de rodas"]
+},
+{
+  "item": "4.3.5",
+  "titulo": "Área para manobra com deslocamento",
+  "exigencia": "Define medidas mínimas para curvas com deslocamento em 90° ou 180°.",
+  "comentario": "Permite curvas em corredores ou ambientes sem parada total do usuário.",
+  "dimensoes": {
+    "curva_90_graus": "mínimo 1,20 m x 1,20 m"
+  },
+  "pagina": 10,
+  "figura": "Figura 8",
+  "categorias": ["manobra com deslocamento", "curva", "circulação contínua"]
+},
+{
+  "item": "4.3.6",
+  "titulo": "Posicionamento em espaços confinados",
+  "exigencia": "Nichos devem ter espaço suficiente para acomodar cadeira de rodas em ambientes técnicos.",
+  "comentario": "Aplicável em sanitários, elevadores e salas técnicas.",
+  "dimensoes": {
+    "largura_minima": "0,90 m",
+    "profundidade_minima": "0,90 m"
+  },
+  "pagina": 10,
+  "figura": "Figura 9",
+  "categorias": ["espaço confinado", "nichos", "cadeira de rodas"]
+},
+{
+  "item": "4.3.7",
+  "titulo": "Proteção contra queda em rotas acessíveis",
+  "exigencia": "Devem ser previstas barreiras laterais ou guardas em desníveis elevados.",
+  "comentario": "Evita quedas em rampas, corredores elevados ou áreas externas.",
+  "dimensoes": {
+    "barreira_lateral": "altura mínima 0,15 m",
+    "margem_segura": "largura mínima 0,60 m",
+    "guarda_corpo": "obrigatório em desníveis > 0,60 m"
+  },
+  "pagina": 11,
+  "figura": "Figura 10",
+  "categorias": ["proteção contra queda", "barreira", "segurança", "guarda-corpo"]
+},
+{
+  "item": "4.4.1 a 4.4.5",
+  "titulo": "Área de transferência",
+  "exigencia": "A área de transferência deve permitir posicionamento da cadeira de rodas junto ao local de troca e possibilitar movimentos laterais, perpendiculares ou diagonais com segurança.",
+  "comentario": "Aplicável em sanitários, bancos, vestiários, trocadores, banheiras e outros.",
+  "dimensoes": {
+    "modulo_referencia": "0,80 m x 1,20 m",
+    "altura_assentos": "mesma altura entre cadeira de rodas e superfície de transferência",
+    "largura_apoio_lateral": "mínimo 0,30 m"
+  },
+  "figura": "Figuras 11 a 13",
+  "pagina": 11,
+  "categorias": ["transferência", "cadeira de rodas", "apoio", "sanitário", "mobilidade"]
+},
+{
+  "item": "4.5",
+  "titulo": "Área de aproximação",
+  "exigencia": "Deve haver espaço frontal ou lateral para a cadeira de rodas se aproximar e acessar lavatórios, mesas, bancadas, equipamentos e comandos.",
+  "comentario": "Permite que o usuário acione ou utilize objetos sem sair da cadeira de rodas.",
+  "dimensoes": {
+    "avanço_abaixo_objeto": "mínimo 0,25 m e máximo 0,50 m",
+    "largura_area_aproximacao": "mínimo 0,80 m",
+    "altura_vão_livre": "mínimo 0,73 m sob superfícies (em mesas, bancadas etc.)"
+  },
+  "figura": "Figuras 14 a 16",
+  "pagina": 12,
+  "categorias": ["aproximação frontal", "aproximação lateral", "acessibilidade", "cadeira de rodas"]
+},
+{
+  "item": "4.6.1",
+  "titulo": "Alcance manual frontal",
+  "exigencia": "Define os limites de alcance para pessoas em cadeira de rodas quando se aproximam frontalmente de objetos ou comandos.",
+  "comentario": "Garante que os comandos estejam posicionados em uma faixa utilizável para pessoas com mobilidade reduzida.",
+  "dimensoes": {
+    "sem_deslocamento_tronco": {
+      "altura_minima": "0,40 m",
+      "altura_maxima": "1,20 m"
+    },
+    "com_deslocamento_tronco": {
+      "altura_maxima": "1,40 m"
+    },
+    "profundidade_atingida": "até 0,50 m"
+  },
+  "figura": "Figura 11",
+  "pagina": 12,
+  "categorias": ["alcance manual", "frontal", "cadeira de rodas", "comando", "acessibilidade"]
+},
+{
+  "item": "4.6.2",
+  "titulo": "Alcance manual lateral",
+  "exigencia": "Define os limites de alcance quando o usuário em cadeira de rodas se posiciona lateralmente ao objeto ou comando.",
+  "comentario": "Permite o uso de superfícies laterais sem deslocamento excessivo do corpo ou esforço adicional.",
+  "dimensoes": {
+    "altura_minima": "0,40 m",
+    "altura_maxima": "1,20 m",
+    "profundidade_maxima": "até 0,30 m para alcance confortável",
+    "profundidade_estendida": "até 0,50 m com deslocamento do tronco"
+  },
+  "figura": "Figura 12",
+  "pagina": 13,
+  "categorias": ["alcance lateral", "cadeira de rodas", "comando", "painel", "acessibilidade"]
+},
+{
+  "item": "4.6.3",
+  "titulo": "Alcance manual lateral com obstáculos",
+  "exigencia": "Estabelece os limites de alcance quando há obstáculos sob a superfície (ex: lavatórios com coluna), impedindo aproximação frontal direta.",
+  "comentario": "Considera a presença de obstruções que alteram a profundidade atingível lateralmente.",
+  "dimensoes": {
+    "altura_minima": "0,40 m",
+    "altura_maxima": "1,20 m",
+    "profundidade_maxima": "até 0,25 m com obstáculos sob o objeto"
+  },
+  "figura": "Figura 13",
+  "pagina": 13,
+  "categorias": ["alcance lateral", "obstrução", "acessibilidade", "painel", "cadeira de rodas"]
+},
+{
+  "item": "4.6.4",
+  "titulo": "Ângulos de força para tração e compressão",
+  "exigencia": "Determina os ângulos ideais para execução de movimentos de tração e compressão em comandos manuais como maçanetas, corrimãos e torneiras.",
+  "comentario": "Assegura conforto e eficiência ao executar ações com o braço e mão, evitando esforço excessivo.",
+  "dimensoes": {
+    "plano_horizontal": "15° a 30°",
+    "plano_lateral": "30° a 60°"
+  },
+  "figura": "Figura 17 e Figura 18",
+  "pagina": 13,
+  "categorias": ["força", "tração", "compressão", "ângulo ergonômico", "comando"]
+},
+{
+  "item": "4.6.5",
+  "titulo": "Empunhadura",
+  "exigencia": "Corrimãos e barras de apoio devem possuir formato e dimensões que permitam empunhadura firme, confortável e segura.",
+  "comentario": "Garante acessibilidade e segurança em escadas, rampas, sanitários e outros ambientes onde o apoio é necessário.",
+  "dimensoes": {
+    "afastamento_da_parede": "mínimo 40 mm",
+    "afastamento_em_nichos": "mínimo 150 mm",
+    "diametro_secao_circular": "30 mm a 45 mm",
+    "secao_eliptica": {
+      "dimensao_maior": "máximo 45 mm",
+      "dimensao_menor": "mínimo 30 mm"
+    },
+    "arco_empunhadura_livre": "270° (mínimo) ao redor da barra"
+  },
+  "figura": "Figura 19",
+  "pagina": 14,
+  "categorias": ["corrimão", "barra de apoio", "empunhadura", "ergonomia", "acessibilidade"]
+},
+{
+  "item": "4.6.6",
+  "titulo": "Maçanetas, barras antipânico e puxadores",
+  "exigencia": "Elementos de acionamento de portas devem garantir empunhadura confortável, segura e de fácil operação, sem exigir força ou torção do punho.",
+  "comentario": "Recomenda-se maçanetas do tipo alavanca, e é obrigatória a observância das dimensões para garantir acessibilidade universal.",
+  "dimensoes": {
+    "maçaneta_alavanca": {
+      "comprimento_minimo": "100 mm",
+      "altura_instalacao": "0,80 m a 1,10 m",
+      "distancia_minima_da_porta": "40 mm"
+    },
+    "puxador_vertical": {
+      "diametro": "25 mm a 45 mm",
+      "afastamento_minimo": "40 mm",
+      "comprimento_minimo": "300 mm",
+      "altura_instalacao": "0,80 m a 1,10 m"
+    },
+    "puxador_horizontal": {
+      "diametro": "25 mm a 45 mm",
+      "afastamento_minimo": "40 mm",
+      "altura_instalacao": "0,80 m a 1,10 m"
+    },
+    "barra_antipanico": {
+      "altura_instalacao": "0,90 m",
+      "requisitos": "Deve atender à ABNT NBR 11785 e ser compatível com a resistência ao fogo da porta"
+    }
+  },
+  "figura": "Figura 20",
+  "pagina": 14,
+  "categorias": ["maçaneta", "puxador", "barra antipânico", "porta", "acessibilidade", "acionamento"]
+},
+{
+  "item": "4.6.7",
+  "titulo": "Controles (dispositivos de comando ou acionamento)",
+  "exigencia": "Os controles devem ser de fácil acionamento, não exigindo força excessiva nem precisão motora fina, e devem possibilitar seu uso por diferentes grupos de pessoas, inclusive com limitações motoras.",
+  "comentario": "Botões, chaves, sensores, painéis de controle e similares devem ser acionáveis com uma das extremidades do corpo, como dorso da mão, punho ou braço, respeitando as faixas de alcance e força reduzida.",
+  "dimensoes": {
+    "dimensao_minima_superficie_acionamento": "25 mm (2,5 cm)",
+    "forca_maxima_acionamento_recomendada": "23 N",
+    "altura_recomendada_instalacao": "0,80 m a 1,20 m"
+  },
+  "figura": "Figura 21",
+  "pagina": 14,
+  "categorias": ["controle", "comando", "botão", "acessibilidade", "acionamento", "sensor"]
+},
+{
+  "item": "4.6.8",
+  "titulo": "Dispositivo para travamento de portas",
+  "exigencia": "Portas de sanitários, vestiários e provadores acessíveis devem ser equipadas com mecanismos de travamento de fácil operação.",
+  "comentario": "O dispositivo deve permitir ser acionado com o dorso da mão ou com movimento de punho, garantindo acessibilidade para pessoas com mobilidade reduzida ou deficiência nos membros superiores.",
+  "caracteristicas": {
+    "tipo_recomendado": ["alavanca", "tranqueta"],
+    "posicionamento": "Deve estar posicionado dentro da faixa de alcance definida na Seção 4.6",
+    "requisito_ergonomico": "A operação não deve exigir força de pinça nem torção do punho"
+  },
+  "pagina": 15,
+  "categorias": ["travamento", "porta", "sanitário", "vestiário", "acessibilidade", "fechadura"]
+},
+{
+  "item": "4.6.9",
+  "titulo": "Altura para comandos e controles",
+  "exigencia": "Estabelece a altura recomendada para instalação de comandos de uso frequente como interruptores, tomadas, registros e campainhas, garantindo acessibilidade e conforto.",
+  "comentario": "A altura deve permitir o uso confortável por pessoas em cadeira de rodas, em pé, crianças e pessoas com mobilidade reduzida.",
+  "dimensoes": {
+    "interruptor": "1,10 m do piso acabado",
+    "campainha": "1,20 m do piso acabado",
+    "tomada": "0,40 m do piso acabado",
+    "comando_janela": "0,80 m do piso acabado",
+    "registro_pressao": "1,00 m do piso acabado",
+    "insercao_retirada_produtos": "entre 0,60 m e 1,20 m do piso"
+  },
+  "figura": "Figura 22",
+  "pagina": 15,
+  "categorias": ["comando", "controle", "altura", "interruptor", "tomada", "acessibilidade"]
+},
+{
+  "item": "4.7",
+  "titulo": "Assentos para pessoas obesas",
+  "exigencia": "Devem ser previstos assentos específicos para pessoas obesas em ambientes públicos e coletivos.",
+  "comentario": "As dimensões devem proporcionar conforto, segurança e permitir uso com autonomia.",
+  "dimensoes": {
+    "profundidade_assento": "0,47 m a 0,51 m",
+    "largura_assento": "mínimo 0,75 m",
+    "altura_assento": "0,41 m a 0,45 m",
+    "inclinação_assento": "2° a 5°",
+    "ângulo_entre_assento_encosto": "100° a 105°",
+    "altura_apoio_braços": "0,23 m a 0,27 m",
+    "carga_suportada": "250 kg"
+  },
+  "figura": "Figura 23",
+  "pagina": 15,
+  "categorias": ["assento obeso", "mobilidade reduzida", "banco público", "apoio de braço"]
+},
+{
+  "item": "4.8.1",
+  "titulo": "Ângulos de alcance visual",
+  "exigencia": "Define os limites de visibilidade natural e confortável no plano vertical e horizontal.",
+  "comentario": "Os ângulos devem orientar a disposição de painéis, comandos, sinalizações e objetos informativos.",
+  "dimensoes": {
+    "cone_visual_vertical_pe": "até 25°",
+    "cone_visual_vertical_sentado": "30° ± 7,5°",
+    "movimento_natural_cabeca": "até 45°",
+    "movimento_consciente_cabeca": "até 60°",
+    "alcance_horizontal_maximo": "60°"
+  },
+  "observacoes": "Em posição sentada, o cone visual apresenta acréscimo médio de 8°.",
+  "figura": "Figuras 24 e 25",
+  "pagina": 16,
+  "categorias": ["alcance visual", "campo de visão", "ângulo de visão", "ergonomia", "sinalização"]
+},
+{
+  "item": "4.8.2",
+  "titulo": "Aplicação dos ângulos de alcance visual",
+  "exigencia": "Estabelece faixas de altura recomendadas para disposição de objetos, comandos, sinalizações e painéis de leitura.",
+  "comentario": "Os valores consideram as diferentes posições do usuário (em pé, sentado ou em cadeira de rodas).",
+  "dimensoes": {
+    "linha_horizonte_pe": "1,40 m a 1,50 m",
+    "linha_horizonte_sentado": "1,05 m a 1,15 m",
+    "linha_horizonte_cadeira_rodas": "1,10 m a 1,20 m"
+  },
+  "figura": "Figuras 26 a 28",
+  "pagina": 16,
+  "categorias": ["linha do horizonte", "visibilidade", "painéis", "cadeira de rodas", "informação acessível"]
+},
+{
+  "item": "4.9",
+  "titulo": "Parâmetro auditivo",
+  "exigencia": "Define os limites sonoros para percepção, segurança e conforto em ambientes acessíveis.",
+  "comentario": "Esses parâmetros devem ser considerados em sistemas de sinalização sonora e alarmes, especialmente para garantir percepção adequada por pessoas com deficiência auditiva.",
+  "dimensoes": {
+    "faixa_frequencia": "20 Hz a 20.000 Hz",
+    "intensidade_minima": "20 dB",
+    "intensidade_maxima": "120 dB",
+    "tempo_minimo_duracao": "1 segundo",
+    "nível_desconforto": "acima de 120 dB",
+    "nível_dor": "acima de 140 dB"
+  },
+  "pagina": 17,
+  "categorias": ["audição", "frequência sonora", "nível de ruído", "acessibilidade auditiva", "alarme"]
+},
+{
+  "item": "5.2",
+  "titulo": "Sinalização",
+  "exigencia": "A sinalização deve permitir uso autônomo e seguro dos espaços, mobiliários e equipamentos, por qualquer pessoa, independentemente de suas capacidades.",
+  "comentario": "Deve atender aos critérios de percepção, legibilidade, compreensão e posicionamento, e ser classificada por função, abrangência e categoria.",
+  "detalhes": {
+    "funcoes": ["localização", "instrução", "advertência"],
+    "amplitude_abrangencia": ["geral", "localizada"],
+    "categorias": ["visual", "tátil", "sonora", "combinada"],
+    "requisitos": "Aplicar contrastes adequados, altura e posicionamento conforme campo visual.",
+    "regras_braille": "Sinalização em Braille deve seguir a padronização oficial vigente.",
+    "referencia_tabela": "Tabela 1 – Aplicação e formas de informação e sinalização"
+  },
+  "pagina": "30-32",
+  "categorias": ["sinalização", "visual", "tátil", "auditiva", "informação acessível"]
+},
+{
+  "item": "5.3",
+  "titulo": "Símbolos",
+  "exigencia": "Os símbolos devem ser de fácil compreensão, legíveis e com padronização nacional ou internacional.",
+  "comentario": "O uso do SIA e de símbolos complementares deve seguir regras de forma, proporção e contraste.",
+  "simbolos_principais": [
+    "Símbolo Internacional de Acesso (SIA) – Figuras 31 e 32",
+    "Símbolo de deficiência visual – Figura 33",
+    "Símbolo de deficiência auditiva – Figura 34",
+    "Símbolos complementares – Figuras 35 a 40"
+  ],
+  "especificacoes": {
+    "contraste_visual": "mínimo de 30 pontos de LRV em relação ao plano de fundo",
+    "dimensao_proporcional": "deve respeitar o campo visual",
+    "materiais": "resistentes, permanentes, aplicáveis em placas, relevo ou adesivos"
+  },
+  "pagina": "38-41",
+  "categorias": ["símbolos", "comunicação visual", "SIA", "pictogramas", "inclusão"]
+},
+{
+  "item": "5.4",
+  "titulo": "Aplicações essenciais da sinalização",
+  "exigencia": "Define onde a sinalização visual e tátil é obrigatória para garantir acessibilidade.",
+  "comentario": "Abrange portas, passagens, pisos, degraus, elevadores, plataformas e áreas comuns.",
+  "subitens": {
+    "5.4.1": "Sinalização de portas e passagens – faixa visual e tátil conforme Figura 59.",
+    "5.4.2": "Mapas acessíveis – com texto em Braille e elementos em relevo.",
+    "5.4.3": "Sinalização de pavimento – faixas com textura e cor contrastante (Figura 60).",
+    "5.4.4": "Degraus – faixa entre 0,03 m e 0,05 m (Figura 61).",
+    "5.4.5": "Elevadores – indicação visual e sonora com números em relevo ou Braille.",
+    "5.4.6": "Piso tátil direcional e de alerta (Figuras 62 e 63)."
+  },
+  "pagina": "44-50",
+  "categorias": ["sinalização", "piso tátil", "degrau", "elevador", "portas", "Braille"]
+},
+{
+  "item": "5.5",
+  "titulo": "Sinalização de emergência",
+  "exigencia": "Orienta para saídas de emergência e rotas de fuga com sinalização adequada.",
+  "comentario": "Aplica sinalização visual, sonora e tátil para direcionamento seguro.",
+  "subitens": {
+    "5.5.1.1": "Rotas e saídas de emergência – sinalização para localização, instrução e advertência.",
+    "5.5.1.2": "Escadas com sinalização visual e tátil – número do pavimento em corrimãos.",
+    "5.5.1.3": "Quartos, hospitais e hospedagens – mapas acessíveis (ver 5.4.2).",
+    "5.5.2.1": "Áreas de resgate – sinalização fotoluminescente ou retroiluminada (Figura 64).",
+    "5.5.2.2": "Espaço para P.C.R. sinalizado (Figura 65).",
+    "5.5.2.3": "Vagas reservadas – sinalização horizontal e vertical (Figura 66)."
+  },
+  "pagina": "50-52",
+  "categorias": ["emergência", "rota de fuga", "área de resgate", "vaga reservada", "sinalização"]
+},
+{
+  "item": "5.6",
+  "titulo": "Alarmes",
+  "exigencia": "Alarmes devem alertar sobre emergências com estímulos visuais, táteis e sonoros.",
+  "comentario": "Instalação deve ser feita em locais estratégicos e garantir acionamento acessível.",
+  "subitens": {
+    "5.6.1.1": "Aplicável a sanitários, vestiários e boxes isolados.",
+    "5.6.1.2": "Hotéis e hospitais devem ter alarmes visuais, sonoros e vibratórios.",
+    "5.6.1.3": "IP66 para áreas molhadas; IP54 nos demais locais.",
+    "5.6.2": "Critérios de sinalização conforme item 5.2.",
+    "5.6.3": "Instalação deve garantir feedback auditivo e visual. Alarmes distintos dos de incêndio.",
+    "5.6.4.1": "Altura em sanitários: 0,40 m do piso. Ver Figura 67.",
+    "5.6.4.2": "Garagens – sinal sonoro 10 dB acima do ruído e visual intermitente.",
+    "5.6.4.3": "Semáforos – sincronização visual e sonora. Altura: 0,80 m a 1,20 m."
+  },
+  "pagina": "52-53",
+  "categorias": ["alarmes", "emergência", "acessibilidade auditiva", "IP66", "semáforo"]
+},
+{
+  "item": "6.1",
+  "titulo": "Rota acessível",
+  "exigencia": "Áreas de qualquer edificação ou espaço público/coletivo devem ter pelo menos uma rota acessível, contínua, desobstruída e sinalizada.",
+  "comentario": "A rota acessível pode coincidir com a rota de fuga e deve estar iluminada adequadamente.",
+  "detalhes": {
+    "iluminacao": "Mínimo de 150 lux a 1 metro do piso (exceto cinemas e teatros).",
+    "continuidade": "Não deve ter barreiras ou desníveis que impeçam o deslocamento autônomo."
+  },
+  "pagina": "54",
+  "categorias": ["rota acessível", "trajeto contínuo", "iluminação", "circulação interna", "circulação externa"]
+},
+{
+  "item": "6.2",
+  "titulo": "Acessos – Condições gerais",
+  "exigencia": "Todas as entradas de edificações e equipamentos urbanos devem ser acessíveis. A entrada principal deve obrigatoriamente ser acessível, salvo justificativa técnica.",
+  "comentario": "Os acessos devem se integrar com as circulações principais e de emergência por rotas acessíveis.",
+  "detalhes": {
+    "6.2.3": "Devem estar vinculados à circulação principal e rota de emergência.",
+    "6.2.4": "Percurso entre estacionamento e acessos deve ter até 50 m.",
+    "6.2.5": "Ao menos um controle de acesso (catraca, cancela) deve ser acessível."
+  },
+  "pagina": "54",
+  "categorias": ["acesso", "entrada", "rota acessível", "controle de acesso", "distância máxima"]
+},
+{
+  "item": "6.3",
+  "titulo": "Circulação – Piso",
+  "exigencia": "Define requisitos para pisos em rotas acessíveis quanto a revestimento, inclinações, desníveis, grelhas e elementos sobrepostos.",
+  "comentario": "Esses critérios garantem conforto e segurança no deslocamento autônomo.",
+  "subitens": {
+    "6.3.1": "Revestimento firme, estável, contínuo, não trepidante e antiderrapante.",
+    "6.3.3": "Inclinação transversal: máx. 2% (interno), 3% (externo). Inclinação longitudinal < 5%.",
+    "6.3.4": "Desníveis: até 5 mm aceitos. De 5 a 20 mm requerem rampa 1:2. Acima de 20 mm são degraus.",
+    "6.3.5": "Grelhas com vãos ≤ 15 mm. Evitar na rota principal.",
+    "6.3.7": "Capachos e tapetes devem ser fixos e estáveis.",
+    "6.3.8": "Sinalização tátil conforme item 5.4.6."
+  },
+  "figura": "Figura 68",
+  "pagina": "55-56",
+  "categorias": ["piso", "revestimento", "inclinação", "desnível", "grelha", "tapete", "sinalização tátil"]
+},
+{
+  "item": "6.4",
+  "titulo": "Rotas de fuga – Condições gerais",
+  "exigencia": "Rotas de fuga devem atender à ABNT NBR 9077 e normas locais, incluindo sinalização e iluminação de emergência.",
+  "comentario": "Devem contemplar áreas de resgate acessíveis, ventiladas e sinalizadas para cadeirantes.",
+  "subitens": {
+    "6.4.1": "Portas com barras antipânico, conforme NBR 11785.",
+    "6.4.2": "Iluminação de emergência conforme ABNT NBR 10898.",
+    "6.4.3": "Deve haver área de resgate sinalizada, ventilada e com comunicação.",
+    "6.4.5": "Dimensões devem seguir 4.3.3 e estar sinalizadas (ver item 5.5.2.2 e Figura 69)."
+  },
+  "figura": "Figura 69",
+  "pagina": "56-57",
+  "categorias": ["rota de fuga", "área de resgate", "cadeira de rodas", "emergência", "sinalização", "iluminação"]
+},
+{
+  "item": "6.5",
+  "titulo": "Área de descanso",
+  "exigencia": "Deve-se prever área de descanso fora da faixa de circulação conforme a inclinação do percurso.",
+  "comentario": "Importante para o conforto de pessoas com mobilidade reduzida em trajetos mais longos ou inclinados.",
+  "detalhes": {
+    "distancia_inclinacao_ate_3%": "Descanso a cada 50 m.",
+    "distancia_inclinacao_entre_3_e_5%": "Descanso a cada 30 m.",
+    "recomendacoes": [
+      "Bancos com encosto e braços.",
+      "Espaço para manobra de cadeira de rodas."
+    ]
+  },
+  "pagina": "58",
+  "categorias": ["área de descanso", "circulação", "banco", "inclinação", "conforto"]
+},
+{
+  "item": "6.6",
+  "titulo": "Rampas",
+  "exigencia": "Superfícies com inclinação igual ou superior a 5% são consideradas rampas e devem atender aos requisitos de segurança, dimensionamento, patamares, corrimãos, balizamento e sinalização.",
+  "comentario": "Aplica-se a rampas internas e externas em rotas acessíveis, garantindo conforto e segurança a pessoas com mobilidade reduzida.",
+  "dimensoes": {
+    "inclinação_maxima_normas": {
+      "uso_geral": "até 8,33%",
+      "reformas_adaptações": "até 12,5%"
+    },
+    "inclinação_transversal": {
+      "interna": "máx. 2%",
+      "externa": "máx. 3%"
+    },
+    "largura_livre": {
+      "recomendado": "1,50 m",
+      "mínimo": "1,20 m"
+    },
+    "rampa_curva": {
+      "inclinação": "máx. 8,33%",
+      "raio_interno": "mínimo 3,00 m"
+    },
+    "guia_de_balizamento": {
+      "altura_mínima": "5 cm",
+      "uso_obrigatório": "quando não houver paredes laterais"
+    },
+    "patamares": {
+      "tamanho_mínimo": "1,20 m de comprimento",
+      "localização": [
+        "início da rampa",
+        "final da rampa",
+        "a cada segmento",
+        "quando houver mudança de direção"
+      ]
+    },
+    "portas_em_patamares": {
+      "requisito": "Não podem interferir na área livre mínima de circulação"
+    }
+  },
+  "corrimãos": {
+    "quantidade": "obrigatório em ambos os lados da rampa",
+    "alturas": ["0,92 m", "0,70 m"],
+    "prolongamento": "mínimo de 0,30 m nas extremidades",
+    "fixação": "firme, com empunhadura confortável e segura"
+  },
+  "figuras": ["Figura 70", "Figura 71", "Figura 72", "Figura 73"],
+  "pagina": "58–60",
+  "categorias": [
+    "rampa",
+    "inclinação",
+    "patamar",
+    "corrimão",
+    "guarda-corpo",
+    "acessibilidade",
+    "balizamento",
+    "reforma"
+  ]
+},
+{
+  "item": "6.7",
+  "titulo": "Degraus e escadas fixas em rotas acessíveis",
+  "exigencia": "Devem estar associados a rampas ou equipamentos eletromecânicos. Devem ser evitados espelhos vazados, e projeções não podem ultrapassar 1,5 cm.",
+  "dimensoes": {
+    "projecao_maxima_bocel": "1,5 cm sobre o piso inferior",
+    "largura_livre_minima": "1,20 m"
+  },
+  "requisitos": [
+    "Degraus isolados devem atender ao dimensionamento das escadas (item 6.8).",
+    "Devem ter corrimão em ambos os lados (item 6.9).",
+    "Devem conter sinalização tátil e visual conforme item 5.4.4.1.",
+    "Em caso de degrau isolado configurando soleira, seguir item 6.3.4.4."
+  ],
+  "figura": "Figura 74",
+  "pagina": "61",
+  "categorias": ["degrau", "escada fixa", "sinalização", "corrimão", "acessibilidade"]
+},
+{
+  "item": "6.8",
+  "titulo": "Escadas",
+  "exigencia": "Aplicável a sequências com três ou mais degraus. Dimensões devem ser constantes, com largura mínima, patamares obrigatórios e sinalização acessível.",
+  "dimensoes": {
+    "fórmula": "0,63 m ≤ p + 2e ≤ 0,65 m",
+    "piso (p)": "0,28 m a 0,32 m",
+    "espelho (e)": "0,16 m a 0,18 m",
+    "largura_minima_escada_acessivel": "1,20 m",
+    "distancia_minima_degrau_de_area_de_circulacao": "≥ 0,30 m",
+    "inclinação_transversal": {
+      "interna": "máx. 1%",
+      "externa": "máx. 2%"
+    },
+    "patamar_obrigatorio": "a cada 3,20 m de desnível ou mudança de direção",
+    "largura_minima_patamar": "1,20 m"
+  },
+  "requisitos": [
+    "Lances curvos devem seguir ABNT NBR 9077.",
+    "Projeção dos degraus curvos deve obedecer à fórmula até 0,55 m da borda interna.",
+    "Portas nos patamares não devem interferir na área útil."
+  ],
+  "figura": "Figura 75",
+  "pagina": "62",
+  "categorias": ["escada", "degrau", "patamar", "largura mínima", "curva", "sinalização"]
+},
+{
+  "item": "6.9",
+  "titulo": "Corrimãos e guarda-corpos",
+  "exigencia": "Corrimãos devem ser contínuos, com duas alturas e extremidades recurvadas ou prolongadas. Guarda-corpos são obrigatórios onde não há parede lateral.",
+  "dimensoes": {
+    "alturas_corrimãos": ["0,92 m", "0,70 m"],
+    "prolongamento_extremidade": "mínimo 0,30 m",
+    "largura_escadas_para_corrimão_central": "≥ 2,40 m",
+    "largura_entre_corrimãos_centrais_duplos": "≥ 1,20 m",
+    "altura_guia_balizamento": "≥ 5 cm"
+  },
+  "requisitos": [
+    "Corrimãos devem ser de material rígido e firmemente fixados.",
+    "Escadas com largura ≥ 2,40 m devem ter corrimão central ou duplo (Figura 77 e 78).",
+    "Prolongamento pode seguir parede adjacente em edificações existentes.",
+    "Guarda-corpo deve atender às ABNT NBR 9077 e NBR 14718."
+  ],
+  "figuras": ["Figura 76", "Figura 77", "Figura 78"],
+  "pagina": "63–64",
+  "categorias": ["corrimão", "guarda-corpo", "prolongamento", "escada", "balizamento", "segurança"]
+},
+{
+  "item": "6.10",
+  "titulo": "Equipamentos eletromecânicos de circulação",
+  "exigencia": "Inclui elevadores verticais/inclinados, plataformas de elevação e escadas rolantes. Devem garantir segurança, autonomia e comunicação acessível.",
+  "requisitos": [
+    "Instruções de uso devem estar disponíveis em todos os pavimentos (Tabela 8).",
+    "Dispositivo de comunicação externa obrigatório em cada pavimento.",
+    "Sinalização visual, tátil (Braille) e sonora obrigatória nos comandos e plataformas.",
+    "Informações de embarque e pavimento devem estar em local visível.",
+    "Equipamentos que não permitem uso autônomo (ex: com assento fixo) não são considerados acessíveis.",
+    "Sinalização sonora deve indicar movimentação e chegada da plataforma.",
+    "Equipamentos devem ser mantidos operacionais ou sinalizados e com pessoal treinado em caso de falha."
+  ],
+  "figura": "Tabela 8",
+  "pagina": "65–68",
+  "categorias": [
+    "elevador",
+    "plataforma",
+    "acesso vertical",
+    "escada rolante",
+    "esteira",
+    "comunicação acessível"
+  ]
+},
+{
+  "item": "6.11",
+  "titulo": "Circulação interna",
+  "exigencia": "Define critérios para corredores, portas e janelas, garantindo deslocamento seguro e autônomo em ambientes internos.",
+  "dimensoes": {
+    "corredores": {
+      "até_4m": "0,90 m",
+      "até_10m": "1,20 m",
+      "acima_10m": "1,50 m",
+      "exceção": "corredores com 0,90 m devem ter bolsão de retorno a cada 15 m"
+    },
+    "portas": {
+      "vão_livre_mínimo": "0,80 m",
+      "altura_maçaneta": "1,00 m",
+      "tipo_maçaneta": "alavanca"
+    },
+    "janelas": {
+      "altura_acionamento": "0,60 m a 1,20 m"
+    }
+  },
+  "figura": "Figura 87",
+  "pagina": "68–73",
+  "categorias": [
+    "circulação interna",
+    "corredor",
+    "porta",
+    "janela",
+    "largura mínima",
+    "acesso manual"
+  ]
+},
+{
+  "item": "6.12",
+  "titulo": "Circulação externa",
+  "exigencia": "Aplica-se a calçadas, travessias, acesso ao lote e obras no passeio. Deve garantir continuidade, segurança e acessibilidade em ambientes externos.",
+  "dimensoes": {
+    "inclinação_transversal_máxima": "3%",
+    "inclinação_longitudinal": "igual à via lindeira",
+    "faixa_livre_mínima": "1,20 m",
+    "altura_livre_mínima": "2,10 m",
+    "largura_faixas_livres": "conforme equação de fluxo de pedestres"
+  },
+  "requisitos": [
+    "Acesso ao lote deve ser sem degraus, com rampa conforme item 6.6.",
+    "Obras no passeio devem manter 1,20 m livres e estar sinalizadas (Figura 90).",
+    "Travessias devem ter rebaixamentos alinhados e/ou faixas elevadas (Figuras 91 a 96).",
+    "Sinalização deve seguir Seção 5."
+  ],
+  "figuras": ["Figuras 88 a 96"],
+  "pagina": "73–82",
+  "categorias": [
+    "circulação externa",
+    "calçada",
+    "faixa livre",
+    "travessia",
+    "rebaixamento",
+    "declividade"
+  ]
+},
+{
+  "item": "6.13",
+  "titulo": "Passarelas de pedestres",
+  "exigencia": "Devem ser acessíveis a todos os usuários, com acesso por rampas, escadas ou elevadores e dimensionamento conforme volume de pedestres.",
+  "dimensoes": {
+    "largura_minima": "Definida com base no volume máximo estimado de usuários em horário de pico"
+  },
+  "requisitos": [
+    "Devem possuir pelo menos uma alternativa de acesso (rampa, escada ou elevador).",
+    "Devem estar interligadas a rotas acessíveis e respeitar os critérios da Seção 6.6 para rampas."
+  ],
+  "pagina": "82",
+  "categorias": ["passarela", "pedestre", "rampa", "escada", "elevador", "acesso público"]
+},
+{
+  "item": "6.14",
+  "titulo": "Vagas reservadas para veículos",
+  "exigencia": "Estabelece critérios de sinalização, localização, dimensionamento e percentual mínimo de vagas para pessoas com deficiência e idosos.",
+  "dimensoes": {
+    "faixa_circulacao_minima": "1,20 m",
+    "distancia_maxima_entrada": "50 m"
+  },
+  "requisitos": [
+    "Sinalização vertical e horizontal conforme Seção 5.5.2.",
+    "Devem estar vinculadas a rotas acessíveis.",
+    "Percentual mínimo de vagas deve atender à legislação vigente.",
+    "Espaço de circulação pode ser compartilhado entre duas vagas.",
+    "Na via pública, a sinalização segue as normas do Código de Trânsito."
+  ],
+  "pagina": "82–83",
+  "categorias": ["vaga reservada", "estacionamento", "idoso", "deficiência", "acessibilidade"]
+},
+{
+  "item": "6.15",
+  "titulo": "Portões de acesso a garagens",
+  "exigencia": "Portões manuais ou automáticos devem operar de forma segura e não podem interferir na faixa livre de circulação de pedestres.",
+  "dimensoes": {
+    "proibicao": "A superfície de varredura não pode invadir a faixa livre de circulação"
+  },
+  "requisitos": [
+    "Devem conter sinalização sonora e visual conforme item 5.6.4.2 (alarme para saída de veículos).",
+    "Abertura deve ser segura e não causar risco a pedestres, especialmente em calçadas com circulação intensa."
+  ],
+  "pagina": "83",
+  "categorias": ["garagem", "portão", "sinalização", "segurança", "faixa livre", "alarme"]
+},
+{
+  "item": "7.1",
+  "titulo": "Requisitos gerais",
+  "descricao": "Sanitários, banheiros e vestiários acessíveis devem obedecer aos parâmetros da norma quanto à quantidade mínima, localização, dimensões, posicionamento de peças e acessórios, além de características como barras de apoio, comandos, pisos e áreas de manobra.",
+  "requisitos": [
+    "Garantir áreas mínimas para circulação, aproximação, transferência e manobra de cadeira de rodas.",
+    "Devem estar conectados a rotas acessíveis e sinalizados conforme Seção 5.",
+    "A aplicação deve considerar os parâmetros da Seção 4, incluindo alcance manual, empunhadura, ângulo visual e giro de 360°.",
+    "A instalação de dispositivos de emergência deve seguir os critérios do item 5.6.4.1."
+  ],
+  "palavras_chave": ["sanitário", "banheiro", "vestiário", "circulação", "acessórios", "acessibilidade"],
+  "pagina": "83",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.2",
+  "titulo": "Tolerâncias dimensionais",
+  "descricao": "As medidas mínimas e máximas especificadas na norma devem ser consideradas absolutas. Para demais dimensões, admite-se tolerância de ±10 mm.",
+  "dimensoes": {
+    "tolerancia_absoluta": "Sem margem de erro para valores máximos e mínimos explicitamente definidos na norma",
+    "tolerancia_admissa": "±10 mm para as demais medidas"
+  },
+  "comentario": "As tolerâncias servem para adequar variações construtivas, desde que não afetem os parâmetros essenciais de acessibilidade definidos como obrigatórios.",
+  "figuras": [],
+  "palavras_chave": ["tolerância", "medidas absolutas", "ajuste de obra", "dimensionamento"],
+  "pagina": "83",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.3",
+  "titulo": "Localização",
+  "descricao": "Sanitários, banheiros e vestiários acessíveis devem estar posicionados em rotas acessíveis, preferencialmente próximos à circulação principal ou integrados aos conjuntos sanitários comuns.",
+  "dimensoes": {
+    "distancia_maxima_recomendada": "50 m entre o ponto mais distante da edificação e o sanitário acessível"
+  },
+  "requisitos": [
+    "Evitar localização isolada que dificulte o uso ou acesso autônomo.",
+    "Devem ser devidamente sinalizados com elementos visuais e táteis conforme Seção 5.",
+    "A localização deve priorizar a proximidade com ambientes de uso coletivo ou circulação intensa."
+  ],
+  "figuras": [],
+  "palavras_chave": ["sanitário acessível", "rota acessível", "distância máxima", "localização preferencial"],
+  "pagina": "83",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.5",
+  "titulo": "Dimensões do sanitário acessível e do boxe sanitário acessível",
+  "descricao": "Define as dimensões e condições que garantem o uso autônomo e seguro por pessoas com deficiência ou mobilidade reduzida.",
+  "dimensoes": {
+    "giro_360": "Ø 1,50 m (mínimo)",
+    "transferencia_lateral": "0,80 m x 1,20 m (Módulo de Referência)",
+    "sobreposicao_lavatorio": "até 0,30 m",
+    "sobreposicao_bacia": "até 0,10 m",
+    "altura_borda_lavatorio": "máximo 0,80 m",
+    "altura_puxador_porta": "entre 0,80 m e 1,20 m",
+    "comprimento_puxador": "mínimo 0,40 m",
+    "distancia_puxador_porta": "máximo 40 mm"
+  },
+  "requisitos": [
+    "Permitir manobra de 360° com sobreposição parcial em lavatório ou bacia sanitária.",
+    "Lavatórios devem ser suspensos ou sem coluna frontal.",
+    "Portas podem ser de abrir ou correr, desde que garantam acessibilidade.",
+    "Trancas devem ser do tipo alavanca ou tranqueta, conforme item 4.6.8.",
+    "Espelho deve ser instalado conforme item 7.11.1.",
+    "Altura de acionamento dos comandos deve obedecer os critérios do item 4.6."
+  ],
+  "figuras": ["Figura 97", "Figura 98", "Figura 99", "Figura 102", "Figura 84"],
+  "palavras_chave": ["dimensões", "transferência", "giro 360", "lavatório", "puxador", "porta", "alcance"],
+  "pagina": "85-88",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.6",
+  "titulo": "Barras de apoio",
+  "descricao": "Estabelece as características, formatos, dimensões e resistência mínima das barras de apoio obrigatórias em sanitários acessíveis.",
+  "dimensoes": {
+    "resistencia_minima": "150 kg sem deformação",
+    "diametro": "30 mm a 45 mm",
+    "afastamento_da_parede": "mínimo 40 mm",
+    "materiais": "resistentes à corrosão (conforme ABNT NBR 10283), com acabamento conforme ABNT NBR 11003"
+  },
+  "formatos_permitidos": ["reta", "em U", "em L", "articulada"],
+  "requisitos": [
+    "Barras devem ser firmemente fixadas para suportar esforços sem deformação.",
+    "A empunhadura deve permitir pega confortável e segura (arco de 270°).",
+    "Barras articuladas devem evitar queda brusca ou movimento súbito.",
+    "A instalação deve considerar posicionamento ideal em relação aos elementos sanitários (bacia, lavatório, chuveiro)."
+  ],
+  "figuras": ["Figura 101", "Figuras 117", "Figura 126"],
+  "palavras_chave": ["barra de apoio", "acessibilidade", "sanitário", "resistência", "formato L", "formato articulado"],
+  "pagina": "88",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.7",
+  "titulo": "Bacia sanitária",
+  "descricao": "As bacias e assentos sanitários acessíveis devem permitir transferência lateral, perpendicular ou diagonal, com barras de apoio instaladas conforme o layout do ambiente. Não devem possuir abertura frontal.",
+  "dimensoes": {
+    "altura_sem_assento": "0,43 m a 0,45 m",
+    "altura_com_assento": "até 0,46 m",
+    "altura_infantil": "até 0,36 m",
+    "posicao_descarga": "até 1,00 m do piso",
+    "forca_descarga": "≤ 23 N"
+  },
+  "requisitos": [
+    "A instalação deve considerar as áreas de transferência conforme Figuras 102 a 104.",
+    "Barras de apoio laterais e de fundo devem seguir as dimensões e posições indicadas nas Figuras 105 a 110.",
+    "O acionamento da descarga deve ser preferencialmente por sensor ou comando de alavanca.",
+    "As bacias devem permitir o uso com segurança e autonomia."
+  ],
+  "figuras": ["Figura 102", "Figura 103", "Figura 104", "Figura 105", "Figura 106", "Figura 107", "Figura 108", "Figura 109", "Figura 110", "Figura 111"],
+  "palavras_chave": ["bacia sanitária", "transferência", "altura", "barras de apoio", "descarga", "cadeira de rodas"],
+  "pagina": "89-98",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.8",
+  "titulo": "Instalação de lavatório e barras de apoio",
+  "descricao": "O lavatório deve permitir aproximação frontal de P.C.R. com barras de apoio instaladas lateralmente, garantindo segurança e conforto. A torneira deve permitir acionamento com esforço reduzido e proteção térmica.",
+  "dimensoes": {
+    "espaco_barra_parede": "≥ 0,04 m",
+    "eixo_barra_lavatorio": "≤ 0,20 m",
+    "alcance_torneira": "≤ 0,50 m da borda",
+    "altura_barra_horizontal": "0,78 m a 0,80 m",
+    "altura_barra_vertical": "0,90 m",
+    "comprimento_barra_vertical": "≥ 0,40 m",
+    "distancia_lavatorio_barra_lateral": "≤ 0,50 m"
+  },
+  "torneira": {
+    "tipo": ["alavanca", "sensor", "ciclo automático"],
+    "tempo_ciclo": "10 a 20 s",
+    "forca_acionamento": "≤ 23 N",
+    "proteção_termica": "obrigatória para água quente"
+  },
+  "figuras": ["Figura 112", "Figura 113", "Figura 114"],
+  "palavras_chave": ["lavatório", "barras", "torneira", "alavanca", "proteção térmica", "aproximação frontal"],
+  "pagina": "99-101",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.9",
+  "titulo": "Sanitário familiar",
+  "descricao": "Recomenda-se a instalação de sanitário familiar em edificações públicas e coletivas, com entrada independente e elementos adaptados tanto para adultos quanto para crianças, incluindo trocador resistente.",
+  "dimensoes": {
+    "trocador_largura": "≥ 0,70 m",
+    "trocador_comprimento": "≥ 1,80 m",
+    "trocador_altura": "0,46 m",
+    "trocador_resistencia": "≥ 150 kg"
+  },
+  "requisitos": [
+    "Deve conter bacia sanitária padrão adulto e infantil.",
+    "Deve incluir barras de apoio conforme item 7.14.1.",
+    "Trocador deve ser do tipo horizontal, fixo ou articulado, com segurança para troca de roupas ou higiene."
+  ],
+  "figuras": [],
+  "palavras_chave": ["sanitário familiar", "trocador adulto", "bacia infantil", "barras de apoio"],
+  "pagina": "102",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.10",
+  "titulo": "Sanitário coletivo",
+  "descricao": "O sanitário coletivo deve conter boxe acessível com barras de apoio e lavatório adaptado. Também deve dispor de mictório com área de aproximação e acionamento acessível.",
+  "dimensoes": {
+    "boxe_comum_vão_livre_porta": "≥ 0,80 m",
+    "boxe_comum_area_manobra": "≥ 0,60 m",
+    "barra_L": "0,70 m × 0,70 m",
+    "mictorio_altura_acionamento": "≤ 1,00 m",
+    "lavatorio_altura_borda_superior": "0,78 m a 0,80 m",
+    "lavatorio_altura_inferior_livre": "0,73 m"
+  },
+  "requisitos": [
+    "Deve haver pelo menos um boxe acessível com barras em L ou barras equivalentes em ambos os lados.",
+    "O lavatório deve permitir aproximação frontal e conter barras laterais conforme 7.8.1.",
+    "O mictório deve ter área de aproximação frontal e válvula de acionamento de fácil acesso.",
+    "Todos os elementos devem atender aos critérios de acessibilidade definidos na Seção 4."
+  ],
+  "figuras": ["Figura 115", "Figura 116", "Figura 117", "Figura 118", "Figura 119", "Figura 120"],
+  "palavras_chave": ["sanitário coletivo", "boxe comum", "mictório", "barras", "lavabo coletivo"],
+  "pagina": "102-104",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.11",
+  "titulo": "Acessórios para sanitários acessíveis e coletivos",
+  "descricao": "Acessórios como porta-objetos, cabides, espelhos, saboneteiras e toalheiros devem respeitar as faixas de alcance e não interferir no uso das barras de apoio ou áreas de transferência.",
+  "dimensoes": {
+    "espelho_altura": "entre 0,50 m e 1,80 m do piso",
+    "papeleira_altura": "≥ 1,00 m do piso",
+    "cabide_altura": "0,80 m a 1,20 m do piso",
+    "porta_objetos_profundidade": "≤ 0,25 m"
+  },
+  "requisitos": [
+    "Espelhos devem permitir visualização em pé e sentado, com dimensão mínima adequada.",
+    "Cabides devem estar próximos a lavatórios, bancos e boxes.",
+    "Papeleiras devem estar em altura acessível e não interferir nas barras.",
+    "Porta-objetos devem respeitar faixas de alcance e não possuir arestas cortantes."
+  ],
+  "figuras": ["Figura 121", "Figura 122", "Figura 123", "Figura 124", "Figura 125"],
+  "palavras_chave": ["acessórios", "espelho", "papeleira", "cabide", "puxador", "porta-objetos"],
+  "pagina": "105-107",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.12",
+  "titulo": "Banheiros acessíveis e vestiários com banheiro conjugado",
+  "descricao": "Banheiros acessíveis devem incluir boxe para chuveiro com banco, barras de apoio, comandos acessíveis e piso nivelado com escoamento adequado. O vestiário com banheiro conjugado deve permitir uso por pessoas com deficiência ou mobilidade reduzida.",
+  "dimensoes": {
+    "banco_profundidade": "≥ 0,45 m",
+    "banco_largura": "≥ 0,70 m",
+    "banco_altura": "0,46 m",
+    "comando_chuveiro_altura": "0,80 m",
+    "forca_acionamento": "≤ 23 N"
+  },
+  "requisitos": [
+    "O boxe deve conter banco fixo ou removível com dimensões mínimas e barras de apoio verticais e horizontais.",
+    "O piso deve ser nivelado com o ambiente e conter grelha de escoamento fora da área de manobra.",
+    "O chuveiro deve possuir acionamento de baixa força com controle por alavanca, botão ou sensor.",
+    "Água quente deve ter proteção térmica."
+  ],
+  "figuras": ["Figura 126"],
+  "palavras_chave": ["boxe", "chuveiro", "banheiro conjugado", "desnível", "barras", "comandos"],
+  "pagina": "107-109",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.13",
+  "titulo": "Banheira",
+  "descricao": "A banheira deve permitir aproximação lateral com plataforma de transferência, possuir barras de apoio adequadas e comandos acessíveis com acionamento confortável e seguro.",
+  "dimensoes": {
+    "altura_maxima_banheira": "0,46 m do piso",
+    "altura_comando": "0,80 m do piso",
+    "plataforma_transferencia": {
+      "requisitos": "deve ser fixa ou móvel, antiderrapante, com espaço lateral livre"
+    }
+  },
+  "requisitos": [
+    "Aproximação lateral obrigatória com área de transferência conforme Figuras 127 e 128.",
+    "Comandos de água preferencialmente por válvula termostática ou monocomando com alavanca.",
+    "Barras horizontais e verticais devem estar fixadas nas paredes lateral e frontal.",
+    "Plataforma e fundo da banheira devem ser antiderrapantes.",
+    "A presença da banheira não elimina a obrigatoriedade do boxe acessível."
+  ],
+  "figuras": ["Figura 127", "Figura 128", "Figura 129"],
+  "palavras_chave": ["banheira", "transferência", "plataforma", "barras de apoio", "acessibilidade", "altura"],
+  "pagina": "109-110",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "7.14",
+  "titulo": "Vestiários acessíveis",
+  "descricao": "Os vestiários devem conter cabinas acessíveis, bancos, armários e acessórios conforme as dimensões e faixas de alcance, garantindo circulação adequada, manobra e uso com autonomia.",
+  "dimensoes": {
+    "cabine_superficie_troca": "≥ 1,80 m (posição deitada)",
+    "banco": {
+      "profundidade": "≥ 0,45 m",
+      "largura": "≥ 0,70 m",
+      "altura": "0,46 m",
+      "espaco_livre_abaixo": "≥ 0,30 m"
+    },
+    "armario_altura_uso": "entre 0,40 m e 1,20 m",
+    "cabide_porta_objeto": {
+      "altura": "0,80 m a 1,20 m",
+      "profundidade_maxima": "0,25 m"
+    }
+  },
+  "requisitos": [
+    "Cabinas devem ter superfície de troca de roupa, barras de apoio e porta abrindo para fora (Figura 130).",
+    "Bancos devem ter encosto, medidas mínimas e não obstruir circulação.",
+    "Armários devem ter puxadores acessíveis e respeitar faixas de alcance.",
+    "Espelhos, cabides e porta-objetos devem respeitar os parâmetros definidos na Seção 4 e não possuir arestas cortantes."
+  ],
+  "figuras": ["Figura 130", "Figura 131"],
+  "palavras_chave": ["vestiário", "cabine", "banco", "armário", "espelho", "cabide", "troca de roupa"],
+  "pagina": "111-113",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.1",
+  "titulo": "Condições gerais",
+  "descricao": "Todo mobiliário urbano deve atender aos princípios do desenho universal. Quando instalado em rotas acessíveis, deve seguir os critérios de circulação da Seção 4.3.3.",
+  "condicoes": [
+    "a) Proporcionar segurança e autonomia de uso.",
+    "b) Assegurar espaço para aproximação, alcance e manipulação conforme Seção 4.",
+    "c) Não se constituir em obstáculo suspenso.",
+    "d) Não possuir cantos vivos ou saliências cortantes.",
+    "e) Estar vinculado à rota acessível.",
+    "f) Estar fora da faixa livre de circulação de pedestres.",
+    "g) Ser sinalizado conforme item 5.4.6.3."
+  ],
+  "palavras_chave": ["mobiliário urbano", "desenho universal", "segurança", "autonomia", "sinalização"],
+  "pagina": "113",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.2",
+  "titulo": "Condições específicas",
+  "descricao": "Regulamenta requisitos adicionais para diferentes tipos de mobiliário urbano, respeitando a faixa livre de circulação e a acessibilidade a usuários com deficiência.",
+  "subitens": {
+    "8.2.1": {
+      "titulo": "Pontos de embarque e desembarque de transporte público",
+      "requisitos": [
+        "Nenhum elemento deve interferir na faixa livre da calçada.",
+        "Deve ser previsto espaço para P.C.R. junto a assentos fixos ou apoios isquiáticos.",
+        "As informações sobre linhas devem estar em conformidade com as Seções 4 e 5."
+      ]
+    },
+    "8.2.2": {
+      "titulo": "Semáforo de pedestre",
+      "requisitos": [
+        "Altura de acionamento entre 0,80 m e 1,20 m do piso.",
+        "Tempo de travessia deve considerar velocidade de 0,40 m/s.",
+        "Deve haver sinal visual e sonoro sincronizados conforme item 5.2."
+      ]
+    }
+  },
+  "palavras_chave": ["ponto de ônibus", "semáforo", "embarque", "P.C.R.", "faixa livre"],
+  "pagina": "114",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.3",
+  "titulo": "Telefones públicos",
+  "descricao": "Telefones públicos devem ser instalados em locais acessíveis, fora da faixa livre de circulação. Em instalações maiores, é obrigatória a presença de aparelhos TDD.",
+  "requisitos": [
+    "Pelo menos um telefone acessível por conjunto.",
+    "Equipamentos com TDD devem estar entre 0,75 m e 0,80 m do piso.",
+    "Devem estar em conformidade com a ABNT NBR 15250.",
+    "Não devem interferir na circulação em calçadas ou faixas livres."
+  ],
+  "palavras_chave": ["telefone público", "TDD", "altura acessível", "faixa livre"],
+  "pagina": "114",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.4",
+  "titulo": "Cabinas telefônicas",
+  "descricao": "As cabinas devem garantir espaço interno adequado para cadeira de rodas, piso nivelado e sinalização apropriada.",
+  "dimensoes": {
+    "largura_interna_minima": "0,90 m"
+  },
+  "requisitos": [
+    "Devem permitir aproximação frontal por P.C.R.",
+    "Altura de operação deve estar conforme Seção 4.",
+    "Piso da cabina deve ser nivelado com o entorno.",
+    "Sinalização deve seguir item 5.4.6."
+  ],
+  "palavras_chave": ["cabina telefônica", "cadeira de rodas", "largura", "sinalização", "aproximação frontal"],
+  "pagina": "114",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.5",
+  "titulo": "Bebedouros",
+  "descricao": "Devem estar acessíveis para todos os usuários, com diferentes alturas, acionamento de fácil uso e proteção térmica. Não devem estar na faixa livre de circulação.",
+  "dimensoes": {
+    "jato_bebedouro_bica": "0,75 m a 0,90 m do piso",
+    "ponto_coleta_outros_modelos": "0,85 m a 1,20 m do piso"
+  },
+  "requisitos": [
+    "Acionamento deve ser por alavanca ou sensor com força ≤ 23 N.",
+    "Devem permitir uso por P.C.R. com espaço lateral adequado.",
+    "Devem estar instalados fora da faixa de circulação principal."
+  ],
+  "palavras_chave": ["bebedouro", "bica", "garrafão", "altura", "comando", "proteção térmica"],
+  "pagina": "115-116",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.6",
+  "titulo": "Lixeiras e contentores para reciclados",
+  "descricao": "Devem estar fora da faixa livre de circulação e permitir aproximação por P.C.R., respeitando faixas de alcance manual.",
+  "requisitos": [
+    "Devem ser instaladas fora da faixa de pedestres.",
+    "A instalação deve permitir aproximação frontal para P.C.R.",
+    "Altura de uso conforme os alcances definidos na Seção 4 (frontal e lateral)."
+  ],
+  "palavras_chave": ["lixeira", "contentor", "reciclado", "acessibilidade", "alcance manual", "P.C.R."],
+  "pagina": "116",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.7",
+  "titulo": "Cabinas de sanitários públicos",
+  "descricao": "As cabinas devem atender integralmente aos critérios de acessibilidade estabelecidos na Seção 7, com dimensões e equipamentos adequados ao uso autônomo por pessoas com deficiência.",
+  "requisitos": [
+    "Devem garantir área de manobra, barras de apoio, espaço para aproximação e uso conforme Seção 7.",
+    "Recomenda-se adotar integralmente os parâmetros técnicos e espaciais descritos nos itens 7.1 a 7.14."
+  ],
+  "palavras_chave": ["cabina sanitária", "sanitário público", "seção 7", "banheiro acessível"],
+  "pagina": "116",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.8",
+  "titulo": "Vegetação",
+  "descricao": "A vegetação deve ser planejada para não interferir nas rotas acessíveis nem representar risco a pedestres. Galhos, raízes e cercas devem ser posicionados de forma segura.",
+  "subitens": {
+    "8.8.1": "Elementos vegetais como galhos, raízes, cercas e proteções não podem interferir nas áreas de circulação.",
+    "8.8.2": "Vegetações próximas à rota acessível não devem apresentar espinhos, raízes danosas ou substâncias tóxicas.",
+    "8.8.3": "Árvores com área drenante invadindo a faixa de circulação devem utilizar grelhas niveladas ao piso.",
+    "8.8.4": "Grelhas devem ter vãos de no máximo 15 mm e atender ao item 6.3.5 da norma."
+  },
+  "palavras_chave": ["vegetação", "paisagem urbana", "raízes", "grelhas", "espinhos", "faixa livre"],
+  "pagina": "116",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "8.9",
+  "titulo": "Assentos públicos",
+  "descricao": "Assentos públicos devem seguir critérios ergonômicos e prever espaço ao lado para P.C.R., respeitando a faixa livre de circulação.",
+  "dimensoes": {
+    "altura_assento": "0,40 m a 0,45 m (parte frontal mais alta)",
+    "largura_modulo": "0,45 m a 0,50 m",
+    "profundidade": "0,40 m a 0,45 m",
+    "ângulo_encosto": "100° a 110°"
+  },
+  "subitens": {
+    "8.9.1": "Dimensões padronizadas para assentos públicos (altura, largura, profundidade e ângulo de encosto).",
+    "8.9.2": "Assentos devem estar sobre superfície nivelada com o entorno.",
+    "8.9.3": "É obrigatório garantir ao menos um Módulo de Referência (M.R.) ao lado de assentos fixos sem interferir na faixa livre de circulação."
+  },
+  "figuras": ["Figura 133"],
+  "palavras_chave": ["banco público", "assento", "cadeira de rodas", "módulo de referência", "ergonomia"],
+  "pagina": "116",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.1",
+  "titulo": "Condições gerais",
+  "descricao": "Todo mobiliário deve adotar os princípios do desenho universal e, quando instalado em rotas acessíveis, seguir as condições da Seção 4.3.3.",
+  "requisitos": [
+    "Garantir aproximação, alcance, manipulação e uso por todos os usuários.",
+    "Não pode ser obstáculo suspenso.",
+    "Não deve possuir cantos vivos, saliências ou arestas cortantes.",
+    "Deve estar fora da faixa livre de circulação e posicionado conforme sinalização."
+  ],
+  "palavras_chave": ["mobiliário", "desenho universal", "rota acessível"],
+  "pagina": "117",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.2",
+  "titulo": "Balcões, bilheterias e balcões de informação",
+  "descricao": "Esses elementos devem permitir atendimento acessível e seguro, com espaços para P.C.R. e conformidade com os parâmetros de altura, profundidade e largura.",
+  "subitens": {
+    "9.2.1": {
+      "titulo": "Balcão de atendimento e caixa bancário",
+      "especificacoes": {
+        "altura_tampo": "0,75 m a 0,85 m",
+        "largura_minima": "0,90 m",
+        "largura_livre_inferior": "≥ 0,80 m",
+        "altura_livre_sob_tampo": "≥ 0,73 m",
+        "profundidade_livre": "≥ 0,30 m"
+      }
+    },
+    "9.2.2": "Caixas de pagamento devem permitir aproximação frontal ou lateral, com altura de operação entre 0,80 m e 0,90 m.",
+    "9.2.3": "Bilheterias e balcões de informação devem ter altura entre 0,90 m e 1,05 m, profundidade livre mínima de 0,30 m e espaço lateral para M.R.",
+    "9.2.4": "Acessibilidade também deve ser garantida ao atendente (ver item 9.3.1)."
+  },
+  "palavras_chave": ["balcão", "bilheteria", "caixa", "atendimento", "aproximação", "módulo de referência"],
+  "pagina": "117-118",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.3",
+  "titulo": "Mesas ou superfícies",
+  "descricao": "Mesas de trabalho, refeição e apoio devem permitir aproximação frontal por P.C.R. e respeitar faixas de alcance, profundidade e altura livre.",
+  "subitens": {
+    "9.3.1": "Mesas de trabalho devem ter altura do tampo entre 0,75 m e 0,85 m; altura livre sob o tampo ≥ 0,73 m; profundidade livre ≥ 0,50 m; largura mínima de 0,90 m.",
+    "9.3.2": "Mesas de refeição seguem as mesmas especificações das mesas de trabalho e devem estar distribuídas no espaço.",
+    "9.3.3": "Superfícies de apoio (ex: bandejas) devem ter altura de 0,75 m a 0,85 m e circulação adjacente ≥ 0,90 m. Ver Figura 135."
+  },
+  "figuras": ["Figura 135"],
+  "palavras_chave": ["mesa", "trabalho", "refeição", "bandeja", "aproximação frontal", "acessibilidade"],
+  "pagina": "118-119",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.4",
+  "titulo": "Equipamentos de controle de acesso e máquinas de autoatendimento",
+  "descricao": "Devem permitir uso seguro e autônomo por todos os usuários, com medidas acessíveis para comando, inserção e leitura.",
+  "subitens": {
+    "9.4.1": "Catracas e portões devem ter vão livre ≥ 0,80 m e estar localizados em rota acessível, com sinalização conforme a Seção 5.",
+    "9.4.2": "Caixas bancários devem ter altura de tela entre 0,80 m e 1,20 m; inserção de cédulas entre 0,40 m e 1,20 m; apoio para objetos pessoais.",
+    "9.4.3": {
+      "titulo": "Máquinas de autoatendimento",
+      "detalhes": [
+        "Pelo menos uma por tipo de serviço deve ser acessível.",
+        "Instalada em piso nivelado, bem iluminado.",
+        "Deve haver módulo de referência (M.R.) frontal.",
+        "Altura dos comandos: 0,80 m a 1,20 m.",
+        "Profundidade dos comandos: até 0,30 m.",
+        "Dispositivos de inserção/retirada: 0,40 m a 1,20 m.",
+        "Teclado conforme ABNT NBR 15250.",
+        "Instruções visuais, auditivas e táteis."
+      ]
+    }
+  },
+  "figuras": ["Figura 136"],
+  "palavras_chave": ["autoatendimento", "terminal", "catraca", "bancário", "painel", "instruções acessíveis"],
+  "pagina": "120",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.5",
+  "titulo": "Áreas para refeições",
+  "descricao": "Ambientes como refeitórios e praças de alimentação devem prever mesas acessíveis e cardápios em formato alternativo.",
+  "subitens": {
+    "9.5.1": "Pelo menos 5% das mesas devem ser acessíveis à pessoa em cadeira de rodas (mínimo de 1 mesa).",
+    "9.5.2": "Balcões de refeição devem seguir as medidas descritas no item 9.3.3.",
+    "9.5.3": "Deve haver pelo menos um cardápio disponível em Braille e com caracteres ampliados."
+  },
+  "palavras_chave": ["refeição", "mesa acessível", "cardápio em Braille", "bandeja"],
+  "pagina": "129",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.6",
+  "titulo": "Caixas e bilheterias",
+  "descricao": "Devem possuir pelo menos um posto acessível por conjunto de até seis, garantindo área de aproximação e conformidade com dimensões mínimas.",
+  "especificacoes": {
+    "altura_tampo": "0,90 m a 1,05 m",
+    "largura_mínima": "0,90 m",
+    "altura_livre_sob_superfície": "≥ 0,73 m",
+    "profundidade_livre": "≥ 0,30 m",
+    "aproximação": "frontal ou lateral, com módulo de referência (M.R.) e espaço para giro de 180°",
+    "acessibilidade_atendente": "mobiliário deve seguir o item 9.3.1"
+  },
+  "palavras_chave": ["caixa", "bilheteria", "posto acessível", "P.C.R.", "atendente", "bancada"],
+  "pagina": "117-118",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.7",
+  "titulo": "Vestiários acessíveis",
+  "descricao": "Vestiários devem incluir cabinas com barras de apoio, bancos e armários com medidas adequadas para uso de todos os usuários, respeitando áreas de circulação e alcance.",
+  "requisitos": [
+    "Cabinas com superfície para troca ≥ 1,80 m.",
+    "Barras de apoio em paredes frontal e lateral.",
+    "Portas abrindo para fora (Figura 130).",
+    "Bancos com encosto, profundidade ≥ 0,45 m, largura ≥ 0,70 m, altura = 0,46 m.",
+    "Altura livre sob bancos: ≥ 0,30 m (Figura 131).",
+    "Armários com alcance de 0,40 m a 1,20 m; puxadores entre 0,80 m e 1,20 m.",
+    "Espelhos, cabides e porta-objetos na faixa de 0,80 m a 1,20 m, profundidade máxima de 0,25 m."
+  ],
+  "figuras": ["Figura 130", "Figura 131"],
+  "palavras_chave": ["vestiário", "cabine", "banco", "armário", "espelho", "cabide", "troca de roupa"],
+  "pagina": "111-113",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.8",
+  "titulo": "Bibliotecas e centros de leitura",
+  "descricao": "Devem prever mobiliário acessível, corredores com largura mínima e fichários de fácil alcance, além de recursos de tecnologia assistiva.",
+  "subitens": {
+    "9.8.1": "Mobiliário deve seguir a Seção 9 (ver Figura 152).",
+    "9.8.2": "Pelo menos 5% (mínimo 1) das mesas devem ser acessíveis; recomendação de 10% adaptáveis.",
+    "9.8.3": "Corredores entre estantes com largura ≥ 0,90 m, com área de manobra a cada 15 m (Figura 153).",
+    "9.8.4": "Fichários devem respeitar a faixa de alcance da Seção 4.",
+    "9.8.5": "Disponibilizar texto digital, Braille e recursos audiovisuais.",
+    "9.8.6": "Pelo menos 5% (mínimo 1) dos terminais de consulta devem ser acessíveis; recomendação de 10% adaptáveis."
+  },
+  "figuras": ["Figura 152", "Figura 153"],
+  "palavras_chave": ["biblioteca", "leitura", "fichário", "mesa", "terminal", "braille"],
+  "pagina": "136",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "9.9",
+  "titulo": "Locais de comércio",
+  "descricao": "Estabelecimentos comerciais devem garantir acessibilidade em entradas, corredores, caixas e provadores, respeitando as normas vigentes.",
+  "subitens": {
+    "9.9.1": "Corredores de compras com largura livre mínima de 0,90 m; a cada 10 m deve haver espaço de manobra de 1,50 m.",
+    "9.9.2": "Pelo menos um vestiário acessível com entrada ≥ 0,80 m, área de 1,20 m × 1,20 m, sem obstáculos.",
+    "9.9.3": "5% dos caixas (mínimo 1) devem atender ao item 9.2.2."
+  },
+  "palavras_chave": ["comércio", "entrada acessível", "corredor", "provador", "caixa acessível"],
+  "pagina": "137",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.1",
+  "titulo": "Atendimento ao público",
+  "descricao": "Ambientes de atendimento ao público devem contar com mobiliário acessível, como mesas, assentos e balcões, garantindo inclusão de todos os usuários, inclusive pessoas com mobilidade reduzida.",
+  "subitens": {
+    "10.1.1": "Balcões e bilheterias devem seguir o item 9.2.",
+    "10.1.2": "Ao menos 5% das mesas de atendimento devem ser acessíveis, com no mínimo uma mesa por ambiente.",
+    "10.1.3": "Salas de espera com assentos fixos devem prever 5% de assentos acessíveis (mínimo 1), conforme item 8.9.",
+    "10.1.4": "Bilheterias devem seguir as especificações do item 9.2.3."
+  },
+  "palavras_chave": ["atendimento", "bilheteria", "mesa acessível", "assento adaptado", "espera"],
+  "pagina": "138",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.2",
+  "titulo": "Delegacias e penitenciárias",
+  "descricao": "Ambientes institucionais de segurança devem oferecer acessibilidade ao público, detentos e visitantes, respeitando normas técnicas e de segurança.",
+  "subitens": {
+    "10.2.1": "Os espaços de atendimento ao público devem ser acessíveis, sem comprometer a segurança.",
+    "10.2.2": "Deve haver ao menos um sanitário acessível por sexo; reformas podem prever um unissex com entrada independente.",
+    "10.2.3": "Pelo menos uma cela com sanitário deve ser acessível e estar em rota acessível.",
+    "10.2.4": "Refeitórios, quando existentes, devem ser acessíveis conforme item 10.8.",
+    "10.2.5": "Pelo menos 5% dos parlatórios (mínimo 1) devem ser acessíveis; recomenda-se 10% adaptáveis."
+  },
+  "palavras_chave": ["delegacia", "penitenciária", "cela acessível", "sanitário", "parlatório"],
+  "pagina": "138",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.3",
+  "titulo": "Cinemas, teatros, auditórios e similares",
+  "descricao": "Esses espaços devem dispor de áreas acessíveis com conforto, segurança, visibilidade e acústica compatíveis aos demais assentos, além de garantir tecnologia assistiva e espaço para cão-guia.",
+  "subitens": {
+    "10.3.1": [
+      "Espaços acessíveis distribuídos nos setores da plateia.",
+      "Assento companheiro ao lado da vaga acessível.",
+      "Localização em piso plano horizontal.",
+      "Indicação no mapa de assentos e na planta do local.",
+      "Tecnologia assistiva (visual e auditiva).",
+      "Espaço para intérprete de Libras.",
+      "Atendimento à ABNT NBR 15599."
+    ],
+    "10.3.2": "Posicionar os espaços com ângulo visual máximo de 30°; altura da linha de visão de 1,15 m do piso (ver Figuras 137 a 139).",
+    "10.3.3": "Em edificações existentes, devem ser feitas adaptações para garantir igualdade de condições visuais, auditivas e de segurança.",
+    "10.3.5": "Deve-se garantir espaço adicional para cão-guia."
+  },
+  "figuras": ["Figura 137", "Figura 138", "Figura 139"],
+  "palavras_chave": ["cinema", "auditório", "teatro", "assento acessível", "companheiro", "tecnologia assistiva"],
+  "pagina": "122-128",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.4",
+  "titulo": "Plateia, palco e bastidores – circulação",
+  "descricao": "A circulação nesses ambientes deve ser acessível, inclusive em camarins e áreas técnicas. Rampas ou equipamentos eletromecânicos devem ser previstos conforme a viabilidade técnica.",
+  "subitens": {
+    "10.4.4": "Rampas com largura mínima de 0,90 m, inclinação de 1:6 até 0,60 m de desnível, e de 1:10 para alturas superiores.",
+    "10.4.5": "Prever espaço para intérprete de Libras no palco, conforme item 5.2.8.1.6."
+  },
+  "palavras_chave": ["palco", "camarim", "rampa", "rota acessível", "intérprete de Libras"],
+  "pagina": "128",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.5",
+  "titulo": "Sistemas auxiliares de comunicação",
+  "descricao": "Sistemas eletrônicos devem ser compatíveis com aparelhos auditivos e implantes, e oferecer recursos de acessibilidade a pessoas com deficiência sensorial.",
+  "detalhes": {
+    "10.5.1": "Sistemas sem fio para comunicação com pessoas com deficiência auditiva ou visual.",
+    "10.5.2": "Transmissor FM para cobrir pelo menos 200 m² por unidade.",
+    "10.5.3": "Prover legendas em tempo real ou imagem do intérprete em tela, quando necessário."
+  },
+  "palavras_chave": ["comunicação", "FM", "Libras", "deficiência auditiva", "intérprete", "legenda"],
+  "pagina": "128",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.6",
+  "titulo": "Camarins",
+  "descricao": "Deve haver ao menos um camarim acessível para cada sexo. Se houver apenas um camarim unissex, este deve atender a todos os requisitos de acessibilidade.",
+  "exigencia_adicional": "Se o camarim tiver banho, é obrigatório prever superfície para troca de roupa em posição deitada (ver Figura 130).",
+  "palavras_chave": ["camarim", "troca de roupa", "banheiro", "acessibilidade", "sanitário"],
+  "pagina": "129",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.7",
+  "titulo": "Locais de exposições",
+  "descricao": "Todos os elementos expostos para visitação pública devem estar acessíveis e dispostos de forma que possam ser percebidos por pessoas com diferentes deficiências sensoriais ou motoras.",
+  "subitens": {
+    "10.7.1": "Elementos expositivos devem estar localizados em rotas acessíveis.",
+    "10.7.2": "Textos explicativos e informativos devem seguir o item 5 (sinalização visual, tátil e sonora).",
+    "10.7.3": "Deve-se oferecer informação em Braille ou alternativa sonora, conforme aplicável."
+  },
+  "palavras_chave": ["exposição", "museu", "informação acessível", "braille", "visual", "auditiva"],
+  "pagina": "129",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.8",
+  "titulo": "Restaurantes, refeitórios, bares e similares",
+  "descricao": "Devem garantir mesas acessíveis distribuídas entre as demais, em locais com todos os serviços disponíveis. Balcões de autosserviço, cardápios e demais elementos devem seguir as exigências de acessibilidade da norma.",
+  "subitens": {
+    "10.8.1": "Pelo menos 5% das mesas (mínimo uma) devem ser acessíveis à pessoa em cadeira de rodas (P.C.R.).",
+    "10.8.2": "Mesas acessíveis devem estar interligadas por rota acessível e distribuídas com as demais mesas.",
+    "10.8.2.1": "Balcões de refeição devem seguir item 9.3.3.",
+    "10.8.2.2": "Balcões de autosserviço devem seguir item 9.4.3.",
+    "10.8.2.3": "Deve haver cardápio em Braille e com caracteres ampliados disponíveis."
+  },
+  "palavras_chave": ["restaurante", "refeitório", "bar", "mesa acessível", "cardápio braille", "autosserviço"],
+  "pagina": "129",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.9",
+  "titulo": "Locais de hospedagem",
+  "descricao": "Estabelecimentos como hotéis, pousadas e similares devem garantir acessibilidade em dormitórios, banheiros e áreas comuns. Devem prever equipamentos adaptados e sinalização acessível.",
+  "subitens": {
+    "10.9.1": "Áreas comuns (salas, academias, piscinas, ginásios, etc.) devem ser acessíveis.",
+    "10.9.2": "Dormitórios com banheiros não devem ser isolados e devem seguir a Figura 146.",
+    "10.9.3": "Faixa livre de circulação: mínimo 0,90 m. Área de giro: diâmetro de 1,50 m. Altura da cama: 0,46 m.",
+    "10.9.4": "Telefones e interfones devem ter sinal luminoso, volume ajustável e instruções em Braille e texto ampliado.",
+    "10.9.5": "Alarmes visuais e sonoros devem seguir o item 5.6.",
+    "10.9.6": "Sanitários devem ter dispositivo de emergência (ver 5.6.4.1).",
+    "10.9.7": "Cozinhas devem permitir aproximação frontal e lateral conforme Seção 4. Pia: altura máxima 0,85 m; vão livre mínimo 0,73 m (Figura 147)."
+  },
+  "figuras": ["Figura 146", "Figura 147"],
+  "palavras_chave": ["hotel", "hospedagem", "dormitório acessível", "comunicação", "cozinha", "emergência"],
+  "pagina": "129-130",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.10",
+  "titulo": "Serviços de saúde",
+  "descricao": "Hospitais, clínicas, laboratórios e demais espaços de saúde devem ter ambientes acessíveis, com número mínimo de sanitários adaptados, leitos acessíveis e áreas de espera com assentos adaptados.",
+  "subitens": {
+    "10.10.1": "Pelo menos 10% dos leitos com banheiros devem ser acessíveis; outros 10% devem ser adaptáveis.",
+    "10.10.2": "Ambulatórios e centros de diagnóstico devem ter ao menos uma sala acessível por tipo de serviço.",
+    "10.10.3": "Salas de espera com assentos fixos devem ter 5% de assentos acessíveis (mínimo 1), conforme item 4.7."
+  },
+  "palavras_chave": ["saúde", "hospital", "ambulatório", "leito acessível", "assento adaptado", "espera"],
+  "pagina": "131",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.11",
+  "titulo": "Esporte, lazer e turismo",
+  "descricao": "Instalações esportivas, de lazer ou turísticas devem garantir circulação acessível em todas as áreas, inclusive arquibancadas, quadras, sanitários e vestiários, respeitando o uso de cadeiras de rodas esportivas.",
+  "subitens": {
+    "10.11.1": "Portas com vão ≥ 1,00 m para permitir passagem de cadeiras esportivas.",
+    "10.11.2": "Arquibancadas devem seguir item 4.8 e normas específicas.",
+    "10.11.3": "Rotas acessíveis devem interligar áreas para P.C.R., pessoas com mobilidade reduzida (P.M.R.) e obesas (P.O.), quadras, sanitários e vestiários.",
+    "10.11.4": "Espaços de prática devem ser acessíveis, exceto quando em gramados ou areias soltas.",
+    "10.11.5": "Sanitários e vestiários acessíveis devem estar disponíveis tanto na área pública quanto na área de prática.",
+    "10.11.6": "Cabines de vestiários devem obedecer à Seção 7 da norma."
+  },
+  "palavras_chave": ["esporte", "turismo", "cadeira esportiva", "arquibancada", "sanitário", "rota acessível"],
+  "pagina": "131",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.12",
+  "titulo": "Piscinas",
+  "descricao": "Devem oferecer acesso à água com segurança, por meio de rampas, escadas, bancos de transferência ou dispositivos de elevação. Devem conter duchas acessíveis e escoamento adequado.",
+  "subitens": {
+    "10.12.1": "Piso ao redor da piscina não deve ser escorregadio nem abrasivo.",
+    "10.12.2": "Acesso à água deve ser feito por ao menos um dos seguintes meios:",
+    "10.12.2.1": "Banco de transferência – altura 0,40 a 0,48 m; comprimento ≥ 1,20 m; profundidade ≥ 0,45 m; barras de apoio e área de manobra livres.",
+    "10.12.2.2": "Escada submersa – piso 0,35 a 0,43 m; espelho até 0,20 m; com corrimãos (Figuras 149 e 150).",
+    "10.12.2.3": "Rampa submersa com inclinação até 8,33%; corrimãos laterais a 0,70 m.",
+    "10.12.2.4": "Equipamento de transferência (ex: elevadores ou guindastes). Ver Figura 151.",
+    "10.12.3": "Deve haver pelo menos uma ducha acessível.",
+    "10.12.4": "Barras de apoio podem ser instaladas na borda interna da piscina.",
+    "10.12.5": "As exigências não se aplicam a piscinas de competição."
+  },
+  "figuras": ["Figura 148", "Figura 149", "Figura 150", "Figura 151"],
+  "palavras_chave": ["piscina", "acesso à água", "transferência", "banco", "escada", "rampa"],
+  "pagina": "132-134",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.13",
+  "titulo": "Parques, praças e locais turísticos",
+  "descricao": "Esses espaços devem possuir rotas acessíveis conectando os principais serviços e áreas de uso. Devem atender aos critérios da norma sem comprometer áreas ambientalmente protegidas.",
+  "subitens": {
+    "10.13.1": "Rotas acessíveis são obrigatórias quando houver pavimentação, mobiliário ou equipamentos.",
+    "10.13.2": "Em áreas protegidas, deve-se buscar o maior nível possível de acessibilidade com o menor impacto ambiental.",
+    "10.13.3": "Piso das rotas deve seguir os critérios estabelecidos no item 6.3.",
+    "10.13.4": "Ao menos 5% (mínimo de uma) das mesas para jogos ou refeições devem atender ao item 9.3.",
+    "10.13.5": "Áreas tombadas devem seguir os critérios definidos nos itens 10.1 e 10.2."
+  },
+  "palavras_chave": ["parques", "praças", "rotas acessíveis", "mesas", "acessibilidade ambiental"],
+  "pagina": "135",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.14",
+  "titulo": "Praias",
+  "descricao": "Devem assegurar o acesso da calçada até o mar por meio de rampas, passagens livres de obstáculos e sinalização adequada. Devem prever apoio sanitário acessível próximo à área adaptada.",
+  "subitens": {
+    "10.14.1": "A rampa entre o passeio e a areia deve ter largura mínima de 0,90 m e seguir critérios do item 6.",
+    "10.14.2": "Deve haver faixa livre de obstáculos com largura mínima de 0,90 m até a linha da maré.",
+    "10.14.3": "Sinalização com o símbolo internacional de acesso (SIA) e listagem dos serviços disponíveis.",
+    "10.14.4": "Recomenda-se a instalação de sanitário unissex acessível nas proximidades."
+  },
+  "palavras_chave": ["praia", "rampa", "faixa acessível", "sinalização", "sanitário"],
+  "pagina": "135",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.15",
+  "titulo": "Escolas",
+  "descricao": "Devem garantir rotas acessíveis a todos os ambientes pedagógicos, com mobiliário adaptado, sanitários acessíveis e recursos de apoio à aprendizagem.",
+  "subitens": {
+    "10.15.1": "Entrada de alunos deve ser preferencialmente voltada para vias com menor fluxo de veículos.",
+    "10.15.2": "Rota acessível deve interligar todos os ambientes pedagógicos.",
+    "10.15.3": "Equipamentos complementares como piscinas e auditórios também devem ser acessíveis.",
+    "10.15.4": "Número mínimo de sanitários conforme Tabela 9.",
+    "10.15.5": "Mobiliário deve respeitar as áreas de manobra e faixas de alcance definidas na norma.",
+    "10.15.6": "Pelo menos 1% das mesas deve ser acessível, com no mínimo uma por sala.",
+    "10.15.7": "Lousas devem estar a até 0,90 m de altura e com área de aproximação lateral.",
+    "10.15.8": "Bebedouros, guichês e balcões devem seguir as Seções 8 e 9."
+  },
+  "palavras_chave": ["escola", "sala de aula", "mesa acessível", "lousa", "rota acessível"],
+  "pagina": "135-136",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.16",
+  "titulo": "Bibliotecas e centros de leitura",
+  "descricao": "Devem possuir mesas acessíveis, corredores amplos, fichários de fácil acesso e recursos tecnológicos de apoio à leitura.",
+  "subitens": {
+    "10.16.1": "Mobiliário conforme especificações da Seção 9. Ver Figura 152.",
+    "10.16.2": "Pelo menos 5% (mínimo uma) das mesas devem ser acessíveis.",
+    "10.16.3": "Corredores entre estantes com largura ≥ 0,90 m; área de manobra a cada 15 m. Ver Figura 153.",
+    "10.16.4": "Fichários devem seguir as faixas de alcance da Seção 4.",
+    "10.16.5": "Recomenda-se disponibilizar textos digitais, recursos audiovisuais e obras em Braille.",
+    "10.16.6": "Pelo menos 5% (mínimo uma) dos terminais de consulta devem ser acessíveis."
+  },
+  "figuras": ["Figura 152", "Figura 153"],
+  "palavras_chave": ["biblioteca", "leitura", "fichário", "mesa", "terminal", "braille"],
+  "pagina": "136",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.17",
+  "titulo": "Locais de comércio",
+  "descricao": "Devem possuir entradas acessíveis, corredores com largura mínima adequada, provadores adaptados e caixas acessíveis.",
+  "subitens": {
+    "10.17.1": "Corredores com largura mínima de 0,90 m; a cada 10 m, deve haver área de manobra de 1,50 m.",
+    "10.17.2": "Ao menos um provador acessível por estabelecimento. Dimensões: entrada ≥ 0,80 m; área interna 1,20 m x 1,20 m.",
+    "10.17.3": "Pelo menos 5% dos caixas (mínimo 1) devem estar acessíveis conforme item 9.2.2."
+  },
+  "palavras_chave": ["comércio", "entrada acessível", "corredor", "provador", "caixa acessível"],
+  "pagina": "137",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.18",
+  "titulo": "Estabelecimentos bancários",
+  "descricao": "Agências bancárias devem garantir acessibilidade desde o acesso à entrada até os terminais de autoatendimento e balcões de serviço, mesmo em locais com sistemas de segurança.",
+  "subitens": {
+    "10.18.1": "Se houver barreiras físicas ou dispositivos de segurança, deve ser prevista alternativa acessível com entrada independente.",
+    "10.18.2": "Balcões e terminais devem atender aos itens 9.2.1 (balcões) e 9.4.2 (autoatendimento)."
+  },
+  "palavras_chave": ["banco", "bloqueio", "autoatendimento", "balcão bancário", "entrada acessível"],
+  "pagina": "137",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.19",
+  "titulo": "Atendimento ao público",
+  "descricao": "Os ambientes de atendimento ao público devem garantir acessibilidade nos balcões, mesas e assentos. A estrutura deve contemplar pessoas com deficiência física, mobilidade reduzida e obesidade.",
+  "subitens": {
+    "10.19.1": "Balcões e bilheterias devem seguir os critérios do item 9.2.",
+    "10.19.2": "Mesas de atendimento devem ter ao menos 5% acessíveis (mínimo uma), preferencialmente 10% adaptáveis.",
+    "10.19.3": "Assentos em locais de espera devem ter 5% acessíveis (mínimo um), conforme item 8.9.",
+    "10.19.4": "Bilheterias devem atender ao item 9.2.3."
+  },
+  "palavras_chave": ["atendimento", "bilheteria", "mesa acessível", "assento adaptado", "espera"],
+  "pagina": "138",
+  "norma": "NBR 9050:2015"
+},
+{
+  "item": "10.20",
+  "titulo": "Delegacias e penitenciárias",
+  "descricao": "Espaços de segurança pública devem garantir acessibilidade nas áreas de atendimento, celas e áreas comuns para público, detentos e visitantes.",
+  "subitens": {
+    "10.20.1": "Espaços de uso público devem ser acessíveis sem comprometer a segurança.",
+    "10.20.2": "Ao menos um sanitário acessível por sexo deve estar disponível ao público. Em reformas, é admitido sanitário unissex com entrada independente.",
+    "10.20.3": "Deve haver ao menos uma cela acessível com sanitário, em rota acessível.",
+    "10.20.4": "Refeitórios, se existentes, devem atender ao item 10.8.",
+    "10.20.5": "Pelo menos 5% dos parlatórios (mínimo um) devem ser acessíveis, recomendando-se 10% adaptáveis."
+  },
+  "palavras_chave": ["delegacia", "penitenciária", "cela acessível", "sanitário", "parlatório"],
+  "pagina": "138",
+  "norma": "NBR 9050:2015"
+},
+{
+  "anexo": "A",
+  "titulo": "Desenho universal e seus princípios",
+  "descricao": "Apresenta os sete princípios do Desenho Universal, que orientam o projeto de ambientes acessíveis a todas as pessoas, independentemente de suas habilidades.",
+  "principios": [
+    "1. Uso equitativo – uso possível por todos, com segurança e conforto, sem estigmatização.",
+    "2. Uso flexível – permite diferentes modos de uso, inclusive por destros e canhotos.",
+    "3. Uso simples e intuitivo – compreensível mesmo sem conhecimento prévio ou experiência.",
+    "4. Informação de fácil percepção – apresentada em múltiplos formatos: visual, tátil, auditivo.",
+    "5. Tolerância ao erro – minimiza riscos e falhas por ações acidentais.",
+    "6. Baixo esforço físico – requer o mínimo de fadiga e força para uso.",
+    "7. Dimensão e espaço para aproximação e uso – adaptado a diferentes usuários, inclusive com dispositivos auxiliares."
+  ],
+  "palavras_chave": ["desenho universal", "princípios", "acessibilidade", "inclusão"],
+  "pagina": "139",
+  "norma": "NBR 9050:2015"
+},
+{
+  "anexo": "B",
+  "titulo": "Fatores relevantes de projeto",
+  "descricao": "Apresenta recomendações técnicas sobre sinalização tátil e visual, contraste de luminância e uso de recursos como Libras, visando ambientes acessíveis e informativos.",
+  "topicos": {
+    "B.1": "Importância da informação acessível como elemento de inclusão.",
+    "B.2": "Uso de sinalização tátil e visual no piso como guia seguro.",
+    "B.3": "Língua Brasileira de Sinais (Libras) como recurso complementar.",
+    "B.4": "Localização estratégica da informação visual e tátil.",
+    "B.5": "Contraste visual – diferença perceptível entre superfícies.",
+    "B.6": "Determinação da LRV (Light Reflectance Value) para contraste de luminância.",
+    "B.7": "Valor mínimo recomendado de diferença de LRV entre superfícies.",
+    "B.8": "Equipamento de medição de LRV – características técnicas exigidas."
+  },
+  "palavras_chave": ["sinalização", "contraste visual", "LRV", "Libras", "projeto acessível"],
+  "pagina": "141-143",
+  "norma": "NBR 9050:2015"
+},
+{
+  "anexo": "C",
+  "titulo": "Detalhamento de barras de apoio",
+  "descricao": "Especifica os diferentes tipos de barras de apoio permitidos pela norma, suas dimensões padronizadas e representações gráficas.",
+  "tipos_barras": [
+    "a) Barra de apoio reta (Figura C.1)",
+    "b) Barra lateral (Figura C.2)",
+    "c) Barra lateral articulada para bacia sanitária (Figura C.3)",
+    "d) Barra lateral para lavatório (Figura C.4)",
+    "e) Barra de apoio em 90° (Figura C.5)"
+  ],
+  "palavras_chave": ["barras de apoio", "banheiro acessível", "sanitário", "detalhamento técnico"],
+  "pagina": "144-146",
+  "norma": "NBR 9050:2015"
+},
+{
+  "anexo": "D",
+  "titulo": "Sanitário para uso de pessoa ostomizada",
+  "descricao": "Recomendações técnicas para sanitários adaptados ao uso de pessoas ostomizadas, com base em soluções práticas já adotadas no Brasil.",
+  "componentes": [
+    "Válvula de descarga posicionada lateralmente.",
+    "Prateleira auxiliar próxima à bacia sanitária.",
+    "Bacia sanitária infantil adaptada.",
+    "Espelho em altura funcional.",
+    "Ducha higiênica de fácil acesso."
+  ],
+  "figura": "Figura D.1",
+  "palavras_chave": ["ostomizado", "sanitário adaptado", "banheiro acessível"],
+  "pagina": "147",
+  "norma": "NBR 9050:2015"
+},
+{
+  "anexo": "Bibliografia",
+  "titulo": "Referências normativas e legais",
+  "descricao": "Este anexo reúne as principais leis, decretos e normas técnicas que fundamentam a NBR 9050:2015, servindo como base jurídica e técnica para os critérios de acessibilidade definidos ao longo do documento.",
+  "referencias": [
+    "Lei nº 13.146/2015 – Estatuto da Pessoa com Deficiência",
+    "Decreto nº 6.949/2009 – Promulga a Convenção sobre os Direitos das Pessoas com Deficiência",
+    "Decreto nº 5.296/2004 – Estabelece normas gerais e critérios básicos para a promoção da acessibilidade",
+    "Lei nº 10.741/2003 – Estatuto do Idoso",
+    "Lei nº 10.436/2002 – Dispõe sobre a Língua Brasileira de Sinais (Libras)",
+    "Lei nº 10.098/2000 – Estabelece normas gerais e critérios básicos para a promoção da acessibilidade",
+    "Lei nº 10.048/2000 – Prioridade de atendimento às pessoas com deficiência",
+    "Lei nº 9.503/1997 – Código de Trânsito Brasileiro",
+    "Lei nº 8.842/1994 – Política Nacional do Idoso",
+    "Lei nº 8.078/1990 – Código de Defesa do Consumidor",
+    "ABNT NBR 5410 – Instalações elétricas de baixa tensão",
+    "ABNT NBR 9077 – Saídas de emergência em edifícios",
+    "ABNT NBR 10898 – Sistemas de iluminação de emergência",
+    "ABNT NBR 11785 – Barras antipânico",
+    "ABNT NBR 14718 – Guarda-corpos para edificações",
+    "ABNT NBR 15250 – Acessibilidade em caixa eletrônico",
+    "Normas técnicas internacionais ISO, BSI, IT dos Corpos de Bombeiros e CONTRAN"
+  ],
+  "palavras_chave": ["leis", "normas", "acessibilidade", "inclusão", "referência legal", "jurídico"],
+  "pagina": "148",
+  "norma": "NBR 9050:2015"
+}
+]

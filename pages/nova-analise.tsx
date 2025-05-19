@@ -1,10 +1,11 @@
 // pages/nova-analise.tsx
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/router';
 import Topo from '@/components/Topo';
+import BarraProgresso from "@/components/BarraProgresso";
 
 export default function NovaAnalise() {
   const { data: session } = useSession();
@@ -13,6 +14,8 @@ export default function NovaAnalise() {
   const [cidade, setCidade] = useState('itauna');
   const [tipoProjeto, setTipoProjeto] = useState('simplificado');
   const [loading, setLoading] = useState(false);
+  const [etapa, setEtapa] = useState(0);
+  const [resultadoId, setResultadoId] = useState<string | null>(null);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -29,12 +32,14 @@ export default function NovaAnalise() {
     }
 
     setLoading(true);
+    setEtapa(1);
     const formData = new FormData();
     formData.append('file', pdfFile);
     formData.append('cidade', cidade);
     formData.append('tipoProjeto', tipoProjeto);
 
     try {
+      setEtapa(2);
       const response = await fetch('http://localhost:8000/inferir', {
         method: 'POST',
         body: formData,
@@ -42,18 +47,39 @@ export default function NovaAnalise() {
 
       if (response.ok) {
         const resultado = await response.json();
-        router.push(`/resultado?id=${resultado.id}`);
+        setResultadoId(resultado.id);
       } else {
         console.error('Erro ao processar análise.');
         alert('Erro ao processar análise!');
+        setLoading(false);
       }
     } catch (error) {
       console.error('Erro no envio:', error);
       alert('Erro inesperado!');
-    } finally {
       setLoading(false);
     }
   };
+
+  useEffect(() => {
+    let intervalo: NodeJS.Timeout;
+    if (loading && resultadoId) {
+      intervalo = setInterval(async () => {
+        try {
+          const res = await fetch(`http://localhost:8000/status/${resultadoId}`);
+          const data = await res.json();
+          setEtapa(data.etapa);
+
+          if (data.etapa === 6) {
+            clearInterval(intervalo);
+            router.push(`/resultado?id=${resultadoId}`);
+          }
+        } catch (error) {
+          console.error('Erro ao consultar status:', error);
+        }
+      }, 1000);
+    }
+    return () => clearInterval(intervalo);
+  }, [loading, resultadoId, router]);
 
   return (
     <div className="min-h-screen bg-[var(--background)] text-[var(--foreground)] flex flex-col font-dm p-4">
@@ -102,9 +128,7 @@ export default function NovaAnalise() {
 
         {loading && (
           <div className="w-full max-w-md mt-6">
-            <div className="h-2 w-full bg-gray-300 rounded">
-              <div className="h-2 bg-[var(--foreground)] rounded animate-pulse" style={{ width: '100%' }}></div>
-            </div>
+            <BarraProgresso etapa={etapa} />
           </div>
         )}
       </div>

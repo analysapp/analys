@@ -1,0 +1,288 @@
+{
+  "caixas_detectadas": [
+    {
+      "classe": "implantacao",
+      "confianca": 0.8878779411315918,
+      "bbox": [
+        505,
+        217,
+        3210,
+        5357
+      ]
+    },
+    {
+      "classe": "carimbo",
+      "confianca": 0.864107072353363,
+      "bbox": [
+        7685,
+        3541,
+        9822,
+        6908
+      ]
+    },
+    {
+      "classe": "corte_esquemtico",
+      "confianca": 0.8211331367492676,
+      "bbox": [
+        3714,
+        5217,
+        7450,
+        6442
+      ]
+    },
+    {
+      "classe": "planta_situacao",
+      "confianca": 0.8185515403747559,
+      "bbox": [
+        7709,
+        4811,
+        9806,
+        6189
+      ]
+    },
+    {
+      "classe": "planta_baixa",
+      "confianca": 0.8072859644889832,
+      "bbox": [
+        3283,
+        257,
+        5555,
+        4523
+      ]
+    },
+    {
+      "classe": "memoria_calculo_permeabilidade",
+      "confianca": 0.8063337802886963,
+      "bbox": [
+        5586,
+        2336,
+        7464,
+        4818
+      ]
+    },
+    {
+      "classe": "quadro_permeabilidade",
+      "confianca": 0.7653053998947144,
+      "bbox": [
+        8075,
+        2552,
+        9203,
+        3226
+      ]
+    },
+    {
+      "classe": "quadro_areas_pavimento",
+      "confianca": 0.7514885067939758,
+      "bbox": [
+        6703,
+        303,
+        9292,
+        1133
+      ]
+    },
+    {
+      "classe": "legenda",
+      "confianca": 0.6513071060180664,
+      "bbox": [
+        3275,
+        4684,
+        4063,
+        5220
+      ]
+    },
+    {
+      "classe": "quadro_areas_unidade",
+      "confianca": 0.5750247240066528,
+      "bbox": [
+        6237,
+        1348,
+        9606,
+        2040
+      ]
+    }
+  ],
+  "textos_estruturados": {
+    "implantacao": [
+      "da",
+      "da",
+      "ri",
+      "Or",
+      "Teia [Ed",
+      "=",
+      "sa s5",
+      "ES o",
+      "ET",
+      "A'",
+      "a TS",
+      "- Q",
+      "< 1200",
+      "800 400",
+      "150 850 200",
+      "4 77, ES 7",
+      "DEPENDÊNCIA RESIDÊNCIA O",
+      "PS",
+      "ÁREA A DEMOLIR",
+      "ag,",
+      "8",
+      "64%",
+      "s HABITAÇÃO RESIDENCIAL 02 s",
+      "765%",
+      "8",
+      "Do NTE LO)",
+      "ooo",
+      "pega o rr",
+      "a —",
+      "E",
+      "8",
+      "s",
+      "E",
+      "S",
+      "E",
+      ">",
+      "=",
+      "HABITAÇÃO RESIDENCIAL 01",
+      "E",
+      "2",
+      "Rn?",
+      "Ed v",
+      "S.",
+      "R E C UO F R ON TA L",
+      "PROJEÇÃO TÉRREO E PRIMEIRO PAVIMENTO",
+      "E —&",
+      "CADERNO SERA",
+      "E E",
+      "|",
+      "PRO ALINHAMENTO",
+      "0.00",
+      "+ P FRONTAL DO LOTE",
+      "ON",
+      "ACESSO VEÍCULOS VEÍCULO",
+      "DE ACESSO DE Ss",
+      "ACESSO DE PEDESTRES RESIDÊNCIA ACESSO DE PEDESTRES",
+      "DA RESIDÊNCIA 01 DA 02",
+      "DA RESIDÊNCIA 01 DA RESIDÊNCIA 02",
+      "Z",
+      "300 2",
+      "“0 A",
+      "REBAIXO DO MEIO-FIO",
+      "IMPLANTAÇÃO",
+      "ESCALA 1:100"
+    ],
+    "carimbo": [
+      "Somos pela aprovação em / /",
+      "Analista",
+      "Secretaria Municipal de Regulação Urbana",
+      "PROJETO SIMPLIFICADO DECRETO XXXXXXX",
+      "-",
+      "respondem civil e administrativamente pelo atendimento das especificações constantes na legislação municipal, estadual e federal vigente,",
+      "bem como normas técnicnas e regulamentos específicos conforme o uso da edificação, sujeitando-se às sanções legais decorrentes de",
+      "eventuais prejuízos a terceiros.",
+      "TÍTULO DO PROJETO",
+      "PROJETO ARQUITETÔNICO",
+      "PLANTA DE SITUAÇÃO",
+      "YYYY",
+      "RUA",
+      "RUA XXXX",
+      "📏 Escala: ESCALA",
+      "👤 Responsável: * | Situação conforme medidas aferidas \"in loco\" pelo Responsável Técnico.",
+      "QUADRA",
+      "📌 Zoneamento e Lote: BAIRRO ZONA LOTE ZONEAMENTO",
+      "OLIMPIO MOREIRA 07 22 12 06",
+      "ÁREA Uso CA. Nº PRANCHA",
+      "📌 Zoneamento e Lote: DO LOTE",
+      "0) 1 /02",
+      "1.350,00M? MISTO 0,15",
+      "👤 Responsável: PROPRIETÁRIO RESPONSÁVEL TÉCNICO",
+      "A DEFINIR TESTE TESTE",
+      "EMPRESA XYZ TESTE TESTE",
+      "QUALQUER UM TESTE TESTE"
+    ],
+    "corte_esquemtico": [],
+    "planta_situacao": [],
+    "planta_baixa": [
+      "IO",
+      "DEPENDÊNCIA RE:",
+      "ÁREA A DEN",
+      "ig",
+      "GSE",
+      "A = 18,00",
+      "SS",
+      "So",
+      "450",
+      "MA",
+      "E AA",
+      "%",
+      "HABITAÇÃO RESIDENCIAL 02 555,",
+      "700",
+      "ÁREA A CONSTRUIR",
+      "A",
+      "250",
+      "550 550",
+      "3000",
+      "HABITAÇÃO RESIDENCIAL 01",
+      "1100 1100",
+      "ÁREA EXISTENTE",
+      "2300",
+      "A 93,50 m?",
+      "=",
+      "650 650",
+      "150 850",
+      "ESQUEMÁTICA",
+      "PLANTA",
+      "TÉRREO",
+      "PAVIMENTO",
+      "ESCALA 1:100"
+    ],
+    "memoria_calculo_permeabilidade": [],
+    "quadro_permeabilidade": [
+      "ÁREA PERMEÁVEL",
+      "ÁREA TOTAL",
+      "Área permeável 01 72,00 m?",
+      "- grama",
+      "ÁREA TOTAL 72,00 m?",
+      "Área do terreno 360,00 m?",
+      "Taxa de permeabilidade mínima 20,00 %",
+      "Taxa de permeabilidade em aprovação 20,00 %"
+    ],
+    "quadro_areas_pavimento": [
+      "QUADRO DE ÁREAS POR PAVIMENTO",
+      "EXISTENTE A CONSTRUIR A DEMOLIR SUBTOTAL",
+      "PAVIMENTO TOTAL",
+      "Pavimento Térreo 111,50 m? 0,00m? 8400m? 0,00m? 18,00mº 0,00m? 177,50m? 0,00m? 177,50 m?",
+      "Primeiro Pavimento 0,00 m? 0,00m? 9350m? 0,00m? 0,00 m? 0,00m? 9350m? 0,00m? 93,50 m?",
+      "TOTAL 111,50m? 0,00m? 177,50m? 0,00m? 18,00mº 0,00m* 271,00m? 0,00m? 271,00mº"
+    ],
+    "legenda": [],
+    "quadro_areas_unidade": [
+      "QUADRO DE ÁREAS POR UNIDADE",
+      "ÁREA PRIVATIVA ÁREA COMUM ÁREA GARAGEM",
+      "QUANTIDADE | ÁREA TIPO DE",
+      "UNIDADE TOTAL",
+      "Casa 01 172,00 m? 0,00 m? 15,00 m? 0,00 m? 01 187,00 m? 03 01 LAJE",
+      "Casa 02 84,00 m? 0,00 m? 0,00 m? 15,00 m? 01 84,00 m? 02 00 TELHAS C/ FORRO",
+      "TOTAL 256,00 m? 0,00 m? 15,00 m? 15,00 m? 271,00 m?"
+    ]
+  },
+  "estruturado_llama": {
+    "áreas_permeaveis": [
+      {
+        "nome": "Área permeável 01",
+        "valor": "72,00 m²",
+        "tipo": "grama"
+      }
+    ],
+    "area_terreno": "360,00 m²",
+    "area_permeavel_total": "72,00 m²",
+    "percentual_total": "20,00 %",
+    "percentual_grama": "100,00 %",
+    "conforme": true
+  },
+  "analise": {
+    "area_terreno": "360.00 m²",
+    "area_permeavel_total": "0.00 m²",
+    "percentual_total": "20.00%",
+    "percentual_grama": "0.00%",
+    "conforme": true,
+    "areas_encontradas": []
+  }
+}

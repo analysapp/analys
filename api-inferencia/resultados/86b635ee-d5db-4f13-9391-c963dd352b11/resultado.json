@@ -1,0 +1,242 @@
+{
+  "caixas_detectadas": [
+    {
+      "classe": "planta_situacao",
+      "confianca": 0.8429939150810242,
+      "bbox": [
+        7748,
+        4790,
+        9791,
+        6199
+      ]
+    },
+    {
+      "classe": "memoria_calculo_permeabilidade",
+      "confianca": 0.8386330008506775,
+      "bbox": [
+        225,
+        4765,
+        3698,
+        6853
+      ]
+    },
+    {
+      "classe": "corte_esquemtico",
+      "confianca": 0.8122179508209229,
+      "bbox": [
+        3644,
+        4723,
+        7622,
+        6854
+      ]
+    },
+    {
+      "classe": "implantacao",
+      "confianca": 0.8113635182380676,
+      "bbox": [
+        5265,
+        298,
+        9851,
+        2946
+      ]
+    },
+    {
+      "classe": "carimbo",
+      "confianca": 0.8081294298171997,
+      "bbox": [
+        7697,
+        3498,
+        9813,
+        6905
+      ]
+    },
+    {
+      "classe": "quadro_permeabilidade",
+      "confianca": 0.788623571395874,
+      "bbox": [
+        4994,
+        3157,
+        6469,
+        4307
+      ]
+    },
+    {
+      "classe": "planta_baixa",
+      "confianca": 0.7881438136100769,
+      "bbox": [
+        559,
+        276,
+        4287,
+        2464
+      ]
+    },
+    {
+      "classe": "quadro_areas_pavimento",
+      "confianca": 0.7290170192718506,
+      "bbox": [
+        605,
+        3363,
+        3316,
+        4228
+      ]
+    }
+  ],
+  "textos_estruturados": {
+    "planta_situacao": [],
+    "memoria_calculo_permeabilidade": [],
+    "corte_esquemtico": [],
+    "implantacao": [
+      "o",
+      "ZLa —",
+      "La o<",
+      "52. SE",
+      "Lou OL |",
+      "TEA |",
+      "so",
+      "tod. ue",
+      "prq LL .",
+      "| ado",
+      "1250 1250 200",
+      ". H",
+      "k",
+      "150 945 ? 155",
+      "MURO H=220CM EDIFICAÇÃO",
+      "NA DIVISA H= 400CM MURO H= 220CM",
+      "+ 13",
+      "5",
+      "5",
+      "pa |",
+      "s",
+      "<",
+      "Lu",
+      "2 s",
+      "Poesia",
+      "u Em ” ÁREA PERMEÁVEL",
+      "05 =",
+      "RS (TERRENO NATURAL) õ",
+      "o <",
+      "id E = “450,00m? S",
+      "< x o, u E",
+      "2 ATT T",
+      "||. fal fo»!",
+      "6 |. «",
+      "q <L a]",
+      "uu uu",
+      "[o N H",
+      "D r [o",
+      "S 9 < E S",
+      "x o",
+      "é . 15",
+      "5",
+      "[NH",
+      "JU",
+      "<",
+      "TI",
+      "(6)",
+      "Yu",
+      "Lu",
+      "So o o SA a",
+      "RECUO FRONTAL PROJEÇÃO DÁ AREA CONSTRÓI",
+      ". , ,",
+      "02 DESCOBERTA a RE: DO EE ES o RR,",
+      "E ÁREA PERMEÁVEL Ê ÁREA IMPERMEÁVEL",
+      "o",
+      ".",
+      "— (GRAMA)",
+      "o a",
+      "a 6,29m? A",
+      "Lo",
+      "ÁREA PERMEÁVEL 03",
+      "DO",
+      "- RAMA) <ssm- O DT - ALINHAMENTO FRONTAL LOTE",
+      "N FECHAMENTO EM TELA H= 200CM",
+      "ACESSO DE PEDESTRES :SSO DE VEÍCULOS",
+      "S 50 300 50",
+      "A]",
+      "Õ|",
+      "LO)",
+      "º REBAIXO NO MEIO FIO",
+      "400",
+      "1250 1038 |",
+      "212",
+      "2500",
+      "IMPLANTAÇÃO",
+      "7",
+      "ESCALA 1:100"
+    ],
+    "carimbo": [
+      "Somos pela aprovação em !",
+      "Analista",
+      "Secretaria Municipal de Regulação Urbana",
+      "PROJETO SIMPLIFICADO",
+      "respondem civil e administrativamente pelo atendimento das especificações constantes na legislação municipal, estadual e federal vigente,",
+      "bem como normas técnicnas e regulamentos específicos conforme o uso da edificação, sujeitando-se às sanções legais decorrentes de",
+      "eventuais prejuízos a terceiros.",
+      "TÍTULO DO PROJETO",
+      "ARQUITETÔNICO",
+      "PROJETO",
+      "PLANTA DE SITUAÇÃO",
+      "SITUAÇÃO",
+      "3)",
+      "📏 Escala: ESCALA 1:500",
+      "* Situação conforme medidas disponibilizadas nas informações básicas.",
+      "📌 Zoneamento e Lote: BAIRRO ZONA QUADRA LOTE ZONEAMENTO",
+      "DA OLARIA 01 37 01 ZM",
+      "ÁREA Uso Nº PRANCHA",
+      "📌 Zoneamento e Lote: DO LOTE",
+      "A.",
+      "0) 1 / 0) 1",
+      "300,00 m? Residencial 0,30",
+      "👤 Responsável: PROPRIETÁRIO RESPONSÁVEL TÉCNICO",
+      "CLÁUDIO DA SILVA MELO",
+      "CPF:002.879.246-70",
+      "👤 Responsável: CAIQUE TAVARES SILVA / ARQUITETO E URBANISTA",
+      "GUSTAVO NOGUEIRA ANDRADE CAU A16.2000-2",
+      "CPF:160.058.326-11"
+    ],
+    "quadro_permeabilidade": [
+      "ÁREA PERMEÁVEL",
+      "ÁREA TOTAL",
+      "Área permeável 01 17,68 m?",
+      "grama",
+      "-",
+      "Área permeável 02",
+      "grama 6,29 m?",
+      "-",
+      "Área permeável 03 2,23 m?",
+      "grama",
+      "-",
+      "Área permeável 04",
+      "grama 4,57 m?",
+      "-",
+      "Área permeável 05 terreno natural 150,00 m?",
+      "-",
+      "ÁREA TOTAL 180,76 m?",
+      "Área do terreno 300,00 m?",
+      "Taxa de permeabilidade mínima 20,00%",
+      "Taxa de permeabilidade em aprovação 60,25%"
+    ],
+    "planta_baixa": [
+      "(1) ESQUEMÁTICA PAMÉENTO TÉRREO",
+      "PLANTA",
+      "-",
+      "ESCALA 1:100"
+    ],
+    "quadro_areas_pavimento": [
+      "QUADRO DE ÁREAS POR PAVIMENTO",
+      "EXISTENTE A CONSTRUIR A DEMOLIR SUBTOTAL",
+      "PAVIMENTO TOTAL",
+      "Pavimento Térreo 0,00 m? 0,00 m? 90,01 m? 0,00 m? 0,00 m? 0,00 m? 90,01 m? 0,00 m? 90,01 m?",
+      "TOTAL 0,00 m? 0,00m? | 90,01 m? 0,00 m? 0,00 m? 0,00 m? 90,01 m? 0,00 m? 90,01 m?"
+    ]
+  },
+  "estruturado_llama": {},
+  "analise": {
+    "area_terreno": "0.00 m²",
+    "area_permeavel_total": "0.00 m²",
+    "percentual_total": "0.00%",
+    "percentual_grama": "0.00%",
+    "conforme": false,
+    "areas_encontradas": []
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "item": "4.1",
+  "titulo": "Parâmetros antropométricos para pessoa em pé",
+  "exigencia": "Deslocamento de pessoas com mobilidade reduzida utilizando dispositivos como bengalas, andadores e muletas.",
+  "comentario": "Serve de base para definição da largura mínima de circulação conforme o tipo de apoio.",
+  "dimensoes": {
+    "andador_com_rodas": "largura até 0,90 m",
+    "muleta": "largura até 0,90 m",
+    "apoio_com_tripé": "largura até 0,60 m",
+    "bengala_longa": {
+      "largura": "até 0,60 m",
+      "comprimento": "até 2,10 m"
+    },
+    "cao_guia": "largura até 0,80 m"
+  },
+  "pagina": 7,
+  "figura": "Figura 1",
+  "categorias": ["parâmetros antropométricos", "pessoa em pé", "dispositivos de apoio"]
+}
+{
+  "item": "4.2.1",
+  "titulo": "Dimensões referenciais para cadeira de rodas",
+  "exigencia": "Parâmetros dimensionais de referência para cadeiras de rodas manuais, motorizadas e esportivas.",
+  "comentario": "Esses valores são base para o dimensionamento de corredores e áreas de manobra.",
+  "dimensoes": {
+    "largura_total": "0,70 m a 0,75 m",
+    "profundidade_total": "0,95 m a 1,15 m",
+    "altura_apoio_braço": "0,25 m",
+    "largura_cadeira_esportiva": "mínimo 1,00 m"
+  },
+  "pagina": 8,
+  "figura": "Figura 2",
+  "categorias": ["cadeira de rodas", "parâmetros antropométricos", "PCR"]
+}
+{
+  "item": "4.2.2",
+  "titulo": "Módulo de Referência (M.R.) para cadeira de rodas",
+  "exigencia": "Define o espaço mínimo que uma cadeira de rodas ocupa no piso para cálculo de áreas acessíveis.",
+  "comentario": "Utilizado em todos os ambientes acessíveis como base de circulação e manobra.",
+  "dimensoes": {
+    "largura": "0,80 m",
+    "comprimento": "1,20 m"
+  },
+  "pagina": 8,
+  "figura": "Figura 3",
+  "categorias": ["PCR", "módulo de referência", "circulação mínima"]
+}
+{
+  "item": "4.3.1",
+  "titulo": "Largura para deslocamento em linha reta",
+  "exigencia": "Define as larguras mínimas para diferentes configurações de deslocamento com cadeira de rodas.",
+  "comentario": "Essas medidas garantem a acessibilidade contínua em rotas de circulação.",
+  "dimensoes": {
+    "cadeira_rodas_unica": "mínimo 0,90 m",
+    "cadeira_rodas_e_pedestre": "1,20 m a 1,50 m",
+    "duas_cadeiras_rodas": "1,50 m a 1,80 m"
+  },
+  "pagina": 9,
+  "figura": "Figura 4",
+  "categorias": ["circulação", "largura mínima", "cadeira de rodas"]
+}
+{
+  "item": "4.3.2",
+  "titulo": "Transposição de obstáculos isolados",
+  "exigencia": "Estabelece as larguras mínimas para passagem segura diante de obstáculos.",
+  "comentario": "Garante contorno seguro de obstáculos no trajeto.",
+  "dimensoes": {
+    "obstaculo_ate_0_40m": "mínimo 0,80 m",
+    "obstaculo_maior_0_40m": "mínimo 0,90 m"
+  },
+  "pagina": 9,
+  "figura": "Figura 5",
+  "categorias": ["obstáculo", "largura de passagem", "cadeira de rodas"]
+}
+{
+  "item": "4.3.3",
+  "titulo": "Mobiliários na rota acessível",
+  "exigencia": "Elementos salientes entre 0,60 m e 2,10 m devem ser detectáveis ou sinalizados com contraste visual mínimo de 30 pontos LRV.",
+  "comentario": "Evita colisões por pessoas com deficiência visual em áreas de circulação.",
+  "dimensoes": {
+    "altura_saliencia": "0,60 m a 2,10 m",
+    "contraste_visual": "mínimo 30 LRV"
+  },
+  "pagina": 9,
+  "figura": "Figura 6",
+  "categorias": ["mobiliário", "deficiência visual", "rota acessível"]
+}
+{
+  "item": "4.3.4",
+  "titulo": "Área para manobra sem deslocamento",
+  "exigencia": "Estabelece dimensões para rotações de 90°, 180° e 360° em espaços confinados.",
+  "comentario": "Essas áreas garantem mudanças de direção sem necessidade de avanço.",
+  "dimensoes": {
+    "rotacao_90_graus": "1,20 m x 1,20 m",
+    "rotacao_180_graus": "1,50 m x 1,20 m",
+    "rotacao_360_graus": "diâmetro de 1,50 m"
+  },
+  "pagina": 10,
+  "figura": "Figura 7",
+  "categorias": ["manobra", "giro", "cadeira de rodas"]
+}
+{
+  "item": "4.3.5",
+  "titulo": "Área para manobra com deslocamento",
+  "exigencia": "Define medidas mínimas para curvas com deslocamento em 90° ou 180°.",
+  "comentario": "Permite curvas em corredores ou ambientes sem parada total do usuário.",
+  "dimensoes": {
+    "curva_90_graus": "mínimo 1,20 m x 1,20 m"
+  },
+  "pagina": 10,
+  "figura": "Figura 8",
+  "categorias": ["manobra com deslocamento", "curva", "circulação contínua"]
+}
+{
+  "item": "4.3.6",
+  "titulo": "Posicionamento em espaços confinados",
+  "exigencia": "Nichos devem ter espaço suficiente para acomodar cadeira de rodas em ambientes técnicos.",
+  "comentario": "Aplicável em sanitários, elevadores e salas técnicas.",
+  "dimensoes": {
+    "largura_minima": "0,90 m",
+    "profundidade_minima": "0,90 m"
+  },
+  "pagina": 10,
+  "figura": "Figura 9",
+  "categorias": ["espaço confinado", "nichos", "cadeira de rodas"]
+}
+{
+  "item": "4.3.7",
+  "titulo": "Proteção contra queda em rotas acessíveis",
+  "exigencia": "Devem ser previstas barreiras laterais ou guardas em desníveis elevados.",
+  "comentario": "Evita quedas em rampas, corredores elevados ou áreas externas.",
+  "dimensoes": {
+    "barreira_lateral": "altura mínima 0,15 m",
+    "margem_segura": "largura mínima 0,60 m",
+    "guarda_corpo": "obrigatório em desníveis > 0,60 m"
+  },
+  "pagina": 11,
+  "figura": "Figura 10",
+  "categorias": ["proteção contra queda", "barreira", "segurança", "guarda-corpo"]
+}
+{
+  "item": "4.4.1 a 4.4.5",
+  "titulo": "Área de transferência",
+  "exigencia": "A área de transferência deve permitir posicionamento da cadeira de rodas junto ao local de troca e possibilitar movimentos laterais, perpendiculares ou diagonais com segurança.",
+  "comentario": "Aplicável em sanitários, bancos, vestiários, trocadores, banheiras e outros.",
+  "dimensoes": {
+    "modulo_referencia": "0,80 m x 1,20 m",
+    "altura_assentos": "mesma altura entre cadeira de rodas e superfície de transferência",
+    "largura_apoio_lateral": "mínimo 0,30 m"
+  },
+  "figura": "Figuras 11 a 13",
+  "pagina": 11,
+  "categorias": ["transferência", "cadeira de rodas", "apoio", "sanitário", "mobilidade"]
+}
+{
+  "item": "4.5",
+  "titulo": "Área de aproximação",
+  "exigencia": "Deve haver espaço frontal ou lateral para a cadeira de rodas se aproximar e acessar lavatórios, mesas, bancadas, equipamentos e comandos.",
+  "comentario": "Permite que o usuário acione ou utilize objetos sem sair da cadeira de rodas.",
+  "dimensoes": {
+    "avanço_abaixo_objeto": "mínimo 0,25 m e máximo 0,50 m",
+    "largura_area_aproximacao": "mínimo 0,80 m",
+    "altura_vão_livre": "mínimo 0,73 m sob superfícies (em mesas, bancadas etc.)"
+  },
+  "figura": "Figuras 14 a 16",
+  "pagina": 12,
+  "categorias": ["aproximação frontal", "aproximação lateral", "acessibilidade", "cadeira de rodas"]
+}
+{
+  "item": "4.6.1",
+  "titulo": "Alcance manual frontal",
+  "exigencia": "Define os limites de alcance para pessoas em cadeira de rodas quando se aproximam frontalmente de objetos ou comandos.",
+  "comentario": "Garante que os comandos estejam posicionados em uma faixa utilizável para pessoas com mobilidade reduzida.",
+  "dimensoes": {
+    "sem_deslocamento_tronco": {
+      "altura_minima": "0,40 m",
+      "altura_maxima": "1,20 m"
+    },
+    "com_deslocamento_tronco": {
+      "altura_maxima": "1,40 m"
+    },
+    "profundidade_atingida": "até 0,50 m"
+  },
+  "figura": "Figura 11",
+  "pagina": 12,
+  "categorias": ["alcance manual", "frontal", "cadeira de rodas", "comando", "acessibilidade"]
+}
+{
+  "item": "4.6.2",
+  "titulo": "Alcance manual lateral",
+  "exigencia": "Define os limites de alcance quando o usuário em cadeira de rodas se posiciona lateralmente ao objeto ou comando.",
+  "comentario": "Permite o uso de superfícies laterais sem deslocamento excessivo do corpo ou esforço adicional.",
+  "dimensoes": {
+    "altura_minima": "0,40 m",
+    "altura_maxima": "1,20 m",
+    "profundidade_maxima": "até 0,30 m para alcance confortável",
+    "profundidade_estendida": "até 0,50 m com deslocamento do tronco"
+  },
+  "figura": "Figura 12",
+  "pagina": 13,
+  "categorias": ["alcance lateral", "cadeira de rodas", "comando", "painel", "acessibilidade"]
+}
+{
+  "item": "4.6.3",
+  "titulo": "Alcance manual lateral com obstáculos",
+  "exigencia": "Estabelece os limites de alcance quando há obstáculos sob a superfície (ex: lavatórios com coluna), impedindo aproximação frontal direta.",
+  "comentario": "Considera a presença de obstruções que alteram a profundidade atingível lateralmente.",
+  "dimensoes": {
+    "altura_minima": "0,40 m",
+    "altura_maxima": "1,20 m",
+    "profundidade_maxima": "até 0,25 m com obstáculos sob o objeto"
+  },
+  "figura": "Figura 13",
+  "pagina": 13,
+  "categorias": ["alcance lateral", "obstrução", "acessibilidade", "painel", "cadeira de rodas"]
+}
+{
+  "item": "4.6.4",
+  "titulo": "Ângulos de força para tração e compressão",
+  "exigencia": "Determina os ângulos ideais para execução de movimentos de tração e compressão em comandos manuais como maçanetas, corrimãos e torneiras.",
+  "comentario": "Assegura conforto e eficiência ao executar ações com o braço e mão, evitando esforço excessivo.",
+  "dimensoes": {
+    "plano_horizontal": "15° a 30°",
+    "plano_lateral": "30° a 60°"
+  },
+  "figura": "Figura 17 e Figura 18",
+  "pagina": 13,
+  "categorias": ["força", "tração", "compressão", "ângulo ergonômico", "comando"]
+}
+{
+  "item": "4.6.5",
+  "titulo": "Empunhadura",
+  "exigencia": "Corrimãos e barras de apoio devem possuir formato e dimensões que permitam empunhadura firme, confortável e segura.",
+  "comentario": "Garante acessibilidade e segurança em escadas, rampas, sanitários e outros ambientes onde o apoio é necessário.",
+  "dimensoes": {
+    "afastamento_da_parede": "mínimo 40 mm",
+    "afastamento_em_nichos": "mínimo 150 mm",
+    "diametro_secao_circular": "30 mm a 45 mm",
+    "secao_eliptica": {
+      "dimensao_maior": "máximo 45 mm",
+      "dimensao_menor": "mínimo 30 mm"
+    },
+    "arco_empunhadura_livre": "270° (mínimo) ao redor da barra"
+  },
+  "figura": "Figura 19",
+  "pagina": 14,
+  "categorias": ["corrimão", "barra de apoio", "empunhadura", "ergonomia", "acessibilidade"]
+}
+{
+  "item": "4.6.6",
+  "titulo": "Maçanetas, barras antipânico e puxadores",
+  "exigencia": "Elementos de acionamento de portas devem garantir empunhadura confortável, segura e de fácil operação, sem exigir força ou torção do punho.",
+  "comentario": "Recomenda-se maçanetas do tipo alavanca, e é obrigatória a observância das dimensões para garantir acessibilidade universal.",
+  "dimensoes": {
+    "maçaneta_alavanca": {
+      "comprimento_minimo": "100 mm",
+      "altura_instalacao": "0,80 m a 1,10 m",
+      "distancia_minima_da_porta": "40 mm"
+    },
+    "puxador_vertical": {
+      "diametro": "25 mm a 45 mm",
+      "afastamento_minimo": "40 mm",
+      "comprimento_minimo": "300 mm",
+      "altura_instalacao": "0,80 m a 1,10 m"
+    },
+    "puxador_horizontal": {
+      "diametro": "25 mm a 45 mm",
+      "afastamento_minimo": "40 mm",
+      "altura_instalacao": "0,80 m a 1,10 m"
+    },
+    "barra_antipanico": {
+      "altura_instalacao": "0,90 m",
+      "requisitos": "Deve atender à ABNT NBR 11785 e ser compatível com a resistência ao fogo da porta"
+    }
+  },
+  "figura": "Figura 20",
+  "pagina": 14,
+  "categorias": ["maçaneta", "puxador", "barra antipânico", "porta", "acessibilidade", "acionamento"]
+}
+{
+  "item": "4.6.7",
+  "titulo": "Controles (dispositivos de comando ou acionamento)",
+  "exigencia": "Os controles devem ser de fácil acionamento, não exigindo força excessiva nem precisão motora fina, e devem possibilitar seu uso por diferentes grupos de pessoas, inclusive com limitações motoras.",
+  "comentario": "Botões, chaves, sensores, painéis de controle e similares devem ser acionáveis com uma das extremidades do corpo, como dorso da mão, punho ou braço, respeitando as faixas de alcance e força reduzida.",
+  "dimensoes": {
+    "dimensao_minima_superficie_acionamento": "25 mm (2,5 cm)",
+    "forca_maxima_acionamento_recomendada": "23 N",
+    "altura_recomendada_instalacao": "0,80 m a 1,20 m"
+  },
+  "figura": "Figura 21",
+  "pagina": 14,
+  "categorias": ["controle", "comando", "botão", "acessibilidade", "acionamento", "sensor"]
+}
+{
+  "item": "4.6.8",
+  "titulo": "Dispositivo para travamento de portas",
+  "exigencia": "Portas de sanitários, vestiários e provadores acessíveis devem ser equipadas com mecanismos de travamento de fácil operação.",
+  "comentario": "O dispositivo deve permitir ser acionado com o dorso da mão ou com movimento de punho, garantindo acessibilidade para pessoas com mobilidade reduzida ou deficiência nos membros superiores.",
+  "caracteristicas": {
+    "tipo_recomendado": ["alavanca", "tranqueta"],
+    "posicionamento": "Deve estar posicionado dentro da faixa de alcance definida na Seção 4.6",
+    "requisito_ergonomico": "A operação não deve exigir força de pinça nem torção do punho"
+  },
+  "pagina": 15,
+  "categorias": ["travamento", "porta", "sanitário", "vestiário", "acessibilidade", "fechadura"]
+}
+{
+  "item": "4.6.9",
+  "titulo": "Altura para comandos e controles",
+  "exigencia": "Estabelece a altura recomendada para instalação de comandos de uso frequente como interruptores, tomadas, registros e campainhas, garantindo acessibilidade e conforto.",
+  "comentario": "A altura deve permitir o uso confortável por pessoas em cadeira de rodas, em pé, crianças e pessoas com mobilidade reduzida.",
+  "dimensoes": {
+    "interruptor": "1,10 m do piso acabado",
+    "campainha": "1,20 m do piso acabado",
+    "tomada": "0,40 m do piso acabado",
+    "comando_janela": "0,80 m do piso acabado",
+    "registro_pressao": "1,00 m do piso acabado",
+    "insercao_retirada_produtos": "entre 0,60 m e 1,20 m do piso"
+  },
+  "figura": "Figura 22",
+  "pagina": 15,
+  "categorias": ["comando", "controle", "altura", "interruptor", "tomada", "acessibilidade"]
+}
+{
+  "item": "4.7",
+  "titulo": "Assentos para pessoas obesas",
+  "exigencia": "Devem ser previstos assentos específicos para pessoas obesas em ambientes públicos e coletivos.",
+  "comentario": "As dimensões devem proporcionar conforto, segurança e permitir uso com autonomia.",
+  "dimensoes": {
+    "profundidade_assento": "0,47 m a 0,51 m",
+    "largura_assento": "mínimo 0,75 m",
+    "altura_assento": "0,41 m a 0,45 m",
+    "inclinação_assento": "2° a 5°",
+    "ângulo_entre_assento_encosto": "100° a 105°",
+    "altura_apoio_braços": "0,23 m a 0,27 m",
+    "carga_suportada": "250 kg"
+  },
+  "figura": "Figura 23",
+  "pagina": 15,
+  "categorias": ["assento obeso", "mobilidade reduzida", "banco público", "apoio de braço"]
+}
+{
+  "item": "4.8.1",
+  "titulo": "Ângulos de alcance visual",
+  "exigencia": "Define os limites de visibilidade natural e confortável no plano vertical e horizontal.",
+  "comentario": "Os ângulos devem orientar a disposição de painéis, comandos, sinalizações e objetos informativos.",
+  "dimensoes": {
+    "cone_visual_vertical_pe": "até 25°",
+    "cone_visual_vertical_sentado": "30° ± 7,5°",
+    "movimento_natural_cabeca": "até 45°",
+    "movimento_consciente_cabeca": "até 60°",
+    "alcance_horizontal_maximo": "60°"
+  },
+  "observacoes": "Em posição sentada, o cone visual apresenta acréscimo médio de 8°.",
+  "figura": "Figuras 24 e 25",
+  "pagina": 16,
+  "categorias": ["alcance visual", "campo de visão", "ângulo de visão", "ergonomia", "sinalização"]
+}
+{
+  "item": "4.8.2",
+  "titulo": "Aplicação dos ângulos de alcance visual",
+  "exigencia": "Estabelece faixas de altura recomendadas para disposição de objetos, comandos, sinalizações e painéis de leitura.",
+  "comentario": "Os valores consideram as diferentes posições do usuário (em pé, sentado ou em cadeira de rodas).",
+  "dimensoes": {
+    "linha_horizonte_pe": "1,40 m a 1,50 m",
+    "linha_horizonte_sentado": "1,05 m a 1,15 m",
+    "linha_horizonte_cadeira_rodas": "1,10 m a 1,20 m"
+  },
+  "figura": "Figuras 26 a 28",
+  "pagina": 16,
+  "categorias": ["linha do horizonte", "visibilidade", "painéis", "cadeira de rodas", "informação acessível"]
+}
+{
+  "item": "4.9",
+  "titulo": "Parâmetro auditivo",
+  "exigencia": "Define os limites sonoros para percepção, segurança e conforto em ambientes acessíveis.",
+  "comentario": "Esses parâmetros devem ser considerados em sistemas de sinalização sonora e alarmes, especialmente para garantir percepção adequada por pessoas com deficiência auditiva.",
+  "dimensoes": {
+    "faixa_frequencia": "20 Hz a 20.000 Hz",
+    "intensidade_minima": "20 dB",
+    "intensidade_maxima": "120 dB",
+    "tempo_minimo_duracao": "1 segundo",
+    "nível_desconforto": "acima de 120 dB",
+    "nível_dor": "acima de 140 dB"
+  },
+  "pagina": 17,
+  "categorias": ["audição", "frequência sonora", "nível de ruído", "acessibilidade auditiva", "alarme"]
+}
+{
+  "item": "5.2",
+  "titulo": "Sinalização",
+  "exigencia": "A sinalização deve permitir uso autônomo e seguro dos espaços, mobiliários e equipamentos, por qualquer pessoa, independentemente de suas capacidades.",
+  "comentario": "Deve atender aos critérios de percepção, legibilidade, compreensão e posicionamento, e ser classificada por função, abrangência e categoria.",
+  "detalhes": {
+    "funcoes": ["localização", "instrução", "advertência"],
+    "amplitude_abrangencia": ["geral", "localizada"],
+    "categorias": ["visual", "tátil", "sonora", "combinada"],
+    "requisitos": "Aplicar contrastes adequados, altura e posicionamento conforme campo visual.",
+    "regras_braille": "Sinalização em Braille deve seguir a padronização oficial vigente.",
+    "referencia_tabela": "Tabela 1 – Aplicação e formas de informação e sinalização"
+  },
+  "pagina": "30-32",
+  "categorias": ["sinalização", "visual", "tátil", "auditiva", "informação acessível"]
+}
+{
+  "item": "5.3",
+  "titulo": "Símbolos",
+  "exigencia": "Os símbolos devem ser de fácil compreensão, legíveis e com padronização nacional ou internacional.",
+  "comentario": "O uso do SIA e de símbolos complementares deve seguir regras de forma, proporção e contraste.",
+  "simbolos_principais": [
+    "Símbolo Internacional de Acesso (SIA) – Figuras 31 e 32",
+    "Símbolo de deficiência visual – Figura 33",
+    "Símbolo de deficiência auditiva – Figura 34",
+    "Símbolos complementares – Figuras 35 a 40"
+  ],
+  "especificacoes": {
+    "contraste_visual": "mínimo de 30 pontos de LRV em relação ao plano de fundo",
+    "dimensao_proporcional": "deve respeitar o campo visual",
+    "materiais": "resistentes, permanentes, aplicáveis em placas, relevo ou adesivos"
+  },
+  "pagina": "38-41",
+  "categorias": ["símbolos", "comunicação visual", "SIA", "pictogramas", "inclusão"]
+}
+{
+  "item": "5.4",
+  "titulo": "Aplicações essenciais da sinalização",
+  "exigencia": "Define onde a sinalização visual e tátil é obrigatória para garantir acessibilidade.",
+  "comentario": "Abrange portas, passagens, pisos, degraus, elevadores, plataformas e áreas comuns.",
+  "subitens": {
+    "5.4.1": "Sinalização de portas e passagens – faixa visual e tátil conforme Figura 59.",
+    "5.4.2": "Mapas acessíveis – com texto em Braille e elementos em relevo.",
+    "5.4.3": "Sinalização de pavimento – faixas com textura e cor contrastante (Figura 60).",
+    "5.4.4": "Degraus – faixa entre 0,03 m e 0,05 m (Figura 61).",
+    "5.4.5": "Elevadores – indicação visual e sonora com números em relevo ou Braille.",
+    "5.4.6": "Piso tátil direcional e de alerta (Figuras 62 e 63)."
+  },
+  "pagina": "44-50",
+  "categorias": ["sinalização", "piso tátil", "degrau", "elevador", "portas", "Braille"]
+}
+{
+  "item": "5.5",
+  "titulo": "Sinalização de emergência",
+  "exigencia": "Orienta para saídas de emergência e rotas de fuga com sinalização adequada.",
+  "comentario": "Aplica sinalização visual, sonora e tátil para direcionamento seguro.",
+  "subitens": {
+    "5.5.1.1": "Rotas e saídas de emergência – sinalização para localização, instrução e advertência.",
+    "5.5.1.2": "Escadas com sinalização visual e tátil – número do pavimento em corrimãos.",
+    "5.5.1.3": "Quartos, hospitais e hospedagens – mapas acessíveis (ver 5.4.2).",
+    "5.5.2.1": "Áreas de resgate – sinalização fotoluminescente ou retroiluminada (Figura 64).",
+    "5.5.2.2": "Espaço para P.C.R. sinalizado (Figura 65).",
+    "5.5.2.3": "Vagas reservadas – sinalização horizontal e vertical (Figura 66)."
+  },
+  "pagina": "50-52",
+  "categorias": ["emergência", "rota de fuga", "área de resgate", "vaga reservada", "sinalização"]
+}
+{
+  "item": "5.6",
+  "titulo": "Alarmes",
+  "exigencia": "Alarmes devem alertar sobre emergências com estímulos visuais, táteis e sonoros.",
+  "comentario": "Instalação deve ser feita em locais estratégicos e garantir acionamento acessível.",
+  "subitens": {
+    "5.6.1.1": "Aplicável a sanitários, vestiários e boxes isolados.",
+    "5.6.1.2": "Hotéis e hospitais devem ter alarmes visuais, sonoros e vibratórios.",
+    "5.6.1.3": "IP66 para áreas molhadas; IP54 nos demais locais.",
+    "5.6.2": "Critérios de sinalização conforme item 5.2.",
+    "5.6.3": "Instalação deve garantir feedback auditivo e visual. Alarmes distintos dos de incêndio.",
+    "5.6.4.1": "Altura em sanitários: 0,40 m do piso. Ver Figura 67.",
+    "5.6.4.2": "Garagens – sinal sonoro 10 dB acima do ruído e visual intermitente.",
+    "5.6.4.3": "Semáforos – sincronização visual e sonora. Altura: 0,80 m a 1,20 m."
+  },
+  "pagina": "52-53",
+  "categorias": ["alarmes", "emergência", "acessibilidade auditiva", "IP66", "semáforo"]
+}
+{
+  "item": "6.1",
+  "titulo": "Rota acessível",
+  "exigencia": "Áreas de qualquer edificação ou espaço público/coletivo devem ter pelo menos uma rota acessível, contínua, desobstruída e sinalizada.",
+  "comentario": "A rota acessível pode coincidir com a rota de fuga e deve estar iluminada adequadamente.",
+  "detalhes": {
+    "iluminacao": "Mínimo de 150 lux a 1 metro do piso (exceto cinemas e teatros).",
+    "continuidade": "Não deve ter barreiras ou desníveis que impeçam o deslocamento autônomo."
+  },
+  "pagina": "54",
+  "categorias": ["rota acessível", "trajeto contínuo", "iluminação", "circulação interna", "circulação externa"]
+}
+{
+  "item": "6.2",
+  "titulo": "Acessos – Condições gerais",
+  "exigencia": "Todas as entradas de edificações e equipamentos urbanos devem ser acessíveis. A entrada principal deve obrigatoriamente ser acessível, salvo justificativa técnica.",
+  "comentario": "Os acessos devem se integrar com as circulações principais e de emergência por rotas acessíveis.",
+  "detalhes": {
+    "6.2.3": "Devem estar vinculados à circulação principal e rota de emergência.",
+    "6.2.4": "Percurso entre estacionamento e acessos deve ter até 50 m.",
+    "6.2.5": "Ao menos um controle de acesso (catraca, cancela) deve ser acessível."
+  },
+  "pagina": "54",
+  "categorias": ["acesso", "entrada", "rota acessível", "controle de acesso", "distância máxima"]
+}
+{
+  "item": "6.3",
+  "titulo": "Circulação – Piso",
+  "exigencia": "Define requisitos para pisos em rotas acessíveis quanto a revestimento, inclinações, desníveis, grelhas e elementos sobrepostos.",
+  "comentario": "Esses critérios garantem conforto e segurança no deslocamento autônomo.",
+  "subitens": {
+    "6.3.1": "Revestimento firme, estável, contínuo, não trepidante e antiderrapante.",
+    "6.3.3": "Inclinação transversal: máx. 2% (interno), 3% (externo). Inclinação longitudinal < 5%.",
+    "6.3.4": "Desníveis: até 5 mm aceitos. De 5 a 20 mm requerem rampa 1:2. Acima de 20 mm são degraus.",
+    "6.3.5": "Grelhas com vãos ≤ 15 mm. Evitar na rota principal.",
+    "6.3.7": "Capachos e tapetes devem ser fixos e estáveis.",
+    "6.3.8": "Sinalização tátil conforme item 5.4.6."
+  },
+  "figura": "Figura 68",
+  "pagina": "55-56",
+  "categorias": ["piso", "revestimento", "inclinação", "desnível", "grelha", "tapete", "sinalização tátil"]
+}
+{
+  "item": "6.4",
+  "titulo": "Rotas de fuga – Condições gerais",
+  "exigencia": "Rotas de fuga devem atender à ABNT NBR 9077 e normas locais, incluindo sinalização e iluminação de emergência.",
+  "comentario": "Devem contemplar áreas de resgate acessíveis, ventiladas e sinalizadas para cadeirantes.",
+  "subitens": {
+    "6.4.1": "Portas com barras antipânico, conforme NBR 11785.",
+    "6.4.2": "Iluminação de emergência conforme ABNT NBR 10898.",
+    "6.4.3": "Deve haver área de resgate sinalizada, ventilada e com comunicação.",
+    "6.4.5": "Dimensões devem seguir 4.3.3 e estar sinalizadas (ver item 5.5.2.2 e Figura 69)."
+  },
+  "figura": "Figura 69",
+  "pagina": "56-57",
+  "categorias": ["rota de fuga", "área de resgate", "cadeira de rodas", "emergência", "sinalização", "iluminação"]
+}
+{
+  "item": "6.5",
+  "titulo": "Área de descanso",
+  "exigencia": "Deve-se prever área de descanso fora da faixa de circulação conforme a inclinação do percurso.",
+  "comentario": "Importante para o conforto de pessoas com mobilidade reduzida em trajetos mais longos ou inclinados.",
+  "detalhes": {
+    "distancia_inclinacao_ate_3%": "Descanso a cada 50 m.",
+    "distancia_inclinacao_entre_3_e_5%": "Descanso a cada 30 m.",
+    "recomendacoes": [
+      "Bancos com encosto e braços.",
+      "Espaço para manobra de cadeira de rodas."
+    ]
+  },
+  "pagina": "58",
+  "categorias": ["área de descanso", "circulação", "banco", "inclinação", "conforto"]
+}
+{
+  "item": "6.6",
+  "titulo": "Rampas",
+  "exigencia": "Superfícies com inclinação igual ou superior a 5% são consideradas rampas e devem atender aos requisitos de segurança, dimensionamento, patamares, corrimãos, balizamento e sinalização.",
+  "comentario": "Aplica-se a rampas internas e externas em rotas acessíveis, garantindo conforto e segurança a pessoas com mobilidade reduzida.",
+  "dimensoes": {
+    "inclinação_maxima_normas": {
+      "uso_geral": "até 8,33%",
+      "reformas_adaptações": "até 12,5%"
+    },
+    "inclinação_transversal": {
+      "interna": "máx. 2%",
+      "externa": "máx. 3%"
+    },
+    "largura_livre": {
+      "recomendado": "1,50 m",
+      "mínimo": "1,20 m"
+    },
+    "rampa_curva": {
+      "inclinação": "máx. 8,33%",
+      "raio_interno": "mínimo 3,00 m"
+    },
+    "guia_de_balizamento": {
+      "altura_mínima": "5 cm",
+      "uso_obrigatório": "quando não houver paredes laterais"
+    },
+    "patamares": {
+      "tamanho_mínimo": "1,20 m de comprimento",
+      "localização": [
+        "início da rampa",
+        "final da rampa",
+        "a cada segmento",
+        "quando houver mudança de direção"
+      ]
+    },
+    "portas_em_patamares": {
+      "requisito": "Não podem interferir na área livre mínima de circulação"
+    }
+  },
+  "corrimãos": {
+    "quantidade": "obrigatório em ambos os lados da rampa",
+    "alturas": ["0,92 m", "0,70 m"],
+    "prolongamento": "mínimo de 0,30 m nas extremidades",
+    "fixação": "firme, com empunhadura confortável e segura"
+  },
+  "figuras": ["Figura 70", "Figura 71", "Figura 72", "Figura 73"],
+  "pagina": "58–60",
+  "categorias": [
+    "rampa",
+    "inclinação",
+    "patamar",
+    "corrimão",
+    "guarda-corpo",
+    "acessibilidade",
+    "balizamento",
+    "reforma"
+  ]
+}
+{
+  "item": "6.7",
+  "titulo": "Degraus e escadas fixas em rotas acessíveis",
+  "exigencia": "Devem estar associados a rampas ou equipamentos eletromecânicos. Devem ser evitados espelhos vazados, e projeções não podem ultrapassar 1,5 cm.",
+  "dimensoes": {
+    "projecao_maxima_bocel": "1,5 cm sobre o piso inferior",
+    "largura_livre_minima": "1,20 m"
+  },
+  "requisitos": [
+    "Degraus isolados devem atender ao dimensionamento das escadas (item 6.8).",
+    "Devem ter corrimão em ambos os lados (item 6.9).",
+    "Devem conter sinalização tátil e visual conforme item 5.4.4.1.",
+    "Em caso de degrau isolado configurando soleira, seguir item 6.3.4.4."
+  ],
+  "figura": "Figura 74",
+  "pagina": "61",
+  "categorias": ["degrau", "escada fixa", "sinalização", "corrimão", "acessibilidade"]
+}
+{
+  "item": "6.8",
+  "titulo": "Escadas",
+  "exigencia": "Aplicável a sequências com três ou mais degraus. Dimensões devem ser constantes, com largura mínima, patamares obrigatórios e sinalização acessível.",
+  "dimensoes": {
+    "fórmula": "0,63 m ≤ p + 2e ≤ 0,65 m",
+    "piso (p)": "0,28 m a 0,32 m",
+    "espelho (e)": "0,16 m a 0,18 m",
+    "largura_minima_escada_acessivel": "1,20 m",
+    "distancia_minima_degrau_de_area_de_circulacao": "≥ 0,30 m",
+    "inclinação_transversal": {
+      "interna": "máx. 1%",
+      "externa": "máx. 2%"
+    },
+    "patamar_obrigatorio": "a cada 3,20 m de desnível ou mudança de direção",
+    "largura_minima_patamar": "1,20 m"
+  },
+  "requisitos": [
+    "Lances curvos devem seguir ABNT NBR 9077.",
+    "Projeção dos degraus curvos deve obedecer à fórmula até 0,55 m da borda interna.",
+    "Portas nos patamares não devem interferir na área útil."
+  ],
+  "figura": "Figura 75",
+  "pagina": "62",
+  "categorias": ["escada", "degrau", "patamar", "largura mínima", "curva", "sinalização"]
+}
+{
+  "item": "6.9",
+  "titulo": "Corrimãos e guarda-corpos",
+  "exigencia": "Corrimãos devem ser contínuos, com duas alturas e extremidades recurvadas ou prolongadas. Guarda-corpos são obrigatórios onde não há parede lateral.",
+  "dimensoes": {
+    "alturas_corrimãos": ["0,92 m", "0,70 m"],
+    "prolongamento_extremidade": "mínimo 0,30 m",
+    "largura_escadas_para_corrimão_central": "≥ 2,40 m",
+    "largura_entre_corrimãos_centrais_duplos": "≥ 1,20 m",
+    "altura_guia_balizamento": "≥ 5 cm"
+  },
+  "requisitos": [
+    "Corrimãos devem ser de material rígido e firmemente fixados.",
+    "Escadas com largura ≥ 2,40 m devem ter corrimão central ou duplo (Figura 77 e 78).",
+    "Prolongamento pode seguir parede adjacente em edificações existentes.",
+    "Guarda-corpo deve atender às ABNT NBR 9077 e NBR 14718."
+  ],
+  "figuras": ["Figura 76", "Figura 77", "Figura 78"],
+  "pagina": "63–64",
+  "categorias": ["corrimão", "guarda-corpo", "prolongamento", "escada", "balizamento", "segurança"]
+}

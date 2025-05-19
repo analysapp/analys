@@ -1,0 +1,61 @@
+{
+  "nome": "parametros_urbanisticos_simplificados",
+  "fonte": "Art. 3º, Decreto nº 8.723/2024",
+  "descricao": "Parâmetros urbanísticos relevantes da edificação exigidos na modalidade de aprovação simplificada.",
+  "parametros_urbanisticos": [
+    {
+      "id": "coeficiente_aproveitamento",
+      "titulo": "Coeficiente de aproveitamento",
+      "descricao": "Índice que define a área construída máxima em relação à área do lote.",
+      "tipo": "indice"
+    },
+    {
+      "id": "altura_edificacao",
+      "titulo": "Altura da edificação",
+      "descricao": "Altura total da edificação medida a partir do nível do passeio.",
+      "tipo": "altura_metros"
+    },
+    {
+      "id": "afastamentos_divisas",
+      "titulo": "Afastamentos das divisas",
+      "descricao": "Distância mínima exigida entre a edificação e as divisas laterais e de fundo do lote.",
+      "tipo": "distancia_metros"
+    },
+    {
+      "id": "taxa_permeabilidade",
+      "titulo": "Taxa de permeabilidade",
+      "descricao": "Percentual mínimo da área do lote que deve ser permeável.",
+      "tipo": "percentual"
+    },
+    {
+      "id": "recuo_frontal",
+      "titulo": "Recuo frontal obrigatório",
+      "descricao": "Distância mínima entre a edificação e a divisa frontal do lote.",
+      "tipo": "distancia_metros"
+    },
+    {
+      "id": "quantidade_unidades_habitacionais",
+      "titulo": "Quantidade e identificação das unidades habitacionais",
+      "descricao": "Número total de unidades habitacionais previstas e sua individualização.",
+      "tipo": "quantidade"
+    },
+    {
+      "id": "acesso_pedestres",
+      "titulo": "Acesso de pedestres na área de passeio",
+      "descricao": "Indicação e conformidade do acesso de pedestres pela calçada pública.",
+      "tipo": "elemento_acessibilidade"
+    },
+    {
+      "id": "rampa_veiculos",
+      "titulo": "Rampa de acesso de veículos na área de passeio",
+      "descricao": "Presença, largura e inclinação da rampa de veículos conforme normas locais.",
+      "tipo": "elemento_viario"
+    },
+    {
+      "id": "zoneamento_imovel",
+      "titulo": "Zoneamento do imóvel",
+      "descricao": "Classificação da zona urbana em que o imóvel está inserido conforme o Plano Diretor.",
+      "tipo": "classificacao_zoneamento"
+    }
+  ]
+}

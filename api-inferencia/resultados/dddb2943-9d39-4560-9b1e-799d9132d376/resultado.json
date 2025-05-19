@@ -1,0 +1,176 @@
+{
+  "caixas_detectadas": [
+    {
+      "classe": "carimbo",
+      "confianca": 0.8834424614906311,
+      "bbox": [
+        11782,
+        6399,
+        13891,
+        9787
+      ]
+    },
+    {
+      "classe": "planta_situacao",
+      "confianca": 0.8542854189872742,
+      "bbox": [
+        11802,
+        7686,
+        13881,
+        9047
+      ]
+    },
+    {
+      "classe": "quadro_areas_pavimento",
+      "confianca": 0.8504355549812317,
+      "bbox": [
+        839,
+        5823,
+        3394,
+        6685
+      ]
+    },
+    {
+      "classe": "planta_baixa",
+      "confianca": 0.8454591035842896,
+      "bbox": [
+        4365,
+        655,
+        6905,
+        5166
+      ]
+    },
+    {
+      "classe": "implantacao",
+      "confianca": 0.8351277709007263,
+      "bbox": [
+        367,
+        446,
+        3312,
+        5463
+      ]
+    },
+    {
+      "classe": "memoria_calculo_permeabilidade",
+      "confianca": 0.8346914052963257,
+      "bbox": [
+        6104,
+        5630,
+        7882,
+        8003
+      ]
+    },
+    {
+      "classe": "corte_esquemtico",
+      "confianca": 0.766059398651123,
+      "bbox": [
+        7961,
+        856,
+        11643,
+        2074
+      ]
+    },
+    {
+      "classe": "quadro_permeabilidade",
+      "confianca": 0.6162672638893127,
+      "bbox": [
+        9375,
+        3261,
+        10444,
+        3865
+      ]
+    },
+    {
+      "classe": "quadro_areas_unidade",
+      "confianca": 0.606695294380188,
+      "bbox": [
+        709,
+        7558,
+        4038,
+        8227
+      ]
+    }
+  ],
+  "textos_estruturados": {
+    "quadro_permeabilidade": [
+      "ÁREA PERMEÁVEL",
+      "ÁREA TOTAL",
+      "Área permeável 01 72,00 m?",
+      "- grama",
+      "ÁREA TOTAL 72,00 m?",
+      "Área do terreno 360,00 m?",
+      "Taxa de permeabilidade mínima 20,00 %",
+      "Taxa de permeabilidade em aprovação 20,00 %"
+    ],
+    "carimbo": [
+      "PARA USO DA PREFEITURA",
+      "PREFEITURA MUNICIPAL DE ITAÚNA",
+      "PROCESSO Nº DE / |",
+      "Somos pela aprovação em / /",
+      "Analista",
+      "Secretaria Municipal de Regulação Urbana",
+      "PROJETO SIMPLIFICADO DECRETO XXXXXXX",
+      "-",
+      "Projeto simplificado aprovado em relação as parâmetros urbanísticos relevantes. Os responsáveis técnicos pelo projeto e execução",
+      "respondem civil e administrativamente pelo atendimento das especificações constantes na legislação municipal, estadual e federal vigente,",
+      "bem como normas técnicnas e regulamentos específicos conforme o uso da edificação, sujeitando-se às sanções legais decorrentes de",
+      "eventuais prejuízos a terceiros.",
+      "TÍTULO DO PROJETO",
+      "PROJETO ARQUITETÔNICO",
+      "PLANTA DE SITUAÇÃO",
+      "1200",
+      "—",
+      "3000 3000",
+      "YYYY",
+      "RUA",
+      "V",
+      "1200 1200 poo",
+      "RUA XXXX 700",
+      "200)",
+      "ESCALA 1:500",
+      "* | Situação conforme medidas aferidas \"in loco\" pelo Responsável Técnico.",
+      "BAIRRO ZONA QUADRA LOTE ZONEAMENTO",
+      "OLIMPIO MOREIRA 07 22 12 06",
+      "ÁREA USO C.A. Nº PRANCHA",
+      "DO LOTE",
+      "0) 1 /02",
+      "1.350,00M? MISTO 0,15",
+      "PROPRIETÁRIO RESPONSÁVEL TÉCNICO",
+      "A DEFINIR TESTE TESTE",
+      "EMPRESA XYZ TESTE TESTE",
+      "QUALQUER UM TESTE TESTE"
+    ],
+    "quadro_areas_unidade": [
+      "QUADRO DE ÁREAS POR UNIDADE",
+      "|",
+      "ÁREA PRIVATIVA ÁREA COMUM ÁREA GARAGEM",
+      "QUANTIDADE ÁREA TOTAL TIPO DE",
+      "UNIDADE e QUARTOS e suites",
+      "PRIVATIVA PRIVATIVA DE VAGAS DA UNIDADE COBERTURA",
+      "COBERTA COBERTA",
+      "COBERTA DESCOBERTA",
+      "Casa 01 172,00 m? 0,00 m? 15,00 m? 0,00 m? 01 187,00 m? 03 01 LAJE",
+      "Casa 02 84,00 m? 0,00 m? 0,00 m? 15,00 m? 01 84,00 m? 02 00 TELHAS C/ FORRO",
+      "TOTAL 256,00 m? 0,00 m? 15,00 m? 15,00 m? 271,00 m?"
+    ],
+    "quadro_areas_pavimento": [
+      "QUADRO DE ÁREAS POR PAVIMENTO",
+      "EXISTENTE A CONSTRUIR A DEMOLIR SUBTOTAL",
+      "PAVIMENTO TOTAL",
+      "NÃO - ana - VEL NÃO - ERR OT - EL NÃO - ana - VEL NÃO - ana - VEL",
+      "COMPUTÁVEL COMPUTÁVEL COMPUTÁVEL COMPUTÁVEL",
+      "Pavimento Térreo 111,50 m? 0,00 m? 84,00 m? 0,00 m? 18,00 m? 0,00 m? 177,50 m? 0,00 m? 177,50 m?",
+      "Primeiro Pavimento 0,00 m? 0,00 m? 93,50 m? 0,00 m? 0,00 m? 0,00 m? 93,50 m? 0,00 m? 93,50 m?",
+      "TOTAL 111,50 m? 0,00 m? 177,50 m? 0,00 m? 18,00 m? 0,00 m? 271,00 m? 0,00 m? 271,00 m?"
+    ]
+  },
+  "estruturado_llama": {},
+  "analise": {
+    "area_terreno": "0.00 m²",
+    "area_permeavel_total": "0.00 m²",
+    "percentual_total": "0.00%",
+    "percentual_grama": "0.00%",
+    "conforme": false,
+    "areas_encontradas": []
+  }
+}

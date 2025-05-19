@@ -2,48 +2,111 @@
   "requisitos_gerais_universais": [
     {
       "norma": "Anexo 01 – Requisitos Gerais",
-      "referencia": "Item 1.1 a 1.7",
-      "exigencia": "Documentos necessários para aprovação do projeto",
-      "aplicacao": "Inclui RAPA, relatório técnico, ART, memória de cálculo, DAE da taxa de saúde, e comprovações de filantropia ou microempresa.",
-      "comentario": "Esses documentos são exigidos para submissão formal do projeto à GIEF.",
-      "categoria": "documentacao",
-      "keywords": ["aprovação", "documentação", "RAPA", "ART", "memória de cálculo"]
-    },
-    {
-      "norma": "Anexo 01 – Requisitos Gerais",
-      "referencia": "Item 2.0 a 2.10.6",
-      "exigencia": "Conteúdo obrigatório do relatório técnico",
-      "aplicacao": "Deve conter dados cadastrais, memorial de projeto, serviços terceirizados, instalações e características técnicas, ventilação, resíduos, equipamentos e quadro funcional.",
-      "comentario": "O relatório técnico deve estar completo e assinado por responsável técnico.",
-      "categoria": "documentacao",
-      "keywords": ["relatório técnico", "acessos", "fluxo", "ventilação", "resíduos", "equipamentos"]
-    },
-    {
-      "norma": "Anexo 01 – Requisitos Gerais",
-      "referencia": "Item 3.0 a 3.28",
-      "exigencia": "Representação gráfica obrigatória",
-      "aplicacao": "Inclui plantas com escalas e cortes, cotas, localização, ventilação, marquises, sanitários, rampas, acessibilidade, equipamentos e normas técnicas.",
-      "comentario": "A representação gráfica deve seguir normas da ABNT e legislação de acessibilidade.",
-      "categoria": "documentacao",
-      "keywords": ["planta baixa", "representação gráfica", "escada", "fachada", "rampa", "acessibilidade"]
-    },
-    {
-      "norma": "Anexo 01 – Requisitos Gerais",
-      "referencia": "Item 4.0 a 4.24",
-      "exigencia": "Requisitos gerais para estabelecimentos assistenciais de saúde",
-      "aplicacao": "Define critérios como setorização, acesso coberto, ventilação, lavatórios, acessibilidade e comunicação entre áreas.",
-      "comentario": "Aplicável a unidades com atendimento direto ao paciente, como consultórios, clínicas e hospitais.",
+      "referencia": "Item 4.1",
+      "exigencia": "Setorização funcional dos ambientes",
+      "aplicacao": "Ambientes devem ser organizados em setores distintos (assistencial, apoio técnico, apoio logístico e administrativo).",
+      "comentario": "Evita cruzamento de fluxos e garante funcionamento eficiente.",
       "categoria": "dimensionamento",
-      "keywords": ["setorização", "lavatório", "acesso", "ventilação", "circulação"]
+      "keywords": ["setorização", "fluxo", "organização"]
     },
     {
       "norma": "Anexo 01 – Requisitos Gerais",
-      "referencia": "Item 5.0 a 5.17",
-      "exigencia": "Dimensionamento de ambientes comuns",
-      "aplicacao": "Inclui áreas mínimas e instalações exigidas para salas de espera, sanitários, consultórios, expurgo, CME, copa, DML, entre outros.",
-      "comentario": "Esses parâmetros devem ser seguidos mesmo para unidades de pequeno porte.",
+      "referencia": "Item 4.4",
+      "exigencia": "Acesso coberto para pacientes",
+      "aplicacao": "Entrada principal deve possuir cobertura para proteção contra intempéries.",
+      "comentario": "Obrigatório em estabelecimentos assistenciais de saúde com atendimento ao público.",
       "categoria": "dimensionamento",
-      "keywords": ["área mínima", "ambiente comum", "sanitário", "consultório", "espera"]
+      "keywords": ["acesso", "cobertura", "proteção"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 4.10",
+      "exigencia": "Ventilação natural ou mecânica em todos os ambientes",
+      "aplicacao": "Devem ser adotadas aberturas ou sistemas de exaustão conforme tipo de ambiente.",
+      "comentario": "Ambientes como sanitários, CME e expurgo exigem ventilação forçada.",
+      "categoria": "dimensionamento",
+      "keywords": ["ventilação", "exaustão", "natural", "mecânica"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 4.12",
+      "exigencia": "Lavatórios em locais estratégicos",
+      "aplicacao": "Devem estar próximos às áreas de atendimento, manipulação de materiais e sanitários.",
+      "comentario": "Devem possuir acionamento não manual e estar dimensionados para uso frequente.",
+      "categoria": "dimensionamento",
+      "keywords": ["lavatório", "mãos", "higiene"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 4.14",
+      "exigencia": "Acessibilidade conforme NBR 9050",
+      "aplicacao": "Todos os ambientes de uso público e rotas devem atender aos parâmetros de acessibilidade universal.",
+      "comentario": "Aplicável a sanitários, corredores, portas, mobiliários e sinalização.",
+      "categoria": "dimensionamento",
+      "keywords": ["acessibilidade", "NBR 9050", "PCD"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.3",
+      "exigencia": "Sala de espera com área mínima de 1,2 m² por pessoa",
+      "aplicacao": "Dimensionada conforme o pico de atendimento estimado.",
+      "comentario": "Obrigatória em estabelecimentos com atendimento direto ao público.",
+      "categoria": "dimensionamento",
+      "keywords": ["sala de espera", "área mínima", "pacientes"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.4",
+      "exigencia": "Consultório com área mínima de 9 m² e largura mínima de 2,2 m",
+      "aplicacao": "Deve conter lavatório exclusivo com torneira sem acionamento manual.",
+      "comentario": "Obrigatório em todos os tipos de consultórios odontológicos.",
+      "categoria": "dimensionamento",
+      "keywords": ["consultório", "lavatório", "dimensão mínima"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.6",
+      "exigencia": "Sanitário acessível com 3,2 m² e 1,7 m de largura",
+      "aplicacao": "Deve atender à NBR 9050, com barras de apoio e lavatório acessível.",
+      "comentario": "Obrigatório por pavimento nas unidades de atendimento ao público.",
+      "categoria": "dimensionamento",
+      "keywords": ["sanitário acessível", "PCD", "banheiro"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.7",
+      "exigencia": "DML com área mínima de 2 m² e largura mínima de 1 m",
+      "aplicacao": "Deve conter tanque, armário e piso lavável.",
+      "comentario": "Obrigatório quando houver sanitários ou lavagem local de materiais.",
+      "categoria": "dimensionamento",
+      "keywords": ["limpeza", "dml", "tanque"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.8",
+      "exigencia": "Área administrativa com 5,5 m² por funcionário",
+      "aplicacao": "Pode ser integrada ao consultório nos tipos menores, desde que setorizada.",
+      "comentario": "Obrigatória em qualquer consultório com recepção ou controle de fluxo.",
+      "categoria": "dimensionamento",
+      "keywords": ["administração", "secretaria", "área mínima"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.11",
+      "exigencia": "Copa com bancada e pia (mínimo 1,5 m)",
+      "aplicacao": "Exceto nos tipos I e II, onde a exigência pode ser suprimida.",
+      "comentario": "Ambiente de apoio à equipe técnica e de limpeza.",
+      "categoria": "dimensionamento",
+      "keywords": ["copa", "pia", "apoio"]
+    },
+    {
+      "norma": "Anexo 01 – Requisitos Gerais",
+      "referencia": "Item 5.13",
+      "exigencia": "CME com área mínima de 4,8 m² e largura de 1,5 m",
+      "aplicacao": "Com lavatório, bancada seca, pia de despejo e fluxo unidirecional.",
+      "comentario": "Obrigatória para clínicas com esterilização interna.",
+      "categoria": "dimensionamento",
+      "keywords": ["CME", "esterilização", "autoclave"]
     },
     {
       "norma": "Anexo 18 – Memória de Cálculo",

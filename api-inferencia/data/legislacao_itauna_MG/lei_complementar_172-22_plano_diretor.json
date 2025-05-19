@@ -1,0 +1,659 @@
+[
+{
+  "item": "46",
+  "titulo": "Direito de construir",
+  "texto": "O direito de construir será exercido nos limites dos coeficientes de aproveitamento básico e máximo estabelecidos para cada uma das zonas urbanas do Município de Itaúna.",
+  "palavras_chave": [
+    "direito de construir",
+    "coeficiente de aproveitamento",
+    "zona urbana",
+    "limite de construção",
+    "índice construtivo"
+  ],
+  "pagina": "83",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "47",
+  "titulo": "Coeficiente de aproveitamento básico",
+  "texto": "O coeficiente de aproveitamento básico fica estabelecido em 2,0 (duas) vezes a área do lote, obedecidas as demais disposições desta Lei.",
+  "paragrafos": {
+    "parágrafo único": "O coeficiente básico e único na Zona Central Secundária é 3,0 (três)."
+  },
+  "palavras_chave": [
+    "coeficiente básico",
+    "índice construtivo",
+    "zona central secundária",
+    "parâmetro urbanístico",
+    "área do lote"
+  ],
+  "pagina": "83",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "48",
+  "titulo": "Coeficiente de aproveitamento máximo",
+  "texto": "Só poderão exceder o coeficiente de aproveitamento básico as edificações situadas nas zonas a seguir identificadas, dentro dos seguintes coeficientes máximos apresentados:",
+  "especificacoes": {
+    "Zona Urbana Mista (ZM)": "2,5",
+    "Zona de Interesse Social (ZIS)": "2,5",
+    "Zona Mista Adensável (ZMA)": "2,5",
+    "Zona Central Perimetral (ZCP)": "2,5"
+  },
+  "palavras_chave": [
+    "coeficiente máximo",
+    "zona urbana",
+    "aproveitamento do lote",
+    "edificação",
+    "índice urbanístico"
+  ],
+  "pagina": "84",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "49",
+  "titulo": "Parâmetro de adensamento",
+  "texto": "A quota de terreno por unidade habitacional é o parâmetro que controla o nível de adensamento nas edificações destinadas ao uso residencial e na parte residencial das edificações de uso misto.",
+  "paragrafos": {
+    "parágrafo único": "O número de unidades habitacionais é obtido, dividindo-se a área do terreno pelo valor da quota, conforme o artigo 50 desta Lei."
+  },
+  "palavras_chave": [
+    "quota de terreno",
+    "unidade habitacional",
+    "adensamento",
+    "uso misto",
+    "cálculo de unidades"
+  ],
+  "pagina": "84",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "50",
+  "titulo": "Quotas de terreno por unidade habitacional",
+  "texto": "Ficam estabelecidas as seguintes quotas de terreno por unidade habitacional para as seguintes zonas urbanas:",
+  "especificacoes": {
+    "Zona Central Adensada (ZCA)": "50",
+    "Zona Central Secundária (ZCS)": "35",
+    "Zona Mista (ZM)": "50",
+    "Zona de Interesse Social (ZIS)": "35",
+    "Zona de Proteção Ambiental 1 (ZPA 1)": "50",
+    "Zona Mista Adensável (ZMA)": "35",
+    "Zona Central Perimetral (ZCP)": "40"
+  },
+  "paragrafos": {
+    "parágrafo único": "Será de 40 a quota de terreno por unidade habitacional para as zonas urbanas não definidas neste artigo."
+  },
+  "palavras_chave": [
+    "quota mínima",
+    "densidade",
+    "adensamento urbano",
+    "zonas urbanas",
+    "parâmetro construtivo"
+  ],
+  "pagina": "84",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "51",
+  "titulo": "Arredondamento da cota habitacional",
+  "texto": "Para os fins do artigo 50, deve-se arredondar o valor fracionário da cota habitacional:",
+  "incisos": {
+    "I": "para o número inteiro imediatamente anterior, quando se situar entre 0,01 (um centésimo) e 0,50 (cinquenta centésimos), inclusive;",
+    "II": "para o número inteiro imediatamente superior, quando se situar entre 0,50 (cinquenta centésimos) e 0,99 (noventa e nove centésimos)."
+  },
+  "palavras_chave": [
+    "arredondamento",
+    "cota habitacional",
+    "cálculo de unidades",
+    "densidade residencial",
+    "unidade habitacional"
+  ],
+  "pagina": "84",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "52",
+  "titulo": "Conceito de taxa de permeabilidade",
+  "texto": "Considera-se taxa de permeabilidade a área descoberta e permeável do terreno, em relação à sua área total, dotada de vegetação que contribua para o equilíbrio climático e propicie alívio para o sistema público de drenagem urbana.",
+  "palavras_chave": [
+    "taxa de permeabilidade",
+    "área descoberta",
+    "vegetação",
+    "equilíbrio climático",
+    "drenagem urbana"
+  ],
+  "pagina": "85",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "53",
+  "titulo": "Taxas mínimas de permeabilidade por bacia hidrográfica",
+  "texto": "As taxas mínimas de permeabilidade por terreno, definidas em função do grau de comprometimento das bacias hidrográficas delimitadas no Anexo III (Bacias Hidrográficas da Macrozona Urbana e de Expansão Urbana) são as seguintes:",
+  "especificacoes": {
+    "Bacia do Benfica e Angu Seco": "60%",
+    "Bacia do Sumidouro (área urbana)": "30%",
+    "Bacia do Sumidouro (expansão urbana)": "60%",
+    "Outras Bacias da Macrozona Urbana": "20%",
+    "Outras Bacias da Macrozona Rural": "70%"
+  },
+  "palavras_chave": [
+    "permeabilidade mínima",
+    "bacias hidrográficas",
+    "área permeável",
+    "zoneamento ambiental",
+    "índice urbanístico"
+  ],
+  "pagina": "85",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "54",
+  "titulo": "Recuo frontal obrigatório",
+  "texto": "As edificações situadas nas vias arteriais, coletoras e locais devem respeitar o recuo mínimo de 3m (três metros) a partir da testada do terreno, para efeito de construção.",
+  "palavras_chave": [
+    "recuo frontal",
+    "vias públicas",
+    "testada do terreno",
+    "parâmetro urbanístico",
+    "construção"
+  ],
+  "pagina": "85",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "55",
+  "titulo": "Definição de H (altura vertical)",
+  "texto": "A distância vertical entre a laje de cobertura de cada pavimento e a laje de piso do primeiro pavimento, acima do passeio lindeiro ao alinhamento do lote, é calculada em metros e denomina-se H.",
+  "especificacoes": {
+    "H": "altura entre o piso do 1º pavimento e a laje de cobertura"
+  },
+  "palavras_chave": [
+    "altura vertical",
+    "H",
+    "pavimento",
+    "cálculo de altura",
+    "passeio público"
+  ],
+  "pagina": "85",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "56",
+  "titulo": "Afastamentos mínimos laterais e de fundo",
+  "texto": "Os afastamentos mínimos laterais e de fundo dos pavimentos devem respeitar a seguinte fórmula:",
+  "especificacoes": {
+    "afastamento_minimo": "1,5 + H/20"
+  },
+  "paragrafos": {
+    "§1º": "Havendo níveis de subsolo, o H deve ser medido a partir do piso deste, exceto nos níveis que se destinarem a estacionamento ou guarda de veículos, e nas áreas de lazer abertas.",
+    "§2º": "Para efeito de definição do H, a casa de máquinas não é considerada pavimento.",
+    "§3º": "Nos terrenos em aclive, o H pode ser definido pelo ponto médio do perfil do terreno ou pelo perfil do terreno em todos os seus pontos.",
+    "§4º": "Nas unidades residenciais duplex o H deve ser considerado a partir do piso da cobertura."
+  },
+  "palavras_chave": [
+    "afastamento lateral",
+    "afastamento de fundo",
+    "altura H",
+    "subsolo",
+    "aclive",
+    "parâmetro urbanístico"
+  ],
+  "pagina": "86",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "57",
+  "titulo": "Afastamentos facultativos",
+  "texto": "São facultativos os afastamentos laterais mínimos das edificações, desde que não haja aberturas na sua fachada e que a altura máxima na divisa não ultrapasse dois pavimentos em todos os pontos da divisa do terreno.",
+  "especificacoes": {
+    "altura_maxima_na_divisa": "2 pavimentos",
+    "fachada_sem_aberturas": true
+  },
+  "palavras_chave": [
+    "afastamento facultativo",
+    "fachada cega",
+    "limite de altura",
+    "divisa do terreno",
+    "construção lateral"
+  ],
+  "pagina": "86",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "58",
+  "titulo": "Distância entre blocos",
+  "texto": "Nas edificações constituídas por vários blocos, independentes ou interligados, que ocupem áreas comuns, a distância entre eles deve corresponder ao dobro dos afastamentos mínimos laterais e de fundo, previstos nesta Lei.",
+  "especificacoes": {
+    "distancia_minima_entre_blocos": "2 × (afastamento mínimo lateral ou de fundo)"
+  },
+  "palavras_chave": [
+    "distância entre blocos",
+    "afastamento mínimo",
+    "área comum",
+    "conjunto de edificações",
+    "recuo entre construções"
+  ],
+  "pagina": "86",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "59",
+  "titulo": "Verificação dos recuos pelo Poder Público",
+  "texto": "Na análise dos projetos de edificação, o Poder Público verificará a estrita observância dos recuos previstos nesta Seção, de modo que nenhuma parte da edificação ultrapasse os limites do terreno, avançando sobre o espaço da via pública em que se situa.",
+  "especificacoes": {
+    "proibicao_avanco_sobre_via": true
+  },
+  "palavras_chave": [
+    "recuo obrigatório",
+    "projeção sobre via",
+    "limite do terreno",
+    "avaliação de projeto",
+    "análise de recuos"
+  ],
+  "pagina": "86",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "60",
+  "titulo": "Critérios para número mínimo de vagas de estacionamento",
+  "texto": "Os critérios de definição do número mínimo obrigatório de vagas destinadas a estacionamento de veículos nas edificações devem ser calculados da seguinte forma:",
+  "especificacoes": {
+    "residencial_unifamiliar": "1 vaga / unidade habitacional (mín. 15 m²)",
+    "residencial_multifamiliar_ZIS": "1 vaga / unidade habitacional (mín. 12 m²)",
+    "não_residencial_ate_200m²": "1 vaga / unidade (mín. 12 m²)",
+    "não_residencial_acima_200m²": "1 vaga / 100 m² excedentes (mín. 12 m²)"
+  },
+  "paragrafos": {
+    "§1º": "As áreas destinadas à garagem, quando se tratarem de áreas edificadas, não serão computadas para efeito de cálculo do coeficiente de que trata o artigo 48 desta Lei, salvo se tratar de edificação cuja destinação seja para exploração econômica de garagem de veículos (edifício/garagem).",
+    "§2º": "As vagas de estacionamento definidas neste artigo não devem ser consideradas como unidade autônoma.",
+    "§3º": "Deverão ser definidas como áreas comuns as áreas de manobras das vagas de estacionamento definidas neste artigo."
+  },
+  "palavras_chave": [
+    "vagas de estacionamento",
+    "edificação residencial",
+    "ZIS",
+    "área mínima da vaga",
+    "coeficiente de aproveitamento",
+    "garagem",
+    "área comum"
+  ],
+  "pagina": "87",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "61",
+  "titulo": "Instrumentos da política urbana",
+  "texto": "São instrumentos do desenvolvimento da política urbana do Município de Itaúna:",
+  "especificacoes": {
+    "instrumentos": [
+      "plano plurianual",
+      "diretrizes orçamentárias e orçamento anual",
+      "gestão orçamentária participativa",
+      "plano de saneamento básico",
+      "plano de habitação de interesse social",
+      "plano de mobilidade urbana",
+      "plano de controle de resíduos sólidos",
+      "outros planos, programas e projetos setoriais",
+      "institutos tributários e financeiros"
+    ]
+  },
+  "palavras_chave": [
+    "instrumentos urbanísticos",
+    "plano plurianual",
+    "habitação",
+    "mobilidade urbana",
+    "política urbana",
+    "saneamento",
+    "resíduos sólidos"
+  ],
+  "pagina": "87",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "62",
+  "titulo": "Institutos tributários e financeiros",
+  "texto": "Continuação do inciso IX do artigo anterior: institutos tributários e financeiros, em especial:",
+  "especificacoes": {
+    "institutos_tributarios_e_financeiros": [
+      "Imposto Sobre a Propriedade Predial e Territorial Urbana – IPTU",
+      "Contribuição de melhoria",
+      "Concessão de direito real de uso",
+      "Outorga onerosa do direito de construir e de alteração de uso",
+      "Direito de preempção",
+      "Transferência do direito de construir",
+      "Parcelamento, edificação ou utilização compulsórios",
+      "Desapropriação com pagamento em títulos",
+      "Operações urbanas consorciadas"
+    ]
+  },
+  "palavras_chave": [
+    "IPTU",
+    "direito de construir",
+    "outorga onerosa",
+    "preempção",
+    "transferência de potencial",
+    "operações urbanas",
+    "instrumentos financeiros"
+  ],
+  "pagina": "87-88",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "63",
+  "titulo": "Instrumentos de regularização urbanística e fundiária",
+  "texto": "São instrumentos da política urbana que visam à regularização urbanística e fundiária:",
+  "especificacoes": {
+    "instrumentos_de_regularizacao": [
+      "usucapião especial de imóvel urbano",
+      "concessão de uso especial para fins de moradia",
+      "concessão de direito real de uso",
+      "legitimação de posse",
+      "regularização fundiária de assentamentos urbanos",
+      "legitimação fundiária"
+    ]
+  },
+  "palavras_chave": [
+    "regularização fundiária",
+    "usucapião",
+    "concessão de uso",
+    "posse urbana",
+    "moradia",
+    "instrumento jurídico",
+    "urbanismo legal"
+  ],
+  "pagina": "88",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "64",
+  "titulo": "Zoneamento ambiental",
+  "texto": "O zoneamento ambiental é o instrumento básico de orientação para o uso e ocupação do solo, com base na identificação das áreas ambientalmente frágeis, das áreas de risco e da aptidão natural do solo, estabelecendo diretrizes para a ocupação urbana e rural.",
+  "palavras_chave": [
+    "zoneamento ambiental",
+    "ocupação do solo",
+    "área de risco",
+    "aptidão natural do solo",
+    "diretrizes ambientais",
+    "instrumento de planejamento"
+  ],
+  "pagina": "88",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "65",
+  "titulo": "Áreas de preservação permanente e áreas de risco",
+  "texto": "O Município poderá restringir ou impedir o parcelamento do solo, a edificação ou o uso de áreas consideradas de preservação permanente ou de risco geotécnico, ambiental ou sanitário, mediante identificação e mapeamento técnico.",
+  "palavras_chave": [
+    "área de preservação permanente",
+    "risco ambiental",
+    "risco geotécnico",
+    "restrição de uso",
+    "mapeamento técnico",
+    "ocupação do solo"
+  ],
+  "pagina": "88",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "66",
+  "titulo": "Diretrizes para áreas ambientalmente frágeis",
+  "texto": "A ocupação de áreas ambientalmente frágeis será permitida somente quando comprovadamente adequada à capacidade de suporte do meio ambiente e obedecidas as condicionantes dos órgãos competentes.",
+  "especificacoes": {
+    "condicoes_para_ocupacao": [
+      "adequação à capacidade de suporte",
+      "cumprimento das condicionantes técnicas e legais",
+      "aprovação por órgãos ambientais competentes"
+    ]
+  },
+  "palavras_chave": [
+    "área frágil",
+    "capacidade de suporte",
+    "condicionantes ambientais",
+    "licenciamento",
+    "meio ambiente",
+    "ocupação controlada"
+  ],
+  "pagina": "88-89",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "67",
+  "titulo": "Parcelamento em áreas ambientalmente frágeis",
+  "texto": "Em áreas ambientalmente frágeis, o parcelamento do solo urbano deve ser orientado pela legislação ambiental e pelas diretrizes do zoneamento ambiental estabelecido nesta Lei.",
+  "palavras_chave": [
+    "parcelamento do solo",
+    "área ambientalmente frágil",
+    "zoneamento ambiental",
+    "legislação ambiental",
+    "uso do solo urbano"
+  ],
+  "pagina": "89",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "68",
+  "titulo": "Cadastro técnico ambiental",
+  "texto": "O Poder Público instituirá e manterá atualizado o cadastro técnico ambiental, com informações sobre os imóveis urbanos e rurais, suas características, restrições e condicionantes legais.",
+  "especificacoes": {
+    "conteudo_cadastro": [
+      "informações sobre imóveis urbanos e rurais",
+      "características do solo",
+      "restrições legais",
+      "condicionantes ambientais"
+    ]
+  },
+  "palavras_chave": [
+    "cadastro ambiental",
+    "informações fundiárias",
+    "restrições legais",
+    "condicionantes ambientais",
+    "instrumento de planejamento"
+  ],
+  "pagina": "89",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "69",
+  "titulo": "Diretrizes para drenagem urbana",
+  "texto": "O sistema de drenagem urbana deve ser planejado com base em bacias hidrográficas, priorizando o escoamento superficial, a infiltração da água no solo e a proteção de corpos hídricos.",
+  "especificacoes": {
+    "principios_drenagem": [
+      "planejamento por bacia hidrográfica",
+      "escoamento superficial",
+      "infiltração no solo",
+      "proteção de corpos hídricos"
+    ]
+  },
+  "palavras_chave": [
+    "drenagem urbana",
+    "bacia hidrográfica",
+    "escoamento",
+    "infiltração",
+    "corpos hídricos",
+    "infraestrutura verde"
+  ],
+  "pagina": "89",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "70",
+  "titulo": "Sistemas de abastecimento de água e esgotamento sanitário",
+  "texto": "Os sistemas de abastecimento de água e de esgotamento sanitário devem ser planejados de forma integrada ao uso e à ocupação do solo, observando-se as diretrizes do Plano Municipal de Saneamento Básico.",
+  "palavras_chave": [
+    "abastecimento de água",
+    "esgoto sanitário",
+    "planejamento integrado",
+    "uso do solo",
+    "saneamento básico"
+  ],
+  "pagina": "89",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "71",
+  "titulo": "Planejamento da coleta de resíduos sólidos",
+  "texto": "O sistema de coleta, transporte, tratamento e destinação final dos resíduos sólidos deve estar integrado ao Plano Municipal de Gestão Integrada de Resíduos Sólidos, garantindo eficiência operacional e sustentabilidade ambiental.",
+  "especificacoes": {
+    "principios_residuos_solidos": [
+      "integração com o plano municipal de resíduos",
+      "eficiência operacional",
+      "sustentabilidade ambiental"
+    ]
+  },
+  "palavras_chave": [
+    "resíduos sólidos",
+    "gestão integrada",
+    "coleta e tratamento",
+    "destinação final",
+    "sustentabilidade"
+  ],
+  "pagina": "89-90",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "item": "72",
+  "titulo": "Acessibilidade e mobilidade urbana",
+  "texto": "O Município deverá garantir a acessibilidade universal e a mobilidade urbana sustentável, com prioridade para os modos de transporte coletivo, não motorizado e de circulação de pedestres.",
+  "especificacoes": {
+    "prioridades_mobilidade": [
+      "transporte coletivo",
+      "transporte não motorizado",
+      "circulação de pedestres"
+    ]
+  },
+  "palavras_chave": [
+    "acessibilidade",
+    "mobilidade urbana",
+    "transporte coletivo",
+    "meios não motorizados",
+    "circulação de pedestres",
+    "infraestrutura urbana"
+  ],
+  "pagina": "90",
+  "norma": "Lei Complementar nº 172/2022 – Plano Diretor de Itaúna"
+},
+{
+  "titulo": "Resumo de Diretrizes – Anexo X",
+  "descricao": "Tabela de parâmetros urbanísticos aplicáveis às zonas da Macrozona Urbana e de Expansão Urbana, conforme categoria de zoneamento e uso do solo. Define índices como CA, TO, gabarito, permeabilidade, testada mínima, entre outros.",
+  "tabela": [
+    {
+      "zona": "Zona Central Adensada (ZCA)",
+      "coeficiente_aproveitamento_maximo": 4.0,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "12 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "12 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona Central Secundária (ZCS)",
+      "coeficiente_aproveitamento_maximo": 3.0,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "10 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "10 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona Mista (ZM)",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "8 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "10 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona Mista Adensável (ZMA)",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "6 pavimentos",
+      "taxa_permeabilidade_minima": "25%",
+      "testada_minima": "10 m",
+      "fracao_ideal_minima": "60 m²"
+    },
+    {
+      "zona": "Zona de Interesse Social (ZIS)",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "4 pavimentos",
+      "taxa_permeabilidade_minima": "20%",
+      "testada_minima": "8 m",
+      "fracao_ideal_minima": "45 m²"
+    },
+    {
+      "zona": "Zona de Expansão Urbana (ZEU)",
+      "coeficiente_aproveitamento_maximo": 2.0,
+      "taxa_ocupacao_maxima": "60%",
+      "gabarito_maximo": "4 pavimentos",
+      "taxa_permeabilidade_minima": "30%",
+      "testada_minima": "12 m",
+      "fracao_ideal_minima": "125 m²"
+    },
+    {
+      "zona": "Zona de Expansão de Interesse Social (ZEIS)",
+      "coeficiente_aproveitamento_maximo": 2.0,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "4 pavimentos",
+      "taxa_permeabilidade_minima": "25%",
+      "testada_minima": "8 m",
+      "fracao_ideal_minima": "45 m²"
+    },
+    {
+      "zona": "Zona de Proteção Ambiental 1 (ZPA-1)",
+      "coeficiente_aproveitamento_maximo": 0.8,
+      "taxa_ocupacao_maxima": "30%",
+      "gabarito_maximo": "2 pavimentos",
+      "taxa_permeabilidade_minima": "70%",
+      "testada_minima": "20 m",
+      "fracao_ideal_minima": "1000 m²"
+    },
+    {
+      "zona": "Zona de Proteção Ambiental 2 (ZPA-2)",
+      "coeficiente_aproveitamento_maximo": 1.0,
+      "taxa_ocupacao_maxima": "40%",
+      "gabarito_maximo": "2 pavimentos",
+      "taxa_permeabilidade_minima": "60%",
+      "testada_minima": "15 m",
+      "fracao_ideal_minima": "800 m²"
+    }
+  ],
+  "palavras_chave": [
+    "coeficiente de aproveitamento",
+    "taxa de ocupação",
+    "gabarito",
+    "taxa de permeabilidade",
+    "testada mínima",
+    "fração ideal mínima",
+    "zoneamento urbano",
+    "parâmetros construtivos",
+    "uso e ocupação do solo"
+  ]
+}
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

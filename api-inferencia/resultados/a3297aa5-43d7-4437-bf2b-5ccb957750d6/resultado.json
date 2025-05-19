@@ -1,0 +1,122 @@
+{
+  "caixas_detectadas": [
+    {
+      "classe": "carimbo",
+      "confianca": 0.8834424614906311,
+      "bbox": [
+        11782,
+        6399,
+        13891,
+        9787
+      ]
+    },
+    {
+      "classe": "planta_situacao",
+      "confianca": 0.8542854189872742,
+      "bbox": [
+        11802,
+        7686,
+        13881,
+        9047
+      ]
+    },
+    {
+      "classe": "quadro_areas_pavimento",
+      "confianca": 0.8504355549812317,
+      "bbox": [
+        839,
+        5823,
+        3394,
+        6685
+      ]
+    },
+    {
+      "classe": "planta_baixa",
+      "confianca": 0.8454591035842896,
+      "bbox": [
+        4365,
+        655,
+        6905,
+        5166
+      ]
+    },
+    {
+      "classe": "implantacao",
+      "confianca": 0.8351277709007263,
+      "bbox": [
+        367,
+        446,
+        3312,
+        5463
+      ]
+    },
+    {
+      "classe": "memoria_calculo_permeabilidade",
+      "confianca": 0.8346914052963257,
+      "bbox": [
+        6104,
+        5630,
+        7882,
+        8003
+      ]
+    },
+    {
+      "classe": "corte_esquemtico",
+      "confianca": 0.766059398651123,
+      "bbox": [
+        7961,
+        856,
+        11643,
+        2074
+      ]
+    },
+    {
+      "classe": "quadro_permeabilidade",
+      "confianca": 0.6162672638893127,
+      "bbox": [
+        9375,
+        3261,
+        10444,
+        3865
+      ]
+    },
+    {
+      "classe": "quadro_areas_unidade",
+      "confianca": 0.606695294380188,
+      "bbox": [
+        709,
+        7558,
+        4038,
+        8227
+      ]
+    }
+  ],
+  "textos_estruturados": {
+    "quadro_permeabilidade": "ÁREA PERMEÁVEL\nÁREA TOTAL\nÁrea permeável 01 72,00 m?\n- grama\nÁREA TOTAL 72,00 m?\nÁrea do terreno 360,00 m?\nTaxa de permeabilidade mínima 20,00 %\nTaxa de permeabilidade em aprovação 20,00 %",
+    "carimbo": "PARA USO DA PREFEITURA\nPREFEITURA MUNICIPAL DE ITAÚNA\nPROCESSO Nº DE / |\nSomos pela aprovação em / /\nAnalista\nSecretaria Municipal de Regulação Urbana\nPROJETO SIMPLIFICADO DECRETO XXXXXXX\n-\nProjeto simplificado aprovado em relação as parâmetros urbanísticos relevantes. Os responsáveis técnicos pelo projeto e execução\nrespondem civil e administrativamente pelo atendimento das especificações constantes na legislação municipal, estadual e federal vigente,\nbem como normas técnicnas e regulamentos específicos conforme o uso da edificação, sujeitando-se às sanções legais decorrentes de\neventuais prejuízos a terceiros.\nTÍTULO DO PROJETO\nPROJETO ARQUITETÔNICO\nPLANTA DE SITUAÇÃO\n1200\n—\n3000 3000\nYYYY\nRUA\nV\n1200 1200 poo\nRUA XXXX 700\n200)\nESCALA 1:500\n* | Situação conforme medidas aferidas \"in loco\" pelo Responsável Técnico.\nBAIRRO ZONA QUADRA LOTE ZONEAMENTO\nOLIMPIO MOREIRA 07 22 12 06\nÁREA USO C.A. Nº PRANCHA\nDO LOTE\n0) 1 /02\n1.350,00M? MISTO 0,15\nPROPRIETÁRIO RESPONSÁVEL TÉCNICO\nA DEFINIR TESTE TESTE\nEMPRESA XYZ TESTE TESTE\nQUALQUER UM TESTE TESTE",
+    "quadro_areas_unidade": "QUADRO DE ÁREAS POR UNIDADE\n|\nÁREA PRIVATIVA ÁREA COMUM ÁREA GARAGEM\nQUANTIDADE ÁREA TOTAL TIPO DE\nUNIDADE e QUARTOS e suites\nPRIVATIVA PRIVATIVA DE VAGAS DA UNIDADE COBERTURA\nCOBERTA COBERTA\nCOBERTA DESCOBERTA\nCasa 01 172,00 m? 0,00 m? 15,00 m? 0,00 m? 01 187,00 m? 03 01 LAJE\nCasa 02 84,00 m? 0,00 m? 0,00 m? 15,00 m? 01 84,00 m? 02 00 TELHAS C/ FORRO\nTOTAL 256,00 m? 0,00 m? 15,00 m? 15,00 m? 271,00 m?",
+    "quadro_areas_pavimento": "QUADRO DE ÁREAS POR PAVIMENTO\nEXISTENTE A CONSTRUIR A DEMOLIR SUBTOTAL\nPAVIMENTO TOTAL\nNÃO - ana - VEL NÃO - ERR OT - EL NÃO - ana - VEL NÃO - ana - VEL\nCOMPUTÁVEL COMPUTÁVEL COMPUTÁVEL COMPUTÁVEL\nPavimento Térreo 111,50 m? 0,00 m? 84,00 m? 0,00 m? 18,00 m? 0,00 m? 177,50 m? 0,00 m? 177,50 m?\nPrimeiro Pavimento 0,00 m? 0,00 m? 93,50 m? 0,00 m? 0,00 m? 0,00 m? 93,50 m? 0,00 m? 93,50 m?\nTOTAL 111,50 m? 0,00 m? 177,50 m? 0,00 m? 18,00 m? 0,00 m? 271,00 m? 0,00 m? 271,00 m?"
+  },
+  "estruturado_llama": {
+    "áreas_permeáveis": [
+      {
+        "nome": "Área permeável 01",
+        "valor": "72,00 m²",
+        "tipo": "grama"
+      }
+    ],
+    "area_terreno": "360,00 m²",
+    "area_permeavel_total": "72,00 m²",
+    "percentual_total": "20,00 %",
+    "percentual_grama": "20,00 %",
+    "conforme": true
+  },
+  "analise": {
+    "area_terreno": "360.00 m²",
+    "area_permeavel_total": "0.00 m²",
+    "percentual_total": "20.00%",
+    "percentual_grama": "0.00%",
+    "conforme": true,
+    "areas_encontradas": []
+  }
+}

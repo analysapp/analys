@@ -1,7 +1,6 @@
-// pages/guianormativo.tsx – Com subcategoria e checklist adaptativo por tipo
-
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Head from 'next/head';
+import Topo from '@/components/Topo';
 
 const tiposProjeto = [
   'Residencial Unifamiliar',
@@ -11,7 +10,7 @@ const tiposProjeto = [
   'Educacional',
   'Industrial',
   'Misto / Uso Combinado',
-  'Equipamento Público',
+  'Equipamento Público'
 ];
 
 const subcategorias: Record<string, string[]> = {
@@ -28,16 +27,7 @@ const subcategorias: Record<string, string[]> = {
 const ambientesPorSubtipo: Record<string, { nome: string; possuiQuantidade?: boolean }[]> = {
   'Consultório Odontológico': [
     { nome: 'Consultório odontológico', possuiQuantidade: true },
-    { nome: 'Sanitário PCD (público ou funcionários)' },
-    { nome: 'Sala de espera' },
-    { nome: 'Depósito de material de limpeza (DML)' },
-    { nome: 'Sala de expurgo' },
-    { nome: 'Central de Material Esterilizado (CME)' },
-    { nome: 'Vestiário para funcionários' },
-    { nome: 'Sala de Raio-X' },
-    { nome: 'Sala de Revelação / Estação digital' },
-    { nome: 'Depósito de materiais e instrumental' },
-    { nome: 'Laboratório de prótese / Sala de moldagem' }
+    { nome: 'Sala de Raio-X' }
   ]
 };
 
@@ -51,6 +41,7 @@ export default function GuiaNormativo() {
   const [subtipo, setSubtipo] = useState('');
   const [ambientesSelecionados, setAmbientesSelecionados] = useState<AmbienteSelecionado[]>([]);
   const [resultado, setResultado] = useState('');
+  const relatorioRef = useRef<HTMLDivElement>(null);
 
   const ambientesDisponiveis = ambientesPorSubtipo[subtipo] || [];
 
@@ -72,45 +63,79 @@ export default function GuiaNormativo() {
   };
 
   const gerarRelatorio = async () => {
-    console.log("🔍 Disparando geração de relatório...");
-
     if (!tipoProjeto || !subtipo || ambientesSelecionados.length === 0) {
-      console.log("⚠️ Dados incompletos:", { tipoProjeto, subtipo, ambientesSelecionados });
       setResultado("⚠️ Preencha todos os campos e selecione ao menos um ambiente.");
       return;
     }
 
     try {
-      console.log("📤 Enviando para API:", {
-        tipo_projeto: tipoProjeto,
-        subtipo,
-        ambientes: ambientesSelecionados
-      });
-
       const response = await fetch("http://localhost:8000/api/guianormativo", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          tipo_projeto: tipoProjeto,
-          subtipo,
-          ambientes: ambientesSelecionados
-        })
+        body: JSON.stringify({ tipo_projeto: tipoProjeto, subtipo, ambientes: ambientesSelecionados })
       });
-
-      const data = await response.json();
-      console.log("✅ Resposta da API:", data);
-
-      setResultado(data.relatorio || JSON.stringify(data, null, 2));
-
+      const data = await response.text();
+      setResultado(data);
     } catch (error) {
-      console.error("❌ Erro ao gerar relatório:", error);
       setResultado("❌ Erro ao conectar com o servidor.");
     }
   };
 
+  const imprimirRelatorio = () => {
+    if (!relatorioRef.current) return;
+    const conteudo = relatorioRef.current.innerHTML;
+    const janela = window.open('', '', 'width=800,height=1000');
+    if (janela) {
+      janela.document.write(`
+        <html>
+        <head>
+          <title>Relatório normativo - ${tipoProjeto} - ${subtipo}</title>
+          <style>
+            body {
+              font-family: 'DM Sans', sans-serif;
+              padding: 2rem;
+              background: white;
+              line-height: 1.6;
+              font-size: 15px;
+            }
+            h2 {
+              font-size: 18px;
+              margin-top: 2rem;
+              font-weight: bold;
+              border-bottom: 1px solid #ccc;
+              padding-bottom: 0.3rem;
+            }
+            li {
+              margin-bottom: 10px;
+            }
+            .marca {
+              position: fixed;
+              top: 35%;
+              left: 20%;
+              opacity: 0.05;
+              z-index: 0;
+              width: 60%;
+            }
+          </style>
+        </head>
+        <body>
+          <img class="marca" src="/teste logo.png" alt="logo" />
+          <h1>Relatório normativo - ${tipoProjeto} - ${subtipo}</h1>
+          ${conteudo}
+        </body>
+        </html>
+      `);
+      janela.document.close();
+      janela.print();
+    }
+  };
+
   return (
-    <div className="p-6 max-w-3xl mx-auto text-center">
-      <Head><title>Guia Normativo</title></Head>
+    <div className="p-6 max-w-4xl mx-auto text-center">
+      <Head>
+        <title>Guia Normativo</title>
+      </Head>
+      <Topo />
 
       <h1 className="text-3xl font-semibold mb-6">Guia Normativo</h1>
 
@@ -190,8 +215,24 @@ export default function GuiaNormativo() {
       </button>
 
       {resultado && (
-        <div className="mt-8 border rounded p-4 bg-gray-50 text-left">
-          <pre className="whitespace-pre-wrap text-sm text-gray-800">{resultado}</pre>
+        <div className="mt-10 relative bg-white p-8 rounded-xl shadow-xl text-left font-dm text-[15px] leading-relaxed overflow-hidden print:bg-white">
+          {/* ✅ Marca d’água */}
+          <div
+            className="absolute inset-0 z-0 opacity-5 bg-center bg-no-repeat bg-contain pointer-events-none"
+            style={{ backgroundImage: "url('/teste logo.png')" }}
+          />
+          {/* ✅ Conteúdo */}
+          <div ref={relatorioRef} className="relative z-10 prose max-w-none space-y-4" dangerouslySetInnerHTML={{ __html: resultado }} />
+
+          {/* ✅ Botão PDF ao final */}
+          <div className="mt-8 print:hidden text-right">
+            <button
+              onClick={imprimirRelatorio}
+              className="bg-black text-white px-6 py-2 rounded-full font-medium hover:bg-gray-800"
+            >
+              Salvar como PDF
+            </button>
+          </div>
         </div>
       )}
     </div>

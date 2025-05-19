@@ -1,0 +1,704 @@
+[
+{
+  "item": "1",
+  "titulo": "Finalidade da Lei",
+  "texto": "A presente lei tem por finalidade regulamentar o uso e ocupação do solo do Município de Itaúna, estabelecendo normas de zoneamento, parcelamento, ocupação e uso do solo urbano e rural, com vistas ao pleno desenvolvimento das funções sociais da cidade e da propriedade.",
+  "palavras_chave": [
+    "uso do solo",
+    "ocupação do solo",
+    "zoneamento",
+    "função social da cidade",
+    "função social da propriedade"
+  ],
+  "pagina": "1",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "2",
+  "titulo": "Abrangência",
+  "texto": "Esta Lei se aplica a toda a extensão do território do Município de Itaúna, tanto em áreas urbanas quanto rurais, inclusive em áreas de expansão urbana, industriais, comerciais, institucionais e de preservação ambiental.",
+  "palavras_chave": [
+    "território municipal",
+    "área urbana",
+    "área rural",
+    "expansão urbana",
+    "área de preservação"
+  ],
+  "pagina": "1",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "3",
+  "titulo": "Objetivos",
+  "texto": "São objetivos desta Lei: I – ordenar o uso do solo de forma racional e integrada, de modo a promover o desenvolvimento sustentável; II – compatibilizar os usos e ocupações com a infraestrutura existente; III – preservar o meio ambiente e os recursos naturais; IV – garantir condições de acessibilidade, segurança, salubridade e bem-estar à população.",
+  "especificacoes": {
+    "objetivos": [
+      "ordenar o uso do solo de forma racional e integrada",
+      "promover o desenvolvimento sustentável",
+      "compatibilizar usos com infraestrutura existente",
+      "preservar o meio ambiente",
+      "garantir acessibilidade, segurança, salubridade e bem-estar"
+    ]
+  },
+  "palavras_chave": [
+    "desenvolvimento sustentável",
+    "ordenamento do solo",
+    "infraestrutura",
+    "meio ambiente",
+    "qualidade de vida"
+  ],
+  "pagina": "1",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "4",
+  "titulo": "Competência para regulamentação",
+  "texto": "Compete ao Poder Executivo regulamentar, no que couber, esta Lei, bem como fiscalizar o seu cumprimento, podendo, para tanto, firmar convênios com órgãos ou entidades públicas ou privadas.",
+  "palavras_chave": [
+    "competência do executivo",
+    "regulamentação",
+    "fiscalização urbanística",
+    "convênios",
+    "órgão público"
+  ],
+  "pagina": "1",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "5",
+  "titulo": "Zoneamento do Município",
+  "texto": "Para os fins desta Lei, o território do Município de Itaúna fica dividido em zonas de uso do solo, cujos limites, usos predominantes, parâmetros urbanísticos e demais exigências constam nos anexos desta Lei.",
+  "palavras_chave": [
+    "zoneamento",
+    "uso do solo",
+    "limites de zona",
+    "anexos legais",
+    "parâmetros urbanísticos"
+  ],
+  "pagina": "1",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "6",
+  "titulo": "Zonas de uso",
+  "texto": "As zonas de uso, para fins desta Lei, são as seguintes: I – Zona Residencial 1 (ZR1); II – Zona Residencial 2 (ZR2); III – Zona Residencial 3 (ZR3); IV – Zona Comercial (ZC); V – Zona Industrial (ZI); VI – Zona de Expansão Urbana (ZEU); VII – Zona de Preservação Permanente (ZPP).",
+  "especificacoes": {
+    "zonas_de_uso_definidas": [
+      "Zona Residencial 1 (ZR1)",
+      "Zona Residencial 2 (ZR2)",
+      "Zona Residencial 3 (ZR3)",
+      "Zona Comercial (ZC)",
+      "Zona Industrial (ZI)",
+      "Zona de Expansão Urbana (ZEU)",
+      "Zona de Preservação Permanente (ZPP)"
+    ]
+  },
+  "palavras_chave": [
+    "zona de uso",
+    "ZR1",
+    "ZR2",
+    "ZR3",
+    "ZC",
+    "ZI",
+    "ZEU",
+    "ZPP"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "7",
+  "titulo": "Atividades permitidas por zona",
+  "texto": "As atividades permitidas em cada zona de uso do solo são aquelas previstas nos anexos desta Lei, obedecidas as restrições estabelecidas nesta e em outras legislações específicas.",
+  "palavras_chave": [
+    "atividades permitidas",
+    "zona de uso",
+    "restrição de uso",
+    "anexos legais",
+    "legislação urbanística"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "8",
+  "titulo": "Parâmetros urbanísticos por zona",
+  "texto": "Os parâmetros urbanísticos de cada zona são definidos por meio de índice de aproveitamento, taxa de ocupação, altura máxima, recuos, testada e área mínima do lote, conforme detalhado nos anexos.",
+  "especificacoes": {
+    "parametros_definidos": [
+      "índice de aproveitamento (CA)",
+      "taxa de ocupação (TO)",
+      "altura máxima (gabarito)",
+      "recuos frontal, lateral e de fundos",
+      "testada mínima",
+      "área mínima de lote"
+    ]
+  },
+  "palavras_chave": [
+    "parâmetro urbanístico",
+    "zoneamento",
+    "coeficiente de aproveitamento",
+    "taxa de ocupação",
+    "recuos",
+    "gabarito",
+    "testada"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "9",
+  "titulo": "Interpretação de usos compatíveis",
+  "texto": "Os casos omissos quanto ao uso e ocupação do solo serão resolvidos pela Prefeitura Municipal, por meio de parecer técnico fundamentado da Secretaria competente, que analisará a compatibilidade do uso pretendido com os usos predominantes da zona.",
+  "palavras_chave": [
+    "interpretação de uso",
+    "casos omissos",
+    "parecer técnico",
+    "compatibilidade de uso",
+    "secretaria de urbanismo"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "10",
+  "titulo": "Usos permitidos e restritos",
+  "texto": "Para os fins desta Lei, consideram-se usos permitidos, restritos ou proibidos conforme especificado para cada zona nos anexos, sendo o uso restrito aquele que só será permitido mediante consulta prévia à Prefeitura e parecer técnico favorável.",
+  "especificacoes": {
+    "tipos_de_uso": [
+      "uso permitido",
+      "uso restrito (com consulta prévia)",
+      "uso proibido"
+    ]
+  },
+  "palavras_chave": [
+    "uso permitido",
+    "uso restrito",
+    "consulta prévia",
+    "análise técnica",
+    "zoneamento"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "11",
+  "titulo": "Mudança de uso",
+  "texto": "A mudança do uso de qualquer edificação existente deverá ser previamente autorizada pela Prefeitura, observando-se as exigências da zona e as normas desta Lei.",
+  "palavras_chave": [
+    "mudança de uso",
+    "uso da edificação",
+    "autorização prévia",
+    "exigências da zona",
+    "normas urbanas"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "12",
+  "titulo": "Compatibilização com normas específicas",
+  "texto": "Além das disposições desta Lei, devem ser obedecidas outras normas legais pertinentes à segurança, higiene, controle ambiental, patrimônio histórico, vias públicas, acessibilidade e outras que disciplinem o uso e ocupação do solo.",
+  "palavras_chave": [
+    "normas complementares",
+    "segurança",
+    "controle ambiental",
+    "acessibilidade",
+    "uso do solo"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "13",
+  "titulo": "Uso misto do solo",
+  "texto": "O uso misto do solo será permitido nas zonas definidas nos anexos desta Lei, desde que respeitadas as disposições relativas à incomodidade, à intensidade de uso e às exigências de infraestrutura.",
+  "palavras_chave": [
+    "uso misto",
+    "zonas urbanas",
+    "incomodidade",
+    "infraestrutura urbana",
+    "intensidade de uso"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "14",
+  "titulo": "Usos não especificados",
+  "texto": "Os usos não especificados nos anexos desta Lei serão avaliados quanto à sua compatibilidade com os usos permitidos na zona onde se pretendem instalar, mediante análise técnica da Prefeitura.",
+  "palavras_chave": [
+    "uso não especificado",
+    "análise técnica",
+    "prefeitura",
+    "compatibilidade de uso",
+    "uso urbano"
+  ],
+  "pagina": "2",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "15",
+  "titulo": "Parâmetros construtivos e urbanísticos",
+  "texto": "Os parâmetros construtivos e urbanísticos aplicáveis a cada zona são aqueles constantes nos anexos desta Lei, incluindo dimensões mínimas de lotes, taxa de ocupação, coeficiente de aproveitamento, altura máxima, recuos, testada mínima, entre outros.",
+  "especificacoes": {
+    "parametros_urbanisticos": [
+      "dimensões mínimas de lotes",
+      "taxa de ocupação",
+      "coeficiente de aproveitamento",
+      "altura máxima",
+      "recuos mínimos",
+      "testada mínima"
+    ]
+  },
+  "palavras_chave": [
+    "parâmetro construtivo",
+    "coeficiente de aproveitamento",
+    "taxa de ocupação",
+    "gabarito",
+    "recuos",
+    "zoneamento"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "16",
+  "titulo": "Fruição e acessos obrigatórios em lotes",
+  "texto": "Os lotes deverão dispor de acesso direto a logradouro público oficial e reconhecido pela Prefeitura Municipal, assegurando-se a fruição plena dos espaços, respeitando os recuos exigidos nesta Lei.",
+  "especificacoes": {
+    "exigencia_de_acesso": "acesso direto a logradouro público oficial",
+    "condição_de_fruição": "respeito aos recuos obrigatórios"
+  },
+  "palavras_chave": [
+    "logradouro público",
+    "acesso ao lote",
+    "fruição do espaço",
+    "recuos",
+    "infraestrutura urbana"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "17",
+  "titulo": "Servidão de passagem e passagem de veículos",
+  "texto": "É permitida a instituição de servidão de passagem e de passagem de veículos entre imóveis privados, desde que não haja prejuízo ao atendimento das exigências de acessibilidade e segurança previstas nesta Lei.",
+  "palavras_chave": [
+    "servidão de passagem",
+    "passagem de veículos",
+    "acessibilidade",
+    "segurança",
+    "infraestrutura urbana"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "18",
+  "titulo": "Equipamentos obrigatórios por uso",
+  "texto": "Para os diferentes usos previstos nesta Lei, a Prefeitura poderá exigir, no processo de aprovação, a implantação de equipamentos urbanos de apoio, tais como vagas de estacionamento, áreas de carga e descarga, sanitários públicos, áreas verdes, entre outros, conforme regulamento específico.",
+  "especificacoes": {
+    "tipos_de_equipamentos_exigidos": [
+      "vagas de estacionamento",
+      "áreas de carga e descarga",
+      "sanitários públicos",
+      "áreas verdes"
+    ]
+  },
+  "palavras_chave": [
+    "equipamentos urbanos",
+    "uso do solo",
+    "infraestrutura obrigatória",
+    "estacionamento",
+    "área verde"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "19",
+  "titulo": "Atividades incômodas",
+  "texto": "As atividades consideradas incômodas ou potencialmente incômodas devem atender às exigências específicas quanto ao uso do solo, conforme classificação estabelecida em regulamento técnico da Prefeitura.",
+  "palavras_chave": [
+    "atividade incômoda",
+    "uso do solo",
+    "classificação de uso",
+    "regulamento técnico",
+    "incomodidade urbana"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "20",
+  "titulo": "Revisão e adequação dos parâmetros",
+  "texto": "O Poder Executivo poderá propor a revisão e adequação dos parâmetros urbanísticos definidos nesta Lei, mediante estudos técnicos que comprovem a necessidade da alteração e a compatibilidade com a infraestrutura urbana existente.",
+  "especificacoes": {
+    "condicoes_para_revisao": [
+      "necessidade comprovada por estudos técnicos",
+      "compatibilidade com infraestrutura urbana existente"
+    ]
+  },
+  "palavras_chave": [
+    "revisão de parâmetros",
+    "ajuste urbanístico",
+    "infraestrutura urbana",
+    "poder executivo",
+    "estudos técnicos"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "21",
+  "titulo": "Aplicação subsidiária de normas técnicas",
+  "texto": "Na ausência de disposições específicas nesta Lei, aplicar-se-ão, de forma subsidiária, as normas técnicas pertinentes da ABNT, do Código de Obras e do Código de Posturas do Município.",
+  "especificacoes": {
+    "normas_subsidiarias": [
+      "normas da ABNT",
+      "Código de Obras",
+      "Código de Posturas"
+    ]
+  },
+  "palavras_chave": [
+    "normas técnicas",
+    "ABNT",
+    "código de obras",
+    "código de posturas",
+    "aplicação subsidiária"
+  ],
+  "pagina": "3",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "22",
+  "titulo": "Regularização de edificações existentes",
+  "texto": "As edificações existentes na data da publicação desta Lei que não atendam integralmente às exigências nela contidas poderão ser objeto de regularização, desde que comprovadamente construídas anteriormente e mediante a apresentação de documentação e laudos técnicos exigidos pela legislação vigente.",
+  "especificacoes": {
+    "condicoes_para_regularizacao": [
+      "construção anterior à vigência da lei",
+      "apresentação de documentação",
+      "apresentação de laudos técnicos conforme exigência"
+    ]
+  },
+  "palavras_chave": [
+    "regularização de obras",
+    "edificações existentes",
+    "adequação legal",
+    "documentação técnica",
+    "anistia construtiva"
+  ],
+  "pagina": "4",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "23",
+  "titulo": "Direito adquirido de edificações regulares",
+  "texto": "Fica assegurado o direito de continuidade de uso às edificações existentes e regulares à data da publicação desta Lei, mesmo que o uso se torne posteriormente incompatível com a nova classificação da zona, desde que mantidas as características originais da edificação e respeitadas as exigências mínimas de segurança e salubridade.",
+  "especificacoes": {
+    "direito_adquirido": "manutenção de uso em edificações regulares anteriores à lei",
+    "condicoes": [
+      "manter características originais",
+      "respeitar exigências mínimas de segurança e salubridade"
+    ]
+  },
+  "palavras_chave": [
+    "direito adquirido",
+    "uso preexistente",
+    "uso não conforme",
+    "segurança",
+    "salubridade"
+  ],
+  "pagina": "4",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "24",
+  "titulo": "Edificações em desacordo com a legislação",
+  "texto": "As edificações executadas em desacordo com a legislação vigente à época de sua construção ou em desacordo com esta Lei deverão ser objeto de processo de regularização ou de demolição, conforme análise da Prefeitura Municipal e da legislação pertinente.",
+  "palavras_chave": [
+    "edificação irregular",
+    "regularização de construção",
+    "demolição",
+    "legislação urbanística",
+    "processo administrativo"
+  ],
+  "pagina": "4",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "25",
+  "titulo": "Responsabilidade pelo cumprimento da legislação",
+  "texto": "O cumprimento das disposições contidas nesta Lei é de responsabilidade do proprietário, do projetista, do responsável técnico pela execução da obra e do usuário do imóvel, no que couber.",
+  "palavras_chave": [
+    "responsabilidade legal",
+    "proprietário",
+    "projetista",
+    "executor da obra",
+    "usuário do imóvel"
+  ],
+  "pagina": "4",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "26",
+  "titulo": "Penalidades por descumprimento",
+  "texto": "O descumprimento das disposições desta Lei sujeitará o infrator às penalidades previstas no Código de Obras, no Código de Posturas e em outras legislações municipais pertinentes, sem prejuízo das sanções civis e penais cabíveis.",
+  "palavras_chave": [
+    "penalidades",
+    "descumprimento da lei",
+    "código de obras",
+    "sanções civis",
+    "responsabilidade legal"
+  ],
+  "pagina": "4",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "27",
+  "titulo": "Casos omissos",
+  "texto": "Os casos omissos nesta Lei serão resolvidos pela Prefeitura Municipal, através da Secretaria competente, mediante parecer técnico e observância aos princípios da razoabilidade e do interesse público.",
+  "palavras_chave": [
+    "casos omissos",
+    "parecer técnico",
+    "prefeitura municipal",
+    "secretaria competente",
+    "interesse público"
+  ],
+  "pagina": "4",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "28",
+  "titulo": "Parcelamento de solo em zona de expansão urbana",
+  "texto": "A urbanização das áreas de expansão urbana ficará condicionada ao atendimento cumulativo dos seguintes critérios: I - existência de infraestrutura viária; II - comprovação da capacidade dos sistemas de abastecimento de água e da solução do esgotamento sanitário e eletrificação para atendimento da demanda; III - disponibilização de áreas para comércio e prestação de serviço, simultaneamente às unidades para uso residencial, conforme diretrizes específicas; IV - projeto de parcelamento urbano aprovado e registrado no Cartório de Registro de Imóveis em até 12 (doze) meses, com disponibilização de áreas para equipamentos públicos urbanos; V - compatibilidade do sistema viário com a malha existente e diretrizes desta Lei; VI - execução do sistema viário sob responsabilidade do empreendedor ou loteador; VII - atendimento às limitações de áreas de preservação ambiental conforme legislação vigente.",
+  "especificacoes": {
+    "criterios_para_urbanizacao": [
+      "infraestrutura viária existente",
+      "sistemas de água, esgoto e eletricidade dimensionados",
+      "uso misto com áreas comerciais e residenciais",
+      "registro do parcelamento em até 12 meses",
+      "implantação de equipamentos públicos",
+      "viário compatível com a malha existente",
+      "responsabilidade do empreendedor pelo viário",
+      "respeito à legislação ambiental"
+    ]
+  },
+  "palavras_chave": [
+    "expansão urbana",
+    "parcelamento do solo",
+    "infraestrutura urbana",
+    "diretrizes urbanísticas",
+    "responsabilidade do empreendedor"
+  ],
+  "pagina": "5",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "29",
+  "titulo": "Inclusão de imóvel em área de expansão",
+  "texto": "Os imóveis cujos 10% (dez por cento) de sua área total estejam dentro da área de expansão urbana são considerados, em sua totalidade, como integrantes da área de expansão urbana.",
+  "especificacoes": {
+    "percentual_de_inclusao": "≥ 10% da área total do imóvel dentro da zona de expansão"
+  },
+  "palavras_chave": [
+    "zona de expansão urbana",
+    "percentual de inclusão",
+    "integração total do imóvel",
+    "regras de zoneamento"
+  ],
+  "pagina": "5",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "30",
+  "titulo": "Definição da zona de expansão urbana",
+  "texto": "O imóvel será incluído em sua totalidade dentro da zona de expansão urbana conforme critério definido no artigo anterior.",
+  "palavras_chave": [
+    "definição de zona",
+    "expansão urbana",
+    "integração total do imóvel",
+    "planejamento urbano"
+  ],
+  "pagina": "5",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "31",
+  "titulo": "Zoneamento especial para turismo sustentável",
+  "texto": "A Macrozona Urbana de Turismo Sustentável, situada na região Sul da Macrozona do Município, é constituída por áreas do entorno imediato das Barragens do Benfica e Angu Seco, estendendo-se pelas margens do Rio São João até o seu entroncamento com a Rodovia MG-431, destinada à ocupação sustentável.",
+  "especificacoes": {
+    "objetivos": [
+      "garantir o potencial para o turismo sustentável",
+      "evitar adensamento populacional excessivo",
+      "evitar degradação do solo e poluição hídrica",
+      "reestabelecer vegetação nativa",
+      "criação de portais de acesso e APA das barragens"
+    ]
+  },
+  "palavras_chave": [
+    "turismo sustentável",
+    "macrozona",
+    "barragem do Benfica",
+    "Angu Seco",
+    "preservação ambiental",
+    "uso turístico"
+  ],
+  "pagina": "5",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "32",
+  "titulo": "Intervenções na Macrozona de Turismo Sustentável",
+  "texto": "Na Macrozona Urbana de Turismo Sustentável será permitida intervenção ambiental, regulada por lei complementar específica.",
+  "palavras_chave": [
+    "intervenção ambiental",
+    "turismo sustentável",
+    "lei complementar",
+    "zona especial",
+    "planejamento ambiental"
+  ],
+  "pagina": "5",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "item": "33",
+  "titulo": "Regulamentação da urbanização da Macrozona de Turismo",
+  "texto": "A urbanização da Macrozona de Turismo Sustentável será regulamentada por lei complementar, observando-se a divisão em setores e microrregiões estabelecidos em mapa anexo, com diretrizes específicas para cada região.",
+  "especificacoes": {
+    "setores_e_microrregioes": [
+      "Setor A: região baixa da Barragem Angu Seco",
+      "Setor B: baias com topografia inclinada",
+      "Setor C: centrais – regiões de encontro de margens",
+      "Setor D: divisores topográficos",
+      "Setor E: regiões estreitas",
+      "Setor F: áreas junto ao vertedouro e áreas com maior ventilação"
+    ]
+  },
+  "palavras_chave": [
+    "urbanização regulada",
+    "turismo sustentável",
+    "setores turísticos",
+    "microrregiões",
+    "zoneamento especial"
+  ],
+  "pagina": "5-6",
+  "norma": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+},
+{
+  "nome": "resumo - uso e ocupação do solo",
+  "descricao": "Resumo das diretrizes por zoneamento e exigências construtivas com base na Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna.",
+  "zoneamentos": {
+    "ZR1": {
+      "descricao": "Zona Residencial 1 – baixa densidade",
+      "coeficiente_aproveitamento_maximo": 1.0,
+      "taxa_ocupacao_maxima": "50%",
+      "gabarito_maximo": "2 pavimentos",
+      "recuos": {
+        "frontal": "5,0 m",
+        "lateral": "1,5 m",
+        "fundos": "2,0 m"
+      },
+      "lote_minimo": "360 m²",
+      "testada_minima": "12 m"
+    },
+    "ZR2": {
+      "descricao": "Zona Residencial 2 – média densidade",
+      "coeficiente_aproveitamento_maximo": 1.5,
+      "taxa_ocupacao_maxima": "60%",
+      "gabarito_maximo": "3 pavimentos",
+      "recuos": {
+        "frontal": "4,0 m",
+        "lateral": "1,5 m",
+        "fundos": "2,0 m"
+      },
+      "lote_minimo": "300 m²",
+      "testada_minima": "10 m"
+    },
+    "ZR3": {
+      "descricao": "Zona Residencial 3 – alta densidade",
+      "coeficiente_aproveitamento_maximo": 2.0,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "4 pavimentos",
+      "recuos": {
+        "frontal": "4,0 m",
+        "lateral": "1,5 m",
+        "fundos": "2,0 m"
+      },
+      "lote_minimo": "250 m²",
+      "testada_minima": "8 m"
+    },
+    "ZC": {
+      "descricao": "Zona Comercial",
+      "coeficiente_aproveitamento_maximo": 3.0,
+      "taxa_ocupacao_maxima": "80%",
+      "gabarito_maximo": "6 pavimentos",
+      "recuos": {
+        "frontal": "3,0 m",
+        "lateral": "1,5 m",
+        "fundos": "2,0 m"
+      },
+      "lote_minimo": "200 m²",
+      "testada_minima": "8 m"
+    },
+    "ZI": {
+      "descricao": "Zona Industrial",
+      "coeficiente_aproveitamento_maximo": 2.5,
+      "taxa_ocupacao_maxima": "70%",
+      "gabarito_maximo": "2 pavimentos",
+      "recuos": {
+        "frontal": "5,0 m",
+        "lateral": "3,0 m",
+        "fundos": "5,0 m"
+      },
+      "lote_minimo": "500 m²",
+      "testada_minima": "15 m"
+    },
+    "ZEU": {
+      "descricao": "Zona de Expansão Urbana",
+      "diretrizes": [
+        "obrigatoriedade de infraestrutura viária",
+        "áreas mistas para residência, comércio e serviços",
+        "registro do parcelamento em até 12 meses",
+        "respeito à legislação ambiental"
+      ]
+    },
+    "ZPP": {
+      "descricao": "Zona de Preservação Permanente",
+      "diretrizes": [
+        "uso limitado à preservação",
+        "não permite adensamento urbano",
+        "aplicação subsidiária das normas ambientais"
+      ]
+    }
+  },
+  "edificacoes_e_construcoes": {
+    "vagas_estacionamento": {
+      "exigencia_geral": "A Prefeitura poderá exigir vagas de estacionamento conforme o uso do imóvel",
+      "casos_previstos": [
+        "vagas para veículos",
+        "áreas de carga e descarga",
+        "sanitários públicos",
+        "áreas verdes e equipamentos urbanos"
+      ]
+    },
+    "usos_restritos": "Necessitam de consulta prévia e análise técnica da Prefeitura.",
+    "usos_não_especificados": "São analisados pela Prefeitura quanto à compatibilidade com os usos predominantes da zona.",
+    "regularizacao_edificacoes": "Edificações anteriores à lei podem ser regularizadas com documentação e laudos técnicos.",
+    "direito_adquirido": "Edificações regulares anteriores mantêm seu uso, mesmo se incompatível com a nova zona, desde que atendam à segurança e salubridade.",
+    "revisao_parametros": "Pode ser feita por proposta do Executivo com base em estudos técnicos."
+  },
+  "palavras_chave": [
+    "uso do solo",
+    "zoneamento",
+    "coeficiente de aproveitamento",
+    "vagas de estacionamento",
+    "regularização de obras",
+    "recuos",
+    "gabarito",
+    "planejamento urbano"
+  ],
+  "fonte": "Lei nº 2.198/1988 – Uso e Ocupação do Solo de Itaúna"
+}
+]

@@ -5,12 +5,27 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 import { auth } from '../lib/firebaseConfig';
+import { motion } from 'framer-motion';
+import dynamic from 'next/dynamic';
+
+const ReactFlowNoSSR = dynamic(() => import('@/components/FluxogramaConta'), {
+  ssr: false,
+});
+
+const ferramentas = [
+  { id: 'grafica', nome: 'Análise Gráfica' },
+  { id: 'visa', nome: 'Análise VISA' },
+  { id: 'cbmmg', nome: 'Corpo de Bombeiros' },
+  { id: 'nbr9050', nome: 'Acessibilidade NBR9050' }
+];
 
 export default function Conta() {
   const router = useRouter();
   const [usuario, setUsuario] = useState<any>(null);
   const [carregando, setCarregando] = useState(true);
   const [openMenu, setOpenMenu] = useState(false);
+  const [etapas, setEtapas] = useState<string[]>([]);
+  const [mostrarEtapasGrafica, setMostrarEtapasGrafica] = useState(false);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
@@ -23,6 +38,16 @@ export default function Conta() {
     });
     return () => unsubscribe();
   }, []);
+
+  const toggleEtapa = (id: string) => {
+    if (id === 'grafica') {
+      setMostrarEtapasGrafica(!mostrarEtapasGrafica);
+    } else {
+      setEtapas((prev) =>
+        prev.includes(id) ? prev.filter((e) => e !== id) : [...prev, id]
+      );
+    }
+  };
 
   if (carregando) {
     return (
@@ -38,7 +63,6 @@ export default function Conta() {
         <title>Minha Conta | Analys</title>
       </Head>
 
-      {/* Cabeçalho superior */}
       <nav className="flex justify-end p-6 gap-10 text-black text-sm font-light">
         <Link href="/">home</Link>
         <Link href="/sobre">sobre</Link>
@@ -46,7 +70,6 @@ export default function Conta() {
         <Link href="/contato">contato</Link>
       </nav>
 
-      {/* Avatar no canto superior esquerdo */}
       <div className="absolute top-6 left-6">
         {usuario?.photoURL ? (
           <Image
@@ -67,7 +90,6 @@ export default function Conta() {
         )}
       </div>
 
-      {/* Menu expandido (ao clicar no avatar) */}
       {openMenu && (
         <div className="absolute top-24 left-6 w-60 bg-white border rounded-lg shadow-lg p-4 text-center z-10">
           <p className="font-semibold mb-2">Plano: Gratuito</p>
@@ -86,44 +108,60 @@ export default function Conta() {
         </div>
       )}
 
-      {/* Área principal */}
-      <div className="flex flex-col items-center justify-start p-6">
-        {/* Botões de Ação */}
-        <div className="flex flex-wrap justify-center gap-4 mb-8">
-          <button
-            onClick={() => router.push('/guia')}
-            className="px-6 py-3 bg-black text-white text-lg rounded-full hover:bg-gray-800 transition"
-          >
-            Guia Normativo
-          </button>
+      <div className="flex flex-col items-center p-6">
+        <h1 className="text-2xl font-semibold mb-6">Minha Conta - Ferramentas Disponíveis</h1>
 
-          <button
-            onClick={() => router.push('/nova-analise')}
-            className="px-6 py-3 bg-black text-white text-lg rounded-full hover:bg-gray-800 transition"
-          >
-            Análise Gráfica
-          </button>
-
-          <button
-            onClick={() => router.push('/fluxo')}
-            className="px-6 py-3 bg-black text-white text-lg rounded-full hover:bg-gray-800 transition"
-          >
-            Fluxo
-          </button>
-
-          <button
-            onClick={() => router.push('/resumo')}
-            className="px-6 py-3 bg-black text-white text-lg rounded-full hover:bg-gray-800 transition"
-          >
-            Resumo
-          </button>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
+          {ferramentas.map((ferramenta) => (
+            <button
+              key={ferramenta.id}
+              onClick={() => toggleEtapa(ferramenta.id)}
+              className="px-4 py-3 bg-black text-white rounded-full hover:bg-gray-800 transition text-sm"
+            >
+              {ferramenta.nome}
+            </button>
+          ))}
         </div>
 
-        {/* Texto principal */}
-        <h1 className="text-2xl font-semibold mb-4">Minha Conta - Área do Usuário</h1>
-        <p className="text-gray-600 text-center max-w-md">
-          Em breve você poderá acompanhar seus projetos analisados e acessar relatórios completos.
-        </p>
+        <div className="w-full max-w-4xl space-y-4">
+          {mostrarEtapasGrafica && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.4 }}
+              className="w-full h-[600px] border rounded-xl shadow overflow-hidden"
+            >
+              <ReactFlowNoSSR />
+            </motion.div>
+          )}
+
+          {etapas.includes('visa') && (
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4 }}>
+              <div className="bg-white shadow rounded-xl p-4">
+                <h2 className="text-lg font-semibold mb-2">Análise VISA</h2>
+                <p className="text-sm text-gray-600">Campos futuros para dados sanitários.</p>
+              </div>
+            </motion.div>
+          )}
+
+          {etapas.includes('cbmmg') && (
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4 }}>
+              <div className="bg-white shadow rounded-xl p-4">
+                <h2 className="text-lg font-semibold mb-2">Análise Corpo de Bombeiros</h2>
+                <p className="text-sm text-gray-600">Plano de prevenção e combate a incêndios.</p>
+              </div>
+            </motion.div>
+          )}
+
+          {etapas.includes('nbr9050') && (
+            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4 }}>
+              <div className="bg-white shadow rounded-xl p-4">
+                <h2 className="text-lg font-semibold mb-2">Acessibilidade - NBR 9050</h2>
+                <p className="text-sm text-gray-600">Campos futuros para verificação de rampas, acessos e PCD.</p>
+              </div>
+            </motion.div>
+          )}
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,106 @@
+{
+  "nome": "elementos_graficos_com_informacoes",
+  "fonte": "Art. 4º, Decreto nº 8.723/2024",
+  "descricao": "Elementos gráficos obrigatórios no Projeto Simplificado com as respectivas informações a serem extraídas e avaliadas pela plataforma Analys.",
+  "elementos": [
+    {
+      "id": "implantacao",
+      "titulo": "Planta de Implantação",
+      "informacoes_exigidas": [
+        "recuo frontal",
+        "afastamentos laterais",
+        "afastamento fundo",
+        "hachura de área computpavel",
+        "hachura de área permeável",
+        "acesso de pedestres",
+        "acesso de veículos",
+        "níveis do lote",
+        "cotas do lote"
+      ]
+    },
+    {
+      "id": "planta_situacao",
+      "titulo": "Planta de Situação",
+      "informacoes_exigidas": [
+        "localização do lote na quadra",
+        "vias públicas ao redor",
+        "identificação do lote",
+        "cota de amarração",
+        "dimensão da do passeio",
+        "dimensão da rua"
+      ]
+    },
+    {
+      "id": "planta_térrea",
+      "titulo": "Planta Baixa dos Pavimentos",
+      "informacoes_exigidas": [
+        "recuo frontal",
+        "afastamentos laterais",
+        "afastamento fundo",
+        "hachura de área computável",
+        "hachura de área permeável",
+        "cotas do lote",
+        "marcação de área construída",
+        "nível área construída"
+      ]
+      },
+    {
+      "id": "planta_pavimentos - mais de um pavimento",
+      "titulo": "Planta Baixa dos Pavimentos",
+      "informacoes_exigidas": [
+        "recuo frontal",
+        "afastamentos laterais e de fundos",
+        "hachura de área computável",
+        "cotas do lote",
+        "marcação de áreas comuns (quando houver)",
+        "nível área construída"
+      ]
+    },
+    {
+      "id": "cortes",
+      "titulo": "Cortes Esquemáticos",
+      "informacoes_exigidas": [
+        "altura total da edificação",
+        "nível do passeio",
+        "desníveis do terreno",
+        "hachura de área computável"
+      ]
+    },
+    {
+      "id": "acesso_pedestres",
+      "titulo": "Acesso de Pedestres",
+      "informacoes_exigidas": [
+        "localização da entrada de pedestres"
+      ]
+    },
+    {
+      "id": "rampa_veiculos",
+      "titulo": "Rampa de Veículos",
+      "informacoes_exigidas": [
+        "inclinação da rampa",
+        "largura da rampa",
+        "ligação com a via pública"
+      ]
+    },
+    {
+      "id": "carimbo",
+      "titulo": "Carimbo Técnico",
+      "informacoes_exigidas": [
+        "nome do projeto",
+        "nome do responsável técnico",
+        "uso do imóvel",
+        "endereço do lote",
+        "zoneamento",
+        "identificação do lote",
+        "zona",
+        "quadra",
+        "área  construída",
+        "área demolida",
+        "área existente",
+        "nome do projeto",
+        "proprietário",
+        "responsável técnico"
+      ]
+    }
+  ]
+}
