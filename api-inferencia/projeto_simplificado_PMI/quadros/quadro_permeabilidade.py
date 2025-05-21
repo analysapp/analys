@@ -12,14 +12,14 @@ def analisar_quadro_permeabilidade(dados_llama: dict) -> dict:
     try:
         # 1. Lista de áreas individuais
         areas = dados_llama.get("areas", [])  # Ex: [{ nome, valor, tipo }]
-        area_terreno = dados_llama.get("area_terreno", "")
-        percentual_total = dados_llama.get("percentual_total", "")
-        percentual_grama = dados_llama.get("percentual_grama", "")
+        area_terreno = str(dados_llama.get("area_terreno", "") or "")
+        percentual_total = str(dados_llama.get("percentual_total", "") or "")
+        percentual_grama = str(dados_llama.get("percentual_grama", "") or "")
 
         # Converte os valores extraídos (que vêm como "123,45 m²" ou "25,5%") para float
         def para_float(texto):
             try:
-                texto = texto.replace(",", ".")
+                texto = str(texto).replace(",", ".")
                 texto = re.sub(r"[^\d.]", "", texto)
                 return round(float(texto), 2)
             except:
@@ -34,9 +34,9 @@ def analisar_quadro_permeabilidade(dados_llama: dict) -> dict:
         lista_areas_formatada = []
 
         for item in areas:
-            nome = item.get("nome", "")
-            tipo = item.get("tipo", "").lower()
-            valor_str = item.get("valor", "")
+            nome = str(item.get("nome", "") or "")
+            tipo = str(item.get("tipo", "") or "").lower()
+            valor_str = str(item.get("valor", "") or "")
             valor = para_float(valor_str)
 
             if valor == 0.0:

@@ -97,6 +97,9 @@ Seu papel é identificar os seguintes campos principais e retorná-los em format
 - "número da prancha" deve ser no formato "01/02", "02/02", etc.
 - "proprietário" deve ser nomes completos. Se vier apenas "PROPRIETÁRIO", considere inválido. Pode conter mais de um nome e semre virá acompanhado da sigla "CPF" e depois o número..
 - "responsável técnico" deve ser nomes completos. Se vier apenas "responsável técnico", considere inválido. Sempre virá  acompanhado de uma sigla "CAU" ou "CREA" e depois o número.
+- Ignore linhas que contenham múltiplos rótulos colados, como "ÁREA DO LOTE Uso C.A. Nº PRANCHA". Elas não contêm valores. 
+- Se algum campo não puder ser identificado, retorne como "Não identificado".
+
 
 Campos obrigatórios no JSON:
 - bairro
@@ -130,6 +133,8 @@ Você é um assistente técnico responsável por interpretar quadros de áreas p
 - Dados agrupados incorretamente
 - Separações incorretas de colunas ou textos soltos
 - Unidades repetidas ou identificadas sem cabeçalhos claros
+- Considere apenas linhas com nomes de apartamentos, valores em m² ou número de vagas. Não crie unidades que não estão explicitamente listadas.
+
 
 Seu objetivo é organizar os dados corretamente e retornar um JSON com as seguintes informações, **agrupadas por unidade**, mesmo que alguns campos estejam ausentes ou ilegíveis. Caso algum campo esteja ausente em uma unidade, deixe-o como `"Não identificado"`.
 
@@ -185,6 +190,8 @@ Você é um assistente técnico especializado em leitura de quadros de áreas po
 - Palavras duplicadas ou separadas incorretamente
 - Valores embaralhados na mesma linha
 - Linhas de totais que não devem ser tratadas como pavimentos
+- Ignore linhas com texto "TOTAL". Apenas extraia dados de pavimentos reais como "Subsolo", "Pavimento Térreo", etc.
+
 
 Seu objetivo é organizar os dados corretamente e retornar um JSON com a seguinte estrutura:
 
@@ -215,6 +222,8 @@ Seu objetivo é organizar os dados corretamente e retornar um JSON com a seguint
 - Se não for possível associar um valor corretamente, retorne "Não identificado".
 - Corrija formatos como "m?" para "m²" quando possível.
 - Mantenha a ordem dos pavimentos conforme aparecem.
+-Ignore linhas com totalização geral. Apenas inclua pavimentos que sejam níveis específicos (ex: "Pavimento Térreo", "Subsolo", "1º andar").
+
 
 Texto extraído:
 {linhas_final}
