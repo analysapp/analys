@@ -42,6 +42,8 @@ next-env.d.ts
 
 venv/
 api-inferencia/venv/
+venv_ocr/
+venv_paddleocr/
 __pycache__/
 *.pyc
 *.pyd
@@ -52,3 +54,4 @@ __pycache__/
 *.zip
 *.egg-info/
 .DS_Store
+open_api_key.env
