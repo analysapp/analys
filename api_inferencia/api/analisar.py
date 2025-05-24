@@ -153,6 +153,17 @@ async def inferir_imagem(file: UploadFile = File(...)):
                 "textos_extraidos": textos_por_classe,
                 "analises_semanticas": analises_semanticas
             }, f, ensure_ascii=False, indent=2)
+            # 🔄 Aplica limpeza de OCR e salva o resultado filtrado
+        from api_inferencia.core.refinamentos_ocr.limpar_ocr import limpar_ocr
+
+        textos_limpos = limpar_ocr(textos_por_classe)
+
+        with open(os.path.join(pasta_resultado, "resultado_ocr_limpo.json"), "w", encoding="utf-8") as f:
+            json.dump({
+                "textos_extraidos": textos_limpos
+            }, f, ensure_ascii=False, indent=2)
+
+        print("✅ Arquivo resultado_ocr_limpo.json com os textos filtrados também foi salvo.")
 
         print(f"✅ Extração finalizada. Arquivo salvo em {caminho_saida}")
         return JSONResponse(content={"id": id_resultado})

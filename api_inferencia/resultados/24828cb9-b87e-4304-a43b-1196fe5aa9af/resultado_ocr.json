@@ -1,0 +1,257 @@
+{
+  "caixas_detectadas": [
+    {
+      "classe": "quadro_areas_pavimento",
+      "confianca": 0.8656668066978455,
+      "bbox": [
+        5374,
+        670,
+        6779,
+        1140
+      ]
+    },
+    {
+      "classe": "planta_baixa",
+      "confianca": 0.8625839948654175,
+      "bbox": [
+        3265,
+        414,
+        5061,
+        1450
+      ]
+    },
+    {
+      "classe": "implantacao",
+      "confianca": 0.8543254733085632,
+      "bbox": [
+        448,
+        671,
+        3027,
+        2108
+      ]
+    },
+    {
+      "classe": "memoria_calculo_permeabilidade",
+      "confianca": 0.8519784808158875,
+      "bbox": [
+        3512,
+        2776,
+        5356,
+        3846
+      ]
+    },
+    {
+      "classe": "carimbo",
+      "confianca": 0.8495622277259827,
+      "bbox": [
+        5933,
+        3224,
+        7008,
+        4943
+      ]
+    },
+    {
+      "classe": "corte_esquemtico",
+      "confianca": 0.8197435736656189,
+      "bbox": [
+        726,
+        2549,
+        2831,
+        3596
+      ]
+    },
+    {
+      "classe": "planta_situacao",
+      "confianca": 0.8153977394104004,
+      "bbox": [
+        5946,
+        3852,
+        6993,
+        4582
+      ]
+    },
+    {
+      "classe": "quadro_permeabilidade",
+      "confianca": 0.764150083065033,
+      "bbox": [
+        5958,
+        2160,
+        6721,
+        2765
+      ]
+    }
+  ],
+  "textos_extraidos": {
+    "quadro_areas_pavimento": [
+      "QUADRO DEAREASPORPAVIMENTO",
+      "EXISTENTE",
+      "A CONSTRUIR",
+      "ADEMOLIR",
+      "SUBTOTAL",
+      "PAVIMENTO",
+      "TOTAL",
+      "NAO COMPUTAVEL",
+      "NAOCOMPUTAVEL",
+      "NAOCOMPUTAVEL",
+      "NAOCOMPUTAVEL",
+      "COMPUTAVEL",
+      "COMPUTAVEL",
+      "COMPUTAVEL",
+      "COMPUTAVEL",
+      "PARAC.A.",
+      "PARAC.A.,",
+      "PARAC.A.",
+      "PARAC.A.",
+      "Pavimento Térreo",
+      "0,00m",
+      "0,00m²",
+      "90,01m2",
+      "0,00m",
+      "0,00m²",
+      "0,00m",
+      "90,01m²",
+      "0,00m²",
+      "90,01m",
+      "TOTAL",
+      "0,00m2",
+      "0,00 m2",
+      "90,01 m2",
+      "0,00 m2",
+      "0,00m²",
+      "0,00m²",
+      "90,01 m2",
+      "0,00m",
+      "90,01 m2"
+    ],
+    "planta_baixa": [
+      "HABITACAO UNIFAMILIAR",
+      "AREACOMPUTAVEL",
+      "90,01m2",
+      "0,00",
+      "PROJECA6 DAAREA COlSTRUiDA",
+      "PROJECAODOBEIRAI",
+      "PLANTA ESQUEMATICA - PAVINIENTO TERREO",
+      "ESCALA",
+      "1:100"
+    ],
+    "implantacao": [
+      "O",
+      "5ó3 O< |",
+      ">. DE.",
+      "< q lu 0ó",
+      "ba] to |",
+      "285! TR",
+      "LL",
+      "<L 2500 ,",
+      "Dm 0 1250 200 |",
+      "pao po gs pass",
+      "MURO H=220CM EDIFICAÇÃO nan DIVISA H= 400CM MURO H= 220CM",
+      "N fo -1,30 - 7 Ô me Ô 4, +1,30 NON",
+      "lá “ ea AGUA D' 4 “|. te NR o Í o DER . A . .. “o . » . , o - NOR o . RAR ,",
+      "O 1000 004 ec ddfo Ss ES",
+      "ESS = ÇÃO b NV Ay ESSO E DR Do RE NO DR",
+      "Ugo v Tr E e * ÁREA PERMEÁVELOS to do",
+      "- ac JM P/ ENTO Ze citados 5 Tr (TERRENONATURAL) Co do O",
+      "O|I SO. O RO E O NE",
+      "= Tio , e ARE — DR A RO SE E S",
+      "o A DA, er coco",
+      "cs 7, ENE E PE RO CEO",
+      ". RR . Vo p) . o a , e . E . oo . c. o : a = : . .. Lu",
+      "RECUO FRONTAL | os ra LA, 77 AREA CONSTRUIDA | RRa Ex : q e o : o Re o no = | =\" : o | o . = ,",
+      "RERMEÁVEL 03 cc jr eb SDS",
+      "+ 30-(GRAMA) E na edad CD à VE “ALINHAMENTO FRONTAL DO LOTE",
+      "Vos NR N | FECHAMENTO EM TELA H= 200CM á no",
+      "ACESSO DE PEDESTRES ' :SSO DE VEÍCULOS N, / |",
+      "O / |",
+      "= O RES R",
+      "&",
+      ". REBAIXO NO MEIO FIO | >",
+      ", 400 y",
+      "Í |",
+      "o 1250 , 1038 k 212 , 4",
+      "Í",
+      "| DO",
+      "|",
+      "(1) ESCALA 1:100"
+    ],
+    "memoria_calculo_permeabilidade": [
+      "CAIXA",
+      "CAIXA",
+      "D'AGUA",
+      "D'AGUA",
+      "1000L",
+      "1000L",
+      "AREA PERMEAVEL 05",
+      "AREAPERMEAVEL02",
+      "(GRAMA)29m",
+      "AREA PERMEAVEL 03",
+      "(GRAMA) 223m",
+      "MEMORIAL AREA PERMEAVEL",
+      "ESCALA",
+      "1:100"
+    ],
+    "carimbo": [
+      "PARA USO DA PREFEITURA",
+      "PREFEITURA MUNICIPAL DE ITAÚNA",
+      "PROCESSO Nº DE |",
+      "Somos pela aprovação em |",
+      "Analista",
+      "Secretaria Municipal de Regulação Urbana",
+      "PROJETO SIMPLIFICADO",
+      "Projeto simplificado aprovado em relação as parâmetros urbanísticos relevantes. Os responsáveis técnicos pelo projeto e execução",
+      "respondem civil e administrativamente pelo atendimento das especificações constantes na legislação municipal, estadual e federal vigente,",
+      "bem como normas técnicnas e regulamentos específicos conforme o uso da edificação, sujeitando-se às sanções legais decorrentes de",
+      "eventuais prejuizos a terceiros.",
+      "TÍTULO DO PROJETO",
+      "PROJETO ARQUITETÔNICO",
+      "PLANTA DE SITUAÇÃO",
+      "* Situação conforme medidas disponibilizadas nas informações básicas.",
+      "BAIRRO ZONA QUADRA LOTE ZONEAMENTO",
+      "DA OLARIA 01 37 01 ZM",
+      "ÁREA DO LOTE USO C.aA. Nº PRANCHA",
+      "300,00 m? Residencial 0,30 0 1 / 0 1",
+      "PROPRIETÁRIO RESPONSÁVEL TÉCNICO",
+      "CLÁUDIO DA SILVA MELO",
+      "CPF:002.879.246-70",
+      "CAIQUE TAVARES SILVA / ARQUITETO E URBANISTA",
+      "GUSTAVO NOGUEIRA ANDRADE CAU A16.2000-2",
+      "CPF:160.058.326-11",
+      "—"
+    ],
+    "corte_esquemtico": [
+      "conernscaa AGUA VOLUME Ydi CAIXA DÁGUA",
+      "+ N",
+      "7 epa",
+      "(5) CORTE ESQUEMÁTICO AA , |",
+      "ESCALA 1:50"
+    ],
+    "planta_situacao": [
+      "PLANTA DE SITUAÇÃO",
+      "* Situação conforme medidas disponibilizadas nas informações básicas."
+    ],
+    "quadro_permeabilidade": [
+      "AREA PERMEAVEL",
+      "AREA",
+      "TOTAL",
+      "Area permeävel 01 - grama",
+      "17,68 m2",
+      "Area permeävel 02 - grama",
+      "6,29 m2",
+      "Area permeävel 03 - grama",
+      "2,23 m2",
+      "Area permeävel 04 - grama",
+      "4,57 m2",
+      "Area permeävel 05 - terreno natural",
+      "150,00 m2",
+      "AREA TOTAL",
+      "180,76 m2",
+      "Area do terreno",
+      "300,00 m2",
+      "Taxa de permeabilidade minima",
+      "20,00%",
+      "Taxa de permeabilidade em aprovacäo",
+      "60,25%"
+    ]
+  },
+  "analises_semanticas": {}
+}
